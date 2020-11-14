@@ -1,25 +1,69 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from '@material-ui/core/Button';
+import React, {useState, useEffect} from "react";
+import Home from "./home/Home"
+
+const specs = [
+    "鲜血","冰霜","邪恶",
+    "浩劫","复仇",
+    "平衡","野性","守护","恢复德",
+    "野兽","射击","生存",
+    "奥术","火焰","冰霜",
+    "酒仙","织雾","踏风",
+    "神圣","防骑","惩戒",
+    "戒律","神圣","暗影",
+    "奇袭","狂徒","敏锐",
+    "元素","增强","恢复萨",
+    "痛苦","恶魔","毁灭",
+    "武器","狂怒","防战",
+
+];
+
+const Roller = () => {
+    const [randomNumber, setRandomNumber] = useState(0);
+    const [rolling, setRolling] = useState(true);
+
+    useEffect(() => {
+        if (rolling) {
+            const interval = setInterval(() => generateRandom(), 10);
+            return () => {
+                clearInterval(interval);
+            };
+        }
+    }, [rolling]);
+
+    const generateRandom = () => {
+        const r = Math.floor(Math.random() * specs.length);
+        setRandomNumber(r);
+    };
+
+
+    const handleButtonClicked = () => {
+        setRolling(!rolling)
+    };
+
+    return (
+        <div>
+            <h1>{specs[randomNumber]}</h1>
+            <Button
+                variant={"contained"}
+                color={"primary"}
+                onClick={handleButtonClicked}
+            >
+                {rolling ? "stop" : "roll"}
+            </Button>
+        </div>
+    )
+};
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            {/*<Roller/>*/}
+            <Home/>
+        </div>
+    );
 }
 
 export default App;
