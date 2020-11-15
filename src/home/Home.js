@@ -1,16 +1,18 @@
 import React, {useState} from "react";
-import MenuTop from "./MenuTop";
-import AppBar from '@material-ui/core/AppBar';
-import Typography from '@material-ui/core/Typography';
-
-
-
-
+import Header from "./Header";
+import Introduction from "./Introduction";
+import Recruit from "./Recruit";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Home() {
     return (
         <>
-           <MenuTop/>
+           <Header/>
+           <Introduction/>
+           <Recruit/>
+           <Contact/>
+           <Footer/>
         </>
     )
 }

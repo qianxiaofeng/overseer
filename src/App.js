@@ -2,6 +2,13 @@ import './App.css';
 import Button from '@material-ui/core/Button';
 import React, {useState, useEffect} from "react";
 import Home from "./home/Home"
+import Gallery from "./gallery/Gallery"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 const specs = [
     "鲜血","冰霜","邪恶",
@@ -59,10 +66,19 @@ const Roller = () => {
 
 function App() {
     return (
+        <Router>
         <div className="App">
             {/*<Roller/>*/}
-            <Home/>
+                <Switch>
+                    <Route path="/" exact>
+                        <Home />
+                    </Route>
+                    <Route path="/gallery">
+                        <Gallery />
+                    </Route>
+                </Switch>
         </div>
+        </Router>
     );
 }
 
