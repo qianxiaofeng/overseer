@@ -3,19 +3,17 @@ import {makeStyles} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
-import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: "100%",
+        height: "auto",
         width: '100%',
         backgroundImage: `url(images/wallpaper.1.jpg)`,
-        backgroundSize: 'cover',
-        opacity: 1,
+        backgroundSize: 'contain',
     },
     title: {
-        // paddingTop: 25,
-        paddingLeft:25,
+        paddingTop: 25,
+        paddingBottom:25,
         color: 'white',
         writingMode: "vertical-rl",
         textOrientation: "upright",
@@ -33,7 +31,9 @@ export default function Introduction() {
 
     return (
         <div className={classes.root}>
-            <Grid container spacing={5}>
+            <Grid container spacing={0}>
+                <Grid item xs={1}>
+                </Grid>
                 <Grid item xs={1}>
                     <Typography variant="h4" className={classes.title}>
                         云笺不许千金诺

@@ -9,7 +9,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 const useStyles = makeStyles((theme) => ({
     slider: {
-        height: 1900,
+        height: "auto",
         width: "100%",
         paddingTop: 10,
     },
@@ -36,6 +36,7 @@ const Level120 = () => {
                 <div data-src='/photos/pre9_trans/4.jpg'/>
                 <div data-src='/photos/pre9_trans/5.jpg'/>
                 <div data-src='/photos/pre9_trans/6.jpg'/>
+                <div data-src='/photos/pre9_trans/7.jpg'/>
             </AutoplaySlider>
         </div>
     );

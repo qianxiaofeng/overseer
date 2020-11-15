@@ -15,12 +15,8 @@ import {
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        // flexGrow: 1,
         background: "#4E2A1F",
         height: "auto",
-    },
-    title: {
-        flexGrow: 1,
     },
     nav:{
         color: "#a05344",

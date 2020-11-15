@@ -16,28 +16,25 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add home and gallery page">
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add event page">
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/lvl120.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/lvl120.2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120.3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/lvl120.3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120.4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/lvl120.4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120.5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/lvl120.5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120.6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/lvl120.6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,7 @@
       <workItem from="1603684718876" duration="3072000" />
       <workItem from="1605237035700" duration="1299000" />
       <workItem from="1605338094582" duration="3053000" />
-      <workItem from="1605406586217" duration="24355000" />
+      <workItem from="1605406586217" duration="27253000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605433509086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add event page">
+      <created>1605456679578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605456679578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,9 +155,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add home and gallery page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add home and gallery page" />
+    <MESSAGE value="add event page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add event page" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="569" y="601" key="#Notifications" timestamp="1605456773759">
+      <screen x="75" y="23" width="2485" height="1417" />
+    </state>
+    <state x="569" y="601" key="#Notifications/75.23.2485.1417@75.23.2485.1417" timestamp="1605456773759" />
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605427262579">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -174,10 +183,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state width="1202" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605456325847" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605433523881">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605456789131">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605433523881" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605456789131" />
     <state x="449" y="486" width="598" height="490" key="find.popup" timestamp="1605427357652">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

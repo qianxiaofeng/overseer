@@ -18,7 +18,6 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        marginTop: 25,
         height: 720,
         width: "100%",
         backgroundColor : "#f4f4f2"

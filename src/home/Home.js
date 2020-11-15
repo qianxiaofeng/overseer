@@ -12,7 +12,7 @@ function Home() {
            <Introduction/>
            <Recruit/>
            <Contact/>
-           <Footer/>
+           {/*<Footer/>*/}
         </>
     )
 }
