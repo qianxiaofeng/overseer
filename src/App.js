@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import React, {useState, useEffect} from "react";
 import Home from "./home/Home"
 import Gallery from "./gallery/Gallery"
+import Event from "./event/Event"
 import {
     BrowserRouter as Router,
     Switch,
@@ -75,6 +76,9 @@ function App() {
                     </Route>
                     <Route path="/gallery">
                         <Gallery />
+                    </Route>
+                    <Route path="/event">
+                        <Event />
                     </Route>
                 </Switch>
         </div>

@@ -38,10 +38,8 @@ export default function Header() {
                 <IconButton edge="end"  color="inherit">
                     <Link to="/"><HomeIcon style={{color:"white"}} /></Link>
                 </IconButton>
-                <Typography variant="h4" className={classes.title}>
-                    {/*细水长流*/}
-                </Typography>
                 <Link to="/"><Typography variant="h6" className={classes.nav}>主页</Typography> </Link>
+                <Link to="/event"><Typography variant="h6" className={classes.nav}>活动</Typography> </Link>
                 <Link to="/gallery"><Typography variant="h6" className={classes.nav}>相册</Typography> </Link>
             </Toolbar>
         </AppBar>

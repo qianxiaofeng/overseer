@@ -9,28 +9,31 @@ import 'react-awesome-slider/dist/styles.css';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const useStyles = makeStyles((theme) => ({
+    root:{
+    },
     slider: {
         height: "auto",
         width: "100%",
         paddingTop:10,
-    }
+    },
 }));
 
 const Level120 = () => {
     const classes = useStyles();
     return (
         <div className={classes.slider}>
+            <h1>120级留念</h1>
             <AutoplaySlider
                 play={true}
                 cancelOnInteraction={false} // should stop playing on user interaction
                 interval={6000}
             >
-                <div data-src='/photos/lvl120.1.jpg'/>
-                <div data-src='/photos/lvl120.2.jpg'/>
-                <div data-src='/photos/lvl120.3.jpg'/>
-                <div data-src='/photos/lvl120.4.jpg'/>
-                <div data-src='/photos/lvl120.5.jpg'/>
-                <div data-src='/photos/lvl120.6.jpg'/>
+                <div data-src='/photos/lvl120/lvl120.1.jpg'/>
+                <div data-src='/photos/lvl120/lvl120.2.jpg'/>
+                <div data-src='/photos/lvl120/lvl120.3.jpg'/>
+                <div data-src='/photos/lvl120/lvl120.4.jpg'/>
+                <div data-src='/photos/lvl120/lvl120.5.jpg'/>
+                <div data-src='/photos/lvl120/lvl120.6.jpg'/>
             </AutoplaySlider>
         </div>
     );
@@ -38,12 +41,14 @@ const Level120 = () => {
 
 
 function Gallery() {
+    const classes = useStyles();
+
     return (
-        <>
+        <div className={classes.root}>
             <Header/>
             <Level120/>
             {/*<Footer/>*/}
-        </>
+        </div>
     )
 }
 
