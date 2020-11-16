@@ -9,11 +9,16 @@ import {Wheel} from 'react-custom-roulette'
 
 
 const useStyles = makeStyles((theme) => ({
-    roll: {
+    root: {
         height: "auto",
         width: "auto",
-        margin: "auto",
-        display: "block",
+        // margin: "50, auto",
+        // display: "flex",
+        // paddingLeft:"50%",
+        // paddingRight:"30%",
+        display:"table",
+        marginLeft:"auto",
+        marginRight:"auto",
     },
     button:{
     },
@@ -170,7 +175,7 @@ const innerBorderColor = '#30261a';
 const innerBorderWidth = 0;
 const innerRadius = 0;
 const radiusLineColor = '#eeeeee';
-const radiusLineWidth = 8;
+const radiusLineWidth = 3;
 const fontSize = 17;
 const textDistance = 60;
 
@@ -191,9 +196,8 @@ const Roll = () => {
 
     return (
 
-        <div className={classes.roll}>
+        <div className={classes.root}>
             <Wheel
-
                 mustStartSpinning={mustSpin}
                 prizeNumber={prizeNumber}
                 data={data}
