@@ -25,12 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="align roller">
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/example.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/5.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,7 @@
       <workItem from="1603684718876" duration="3072000" />
       <workItem from="1605237035700" duration="1299000" />
       <workItem from="1605338094582" duration="3053000" />
-      <workItem from="1605406586217" duration="43894000" />
+      <workItem from="1605406586217" duration="44590000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605523215196</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update event">
+      <created>1605537654157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605537654157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +179,8 @@
     <MESSAGE value="refine layout and add photo" />
     <MESSAGE value="add roller&#10;change gallery library" />
     <MESSAGE value="align roller" />
-    <option name="LAST_COMMIT_MESSAGE" value="align roller" />
+    <MESSAGE value="update event" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="601" key="#Notifications" timestamp="1605456773759">
@@ -203,10 +207,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state width="1202" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605520949451" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605523219959">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605537658883">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605523219959" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605537658883" />
     <state x="449" y="486" width="598" height="490" key="find.popup" timestamp="1605427357652">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
