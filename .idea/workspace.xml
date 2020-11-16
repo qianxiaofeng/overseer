@@ -25,15 +25,58 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add event page">
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/7.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="refine layout and add photo">
+      <change afterPath="$PROJECT_DIR$/public/images/recruit.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/recruit.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/deathknight/blood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/deathknight/frost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/deathknight/unholy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/demonhunter/havoc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/demonhunter/vengeance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/druid/balance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/druid/feral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/druid/guardian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/druid/restoration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/hunter/beastmastery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/hunter/marksman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/hunter/survival.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/mage/arcane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/mage/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/mage/frost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/monk/brewmaster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/monk/mistweaver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/monk/windwalker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/paladin/holy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/paladin/protection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/paladin/retribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/priest/discipline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/priest/holy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/priest/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/rogue/assassination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/rogue/combat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/rogue/subtlety.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/shaman/elemental.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/shaman/enhancement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/shaman/restoration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/warlock/affliction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/warlock/demonology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/warlock/destruction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/warrior/arms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/warrior/fury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/spec/warrior/protection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/event/Event2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tool/Roller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Introduction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +105,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/pre9_trans" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -82,11 +125,11 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/photos/pre9_trans" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/tool" />
       <recent name="$PROJECT_DIR$/src/event" />
+      <recent name="$PROJECT_DIR$/public/photos/pre9_trans" />
       <recent name="$PROJECT_DIR$/src/gallery" />
-      <recent name="$PROJECT_DIR$/src/home" />
-      <recent name="$PROJECT_DIR$/public/photo" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +162,7 @@
       <workItem from="1603684718876" duration="3072000" />
       <workItem from="1605237035700" duration="1299000" />
       <workItem from="1605338094582" duration="3053000" />
-      <workItem from="1605406586217" duration="27253000" />
+      <workItem from="1605406586217" duration="40785000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -135,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605456679578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refine layout and add photo">
+      <created>1605459585950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605459585950</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +206,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add home and gallery page" />
     <MESSAGE value="add event page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add event page" />
+    <MESSAGE value="refine layout and add photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="refine layout and add photo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="569" y="601" key="#Notifications" timestamp="1605456773759">
@@ -167,26 +218,26 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605427262579" />
-    <state width="1202" height="314" key="GridCell.Tab.0.bottom" timestamp="1605456325847">
+    <state width="1202" height="314" key="GridCell.Tab.0.bottom" timestamp="1605520949452">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1202" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605456325847" />
-    <state width="1202" height="314" key="GridCell.Tab.0.center" timestamp="1605456325846">
+    <state width="1202" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605520949452" />
+    <state width="1202" height="314" key="GridCell.Tab.0.center" timestamp="1605520949451">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1202" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605456325846" />
-    <state width="1202" height="314" key="GridCell.Tab.0.left" timestamp="1605456325846">
+    <state width="1202" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605520949451" />
+    <state width="1202" height="314" key="GridCell.Tab.0.left" timestamp="1605520949450">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1202" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605456325846" />
-    <state width="1202" height="314" key="GridCell.Tab.0.right" timestamp="1605456325847">
+    <state width="1202" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605520949450" />
+    <state width="1202" height="314" key="GridCell.Tab.0.right" timestamp="1605520949451">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1202" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605456325847" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605456789131">
+    <state width="1202" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605520949451" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605459641728">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605456789131" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605459641728" />
     <state x="449" y="486" width="598" height="490" key="find.popup" timestamp="1605427357652">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

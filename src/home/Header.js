@@ -35,7 +35,9 @@ export default function Header() {
                     <Link to="/"><HomeIcon style={{color:"white"}} /></Link>
                 </IconButton>
                 <Link to="/"><Typography variant="h6" className={classes.nav}>主页</Typography> </Link>
-                <Link to="/event"><Typography variant="h6" className={classes.nav}>活动</Typography> </Link>
+                <Link to="/event"><Typography variant="h6" className={classes.nav}>幻化大赛</Typography> </Link>
+                <Link to="/event2"><Typography variant="h6" className={classes.nav}>竞速升级</Typography> </Link>
+                <Link to="/roller"><Typography variant="h6" className={classes.nav}>Roller</Typography> </Link>
                 <Link to="/gallery"><Typography variant="h6" className={classes.nav}>相册</Typography> </Link>
             </Toolbar>
         </AppBar>

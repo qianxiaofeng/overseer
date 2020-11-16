@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: 50,
+        height: "auto",
         width: '100%',
         backgroundColor: '#f4f4f2',
         color: '#bbbfca',
@@ -18,7 +18,7 @@ export default function Footer() {
 
     return(
         <div className={classes.root}>
-            <Typography variant="h8" className={classes.title}>
+            <Typography variant="h6" className={classes.title}>
                 ©2020 细水长流一世安
             </Typography>
         </div>

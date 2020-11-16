@@ -35,13 +35,13 @@ const useStyles = makeStyles((theme) => ({
     banner: {
         height: 600,
         width: "100%",
-        backgroundImage: `url("images/recruit.1.jpg")`,
+        backgroundImage: `url("images/recruit.3.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center center"
     },
     question: {
-        height: 100,
-        width: 100,
+        height: 120,
+        width: 120,
     }
 }));
 
