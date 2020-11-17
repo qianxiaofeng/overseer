@@ -38,6 +38,7 @@ const Pre9Trans = () => {
             <div><img src={'/photos/pre9_trans/9.jpg'}/></div>
             <div><img src={'/photos/pre9_trans/10.jpg'}/></div>
             <div><img src={'/photos/pre9_trans/11.jpg'}/></div>
+            <div><img src={'/photos/pre9_trans/12.jpg'}/></div>
         </Carousel>
     );
 }
