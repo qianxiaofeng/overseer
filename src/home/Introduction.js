@@ -5,12 +5,6 @@ import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        height: "auto",
-        width: '100%',
-        backgroundImage: `url(images/wallpaper.1.jpg)`,
-        backgroundSize: 'contain',
-    },
     title: {
         paddingTop: 25,
         paddingBottom:25,
@@ -23,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: 10,
         color: "white",
         textAlign: "center",
+    },
+    padding: {
+        padding: 100,
     }
 }));
 
@@ -30,7 +27,7 @@ export default function Introduction() {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <div className={classes.padding}>
             <Grid container spacing={0}>
                 <Grid item xs={1}>
                 </Grid>
