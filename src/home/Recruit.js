@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     banner: {
         height: 600,
         width: "100%",
-        backgroundImage: `url("images/recruit.3.jpg")`,
+        backgroundImage: `url("images/recruit.4.jpg")`,
         backgroundSize: "cover",
         backgroundPosition: "center center"
     },

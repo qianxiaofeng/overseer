@@ -53,7 +53,7 @@ const ContactCard = () => {
 
     return(
         <div>
-            <img className={classes.contactCard} src={"images/contact_card.png"} alt={"contact_card"} onClick={handleClickOpen}/>
+            <img className={classes.contactCard} src={"images/contact_card.jpg"} alt={"contact_card"} onClick={handleClickOpen}/>
             <Dialog
                 open={open}
                 onClose={handleClose}
