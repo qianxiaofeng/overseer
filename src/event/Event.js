@@ -2,9 +2,8 @@ import React, {useState} from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const useStyles = makeStyles((theme) => ({
     carousel: {
@@ -18,28 +17,24 @@ const useStyles = makeStyles((theme) => ({
 }));
 const Pre9Trans = () => {
     const classes = useStyles();
-
+    const images = [];
+    for (let i = 1; i <= 12; i++) {
+        images.push(
+            {
+                original: '/photos/pre9_trans/original/'+i+'.jpg',
+                thumbnail: '/photos/pre9_trans/thumbnail/'+i+'.jpg',
+            }
+        )
+    }
     return (
-        <Carousel
-            className={classes.carousel}
-            dynamicHeight={true}
-            autoPlay={true}
-            useKeyboardArrows={true}
-            stopOnHover={true}
-        >
-            <div><img src={'/photos/pre9_trans/1.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/2.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/3.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/4.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/5.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/6.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/7.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/8.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/9.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/10.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/11.jpg'}/></div>
-            <div><img src={'/photos/pre9_trans/12.jpg'}/></div>
-        </Carousel>
+        <ImageGallery
+            items={images}
+            lazyLoad={true}
+            thumbnailPosition={"left"}
+            autoPlay={false}
+            showIndex={true}
+            infinite={false}
+        />
     );
 }
 
@@ -61,7 +56,8 @@ function Gallery() {
                     <h3>三等奖三人，奖励三万G</h3>
                     <h3>鼓励奖五人，奖励一万金（仅限新手参与 提供成就证明）</h3>
                     <p>特别感谢公会高阶<b>“神韵地煞”</b>对活动的大力赞助！</p>
-                    <p>同时还要感谢<b>“梧桐术”“真的是新手”“园长”“统一、曲马多”“叫我圆圆吧”“战争督军”“韩公子、”“一念成佛、”“超幸运的锦鲤”“神韵地煞”“Reonana”“发芽了”</b>对公会的捐助！爱你们！</p>
+                    <p>同时还要感谢<b>“梧桐术”“真的是新手”“园长”“统一、曲马多”“叫我圆圆吧”“战争督军”“韩公子、”“一念成佛、”“超幸运的锦鲤”“神韵地煞”“Reonana”“发芽了”</b>对公会的捐助！爱你们！
+                    </p>
                 </div>
             </div>
             <h1>参赛作品</h1>

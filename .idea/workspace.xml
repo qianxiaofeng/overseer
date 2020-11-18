@@ -25,13 +25,47 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
-      <change afterPath="$PROJECT_DIR$/public/images/contact_card.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/contact_card.png.backup.png" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="refine images">
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/contact_card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/wallpaper.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/wallpaper.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +81,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1kJ6w0Pb5x2AoUGvUechKX0MsKB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,8 +96,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,6 +242,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -216,6 +255,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update event" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
+      <screen x="75" y="23" width="2485" height="1417" />
+    </state>
+    <state x="421" y="476" key="#ESLint/75.23.2485.1417@75.23.2485.1417" timestamp="1605710354764" />
     <state x="569" y="601" key="#Notifications" timestamp="1605456773759">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -224,22 +267,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605427262579" />
-    <state width="1209" height="314" key="GridCell.Tab.0.bottom" timestamp="1605671582598">
+    <state width="1209" height="314" key="GridCell.Tab.0.bottom" timestamp="1605710358504">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605671582598" />
-    <state width="1209" height="314" key="GridCell.Tab.0.center" timestamp="1605671582597">
+    <state width="1209" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605710358504" />
+    <state width="1209" height="314" key="GridCell.Tab.0.center" timestamp="1605710358503">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605671582597" />
-    <state width="1209" height="314" key="GridCell.Tab.0.left" timestamp="1605671582597">
+    <state width="1209" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605710358503" />
+    <state width="1209" height="314" key="GridCell.Tab.0.left" timestamp="1605710358503">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605671582597" />
-    <state width="1209" height="314" key="GridCell.Tab.0.right" timestamp="1605671582597">
+    <state width="1209" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605710358503" />
+    <state width="1209" height="314" key="GridCell.Tab.0.right" timestamp="1605710358504">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605671582597" />
+    <state width="1209" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605710358504" />
     <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605670885955">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
