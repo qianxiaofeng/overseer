@@ -18,7 +18,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: 720,
+        paddingBottom: 20,
         width: "100%",
         backgroundColor : "#f4f4f2"
     },
