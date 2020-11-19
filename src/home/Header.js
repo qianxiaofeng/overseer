@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     nav:{
         color: "#a05344",
         paddingLeft:25,
+        textDecoration: 'none',
     }
 }));
 
@@ -34,11 +35,11 @@ export default function Header() {
                 <IconButton edge="end"  color="inherit">
                     <Link to="/"><HomeIcon style={{color:"white"}} /></Link>
                 </IconButton>
-                <Link to="/"><Typography variant="h6" className={classes.nav}>主页</Typography> </Link>
-                <Link to="/event"><Typography variant="h6" className={classes.nav}>幻化大赛</Typography> </Link>
-                <Link to="/event2"><Typography variant="h6" className={classes.nav}>竞速升级</Typography> </Link>
-                <Link to="/roller"><Typography variant="h6" className={classes.nav}>Roller</Typography> </Link>
-                <Link to="/gallery"><Typography variant="h6" className={classes.nav}>相册</Typography> </Link>
+                <Link to="/" className={classes.nav}><Typography variant="h6" >主页</Typography> </Link>
+                <Link to="/event" className={classes.nav}><Typography variant="h6">幻化大赛</Typography> </Link>
+                <Link to="/event2" className={classes.nav}><Typography variant="h6" >竞速升级</Typography> </Link>
+                <Link to="/roller" className={classes.nav}><Typography variant="h6" >Roller</Typography> </Link>
+                <Link to="/gallery" className={classes.nav}><Typography variant="h6" >相册</Typography> </Link>
             </Toolbar>
         </AppBar>
     )
