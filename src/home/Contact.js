@@ -20,9 +20,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
         height: 'auto',
         width: '100%',
-        paddingTop: 25,
-        backgroundColor: "#bbbfca",
-        color:"#495464"
+        backgroundColor: "#f1f6f9",
+        color:"#14274e"
     },
     contactCard: {
         height: 300,
@@ -34,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     },
     description:{
         textAlign:"left",
-        paddingTop: 25,
+        marginTop: 25,
         marginLeft: 50,
     }
 }));
@@ -73,9 +72,6 @@ export default function Contact() {
 
     return (
         <div className={classes.root}>
-            <Typography variant="h4" className={classes.title}>
-                联系
-            </Typography>
             <br/>
             <Grid container spacing={3}>
                 <Grid item xs={1}>

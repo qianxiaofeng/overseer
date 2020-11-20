@@ -8,6 +8,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
 import Paper from '@material-ui/core/Paper';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -18,22 +20,36 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 
 const useStyles = makeStyles((theme) => ({
     root: {
+        height: 900,
         paddingBottom: 20,
         width: "100%",
-        backgroundColor : "#f4f4f2"
+        backgroundImage: `url(images/wallpaper.1.jpg)`,
+        backgroundAttachment: 'fixed',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
     },
-    card: {
-        height: "auto",
+    grid: {
+        height: "100%",
         width: "100%",
-        marginTop: 25,
-        backgroundColor:"#e8e8e8",
-        color:"#495464"
+        backgroundColor:"#394867",
+        color:"#f1f6f9",
+        opacity:0.75,
+        textAlign:"center",
+    },
+    gridEmpty:{
+        backgroundColor:"#9ba4b4",
+        opacity:0.5,
+    },
+    gridList:{
+        width: "100%",
+        height: "auto",
     },
     title: {
         paddingTop: '25px',
     },
     banner: {
-        height: 600,
+        height: 625,
         width: "100%",
         backgroundImage: `url("images/recruit.4.jpg")`,
         backgroundSize: "cover",
@@ -42,6 +58,8 @@ const useStyles = makeStyles((theme) => ({
     question: {
         height: 120,
         width: 120,
+        position:"relative",
+        top:180,
     }
 }));
 
@@ -90,11 +108,10 @@ const QuestionDialog = () => {
 
 const RecruitCard = (props) => {
     const classes = useStyles();
-    const {name, time, content} = props;
+    const {name, time, content, style} = props;
 
     return (
-        <Card className={classes.card}>
-            <CardActionArea>
+        <Card className={style}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
                         {name}
@@ -102,11 +119,10 @@ const RecruitCard = (props) => {
                     <Typography gutterBottom variant="textSecondary" component="p">
                         {time}
                     </Typography>
-                    <Typography variant="body2" color="textPrimary" component="p">
+                    <Typography variant="body2" component="p">
                         {content}
                     </Typography>
                 </CardContent>
-            </CardActionArea>
         </Card>
     )
 }
@@ -117,25 +133,36 @@ export default function Recruit() {
 
     return (
         <div className={classes.root}>
-            <Typography variant="h4" className={classes.title}>
-                招募
-            </Typography>
-            <Grid container spacing={3}>
-                <Grid item xs={1}>
-                </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.banner}>
-                        <QuestionDialog/>
-                    </Paper>
-                </Grid>
-                <Grid item xs={7}>
-                    <RecruitCard name={"树色 | 晚间团"} time={"每周两天 服务器时间周六周日晚上21:00-23:00。"} content={"全职业招募。"}/>
-                    <RecruitCard name={"美西 | 白天团"} time={"每周两天 服务器时间周六周日上午9:00-11：00。"} content={"全职业招募。"}/>
-                    <RecruitCard name={"午夜 | 欧洲团"} time={"每周三天，服务器时间周二三四(暂定)凌晨2：00-5：00。"} content={"全职业招募。午夜团新团组建。"}/>
-                    <RecruitCard name={"闲园 | 下午团"} time={"每周三天，服务器时间周四一二下午14:00-17:00。"} content={"公会进度团。全职业招募。"}/>
-                </Grid>
-            </Grid>
-
+            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+                <GridListTile  cols={ 1}>
+                    <RecruitCard style={classes.grid} name={"午夜 | 欧洲团"} time={"每周三天，服务器时间周二三四(暂定)凌晨2：00-5：00。"} content={""}/>
+                </GridListTile>
+                <GridListTile  cols={ 1}>
+                    <QuestionDialog className={classes.question}/>
+                </GridListTile>
+                <GridListTile  cols={ 1}>
+                    <RecruitCard style={classes.grid} name={"美西 | 白天团"} time={"每周两天 服务器时间周六周日上午9:00-11：00。"} content={"开荒延时一小时"}/>*/}
+                </GridListTile>
+            </GridList>
+            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+                <GridListTile  cols={ 1}>
+                </GridListTile>
+                <GridListTile  cols={ 1}>
+                    <img src={"images/recruit.4.jpg"}/>
+                </GridListTile>
+                <GridListTile  cols={ 1}>
+                </GridListTile>
+            </GridList>
+            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+                <GridListTile  cols={ 1}>
+                    <RecruitCard  style={classes.grid} name={"闲园 | 下午团"} time={"每周四天，进度团，服务器时间周四五一二下午14:00-17:00。"} content={""}/>
+                </GridListTile>
+                <GridListTile  cols={ 1}>
+                </GridListTile>
+                <GridListTile  cols={ 1}>
+                    <RecruitCard style={classes.grid} name={"树色 | 晚间团"} time={"每周两天 服务器时间周六周日晚上21:00-23:00。"} content={"开荒延时一小时"}/>
+                </GridListTile>
+            </GridList>
         </div>
     );
 }
