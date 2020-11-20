@@ -18,16 +18,13 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         textAlign: "center",
     },
-    padding: {
-        padding: 100,
-    }
 }));
 
 export default function Introduction() {
     const classes = useStyles();
 
     return (
-        <div className={classes.padding}>
+        <div>
             <Grid container spacing={0}>
                 <Grid item xs={1}>
                 </Grid>
