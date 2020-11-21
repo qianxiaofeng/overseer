@@ -1,38 +1,27 @@
 import React, {useState} from "react";
 import {makeStyles} from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Typography from "@material-ui/core/Typography";
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
         height: 'auto',
         width: '100%',
         backgroundColor: "#f1f6f9",
-        color:"#14274e"
+        color: "#14274e"
     },
     contactCard: {
         height: 300,
         width: "auto",
     },
-    contactImage:{
+    contactImage: {
         height: 400,
-        width:"auto",
+        width: "auto",
     },
-    description:{
-        textAlign:"left",
+    description: {
+        textAlign: "left",
         marginTop: 25,
         marginLeft: 50,
     }
@@ -50,9 +39,10 @@ const ContactCard = () => {
         setOpen(false);
     };
 
-    return(
+    return (
         <div>
-            <img className={classes.contactCard} src={"images/contact_card.jpg"} alt={"contact_card"} onClick={handleClickOpen}/>
+            <img className={classes.contactCard} src={"images/contact_card.jpg"} alt={"contact_card"}
+                 onClick={handleClickOpen}/>
             <Dialog
                 open={open}
                 onClose={handleClose}
@@ -80,42 +70,17 @@ export default function Contact() {
                     <ContactCard/>
                 </Grid>
                 <Grid item xs={7} className={classes.description}>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        那么如果你是：
-                    </Typography>
-                    <br/>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        留恋国服的海外党；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        不想参与活动的休闲党；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        幻化成就坐骑爱好党；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        回归的夕阳红；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        发呆的萌新；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        新版本打算专职PVP的冒险党；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        以及想在9.0版本有所作为的团本爱好者；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        每周只能上线两天的奶爸奶妈；
-                    </Typography>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        和工作日午夜可以上线的特殊玩家：
-                    </Typography>
-                    <br/>
-                    <Typography display={"inline-block"} variant="p" component="p">
-                        不仅只有9.0，未来的每一个版本都希望可以有你。
-                    </Typography>
-
+                    <h2>那么如果你是：</h2>
+                    <p> 留恋国服的海外党；</p>
+                    <p> 不想参与活动的休闲党；</p>
+                    <p>幻化成就坐骑爱好党；</p>
+                    <p>回归的夕阳红；</p>
+                    <p> 发呆的萌新；</p>
+                    <p>新版本打算专职PVP的冒险党；</p>
+                    <p> 以及想在9.0版本有所作为的团本爱好者；</p>
+                    <p>每周只能上线两天的奶爸奶妈；</p>
+                    <p>和工作日午夜可以上线的特殊玩家：</p>
+                    <h3>不仅只有9.0，未来的每一个版本都希望可以有你。</h3>
                 </Grid>
             </Grid>
 

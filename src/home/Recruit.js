@@ -113,15 +113,9 @@ const RecruitCard = (props) => {
     return (
         <Card className={style}>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                        {name}
-                    </Typography>
-                    <Typography gutterBottom variant="textSecondary" component="p">
-                        {time}
-                    </Typography>
-                    <Typography variant="body2" component="p">
-                        {content}
-                    </Typography>
+                    <h1>{name}</h1>
+                    <h2>{time}</h2>
+                    <p>{content}</p>
                 </CardContent>
         </Card>
     )

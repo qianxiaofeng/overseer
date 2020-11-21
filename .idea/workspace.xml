@@ -25,39 +25,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="change to a better gallery">
-      <change afterPath="$PROJECT_DIR$/public/horde_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/DaylightMap.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="re-design homepage&#10;udpate event">
+      <change afterPath="$PROJECT_DIR$/public/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/lvl120.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/lvl120.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/lvl120.3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/lvl120.4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/lvl120.5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/lvl120.6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/original/lvl120.6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/lvl120/thumbnail/lvl120.9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/DaylightMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/DaylightMap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,11 +92,11 @@
       <recent name="$PROJECT_DIR$/src/event" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/photos/lvl120/original" />
       <recent name="$PROJECT_DIR$/public/photos/event_speed_levelup" />
       <recent name="$PROJECT_DIR$/public/photos/pre9_trans" />
-      <recent name="$PROJECT_DIR$/public/photos/lvl120" />
     </key>
   </component>
   <component name="RunManager">
@@ -148,7 +130,7 @@
       <workItem from="1605237035700" duration="1299000" />
       <workItem from="1605338094582" duration="3053000" />
       <workItem from="1605406586217" duration="52571000" />
-      <workItem from="1605879120717" duration="9796000" />
+      <workItem from="1605879120717" duration="15405000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -227,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605711692591</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="re-design homepage&#10;udpate event">
+      <created>1605892138884</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605892138884</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +243,8 @@
     <MESSAGE value="align roller" />
     <MESSAGE value="update event" />
     <MESSAGE value="change to a better gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to a better gallery" />
+    <MESSAGE value="re-design homepage&#10;udpate event" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-design homepage&#10;udpate event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -269,37 +259,37 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605427262579" />
-    <state width="1209" height="314" key="GridCell.Tab.0.bottom" timestamp="1605888805322">
+    <state width="1209" height="314" key="GridCell.Tab.0.bottom" timestamp="1605935286994">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605888805322" />
-    <state width="1209" height="314" key="GridCell.Tab.0.center" timestamp="1605888805321">
+    <state width="1209" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286994" />
+    <state width="1209" height="314" key="GridCell.Tab.0.center" timestamp="1605935286993">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605888805321" />
-    <state width="1209" height="314" key="GridCell.Tab.0.left" timestamp="1605888805321">
+    <state width="1209" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286993" />
+    <state width="1209" height="314" key="GridCell.Tab.0.left" timestamp="1605935286993">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605888805321" />
-    <state width="1209" height="314" key="GridCell.Tab.0.right" timestamp="1605888805321">
+    <state width="1209" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286993" />
+    <state width="1209" height="314" key="GridCell.Tab.0.right" timestamp="1605935286993">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605888805321" />
+    <state width="1209" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286993" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605711698627">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605892143750">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605711698627" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605892143750" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605756529374" />
-    <state x="449" y="486" width="795" height="490" key="find.popup" timestamp="1605671930275">
+    <state x="449" y="486" width="795" height="490" key="find.popup" timestamp="1605933248233">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1605671930275" />
+    <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1605933248233" />
   </component>
 </project>

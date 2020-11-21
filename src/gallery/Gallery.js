@@ -24,7 +24,7 @@ const Level120Gallery = () => {
         images.push(
             {
                 original: '/photos/lvl120/original/lvl120.'+i+'.jpg',
-                thumbnail: '/photos/lvl120/thumbnail/lvl120.'+7+'.jpg',
+                thumbnail: '/photos/lvl120/thumbnail/lvl120.'+i+'.jpg',
             }
         )
     }
