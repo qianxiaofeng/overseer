@@ -29,7 +29,7 @@ const Pre9Trans = () => {
     return (
         <ImageGallery
             items={images}
-            lazyLoad={true}
+            lazyLoad={false}
             thumbnailPosition={"left"}
             autoPlay={false}
             showIndex={true}

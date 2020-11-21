@@ -31,7 +31,7 @@ const Level120Gallery = () => {
     return (
         <ImageGallery
             items={images}
-            lazyLoad={true}
+            lazyLoad={false}
             thumbnailPosition={"bottom"}
             autoPlay={false}
             showIndex={true}
