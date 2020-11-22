@@ -115,6 +115,25 @@ const RecruitCard = (props) => {
     )
 }
 
+const RecruitCard2 = (props) => {
+    // const classes = useStyles();
+    const {name1, time1, content1, name2, time2, content2, style} = props;
+
+    return (
+        <Card className={style}>
+            <CardContent>
+                <h1>{name1}</h1>
+                <h2>{time1}</h2>
+                <p>{content1}</p>
+                <br/>
+                <h1>{name2}</h1>
+                <h2>{time2}</h2>
+                <p>{content2}</p>
+            </CardContent>
+        </Card>
+    )
+}
+
 
 export default function Recruit() {
     const classes = useStyles();
@@ -143,14 +162,24 @@ export default function Recruit() {
             {/*</GridList>*/}
             <GridList cellHeight={450} className={classes.gridList} cols={2}>
                 <GridListTile  cols={ 1}>
-                    <RecruitCard  style={classes.grid} name={"闲园 | 下午团"} time={"每周四天，进度团，服务器时间周四五一二下午14:00-17:00。"} content={""}/>
+                    <RecruitCard  style={classes.grid} name={"闲园 | 下午团"} time={"进度团，每周四天，服务器时间周四五一二下午14:00-17:00。"} content={""}/>
                 </GridListTile>
                 {/*<GridListTile  cols={ 1}>*/}
                 {/*</GridListTile>*/}
                 <GridListTile  cols={ 1}>
-                    <RecruitCard style={classes.grid} name={"树色 | 晚间团"} time={"每周两天 服务器时间周六周日晚上21:00-23:00。"} content={"开荒延时一小时"}/>
+                    <RecruitCard2  style={classes.grid} name1={"树色 | 晚间一团"} time1={"每周两天，服务器时间周六日下午21:00-23:00。"} content1={""}
+                                    name2={"树色 | 晚间二团"} time2={"进度团，每周三天 服务器时间周四六日晚上20:00-23:30。"} content2={""}/>
                 </GridListTile>
             </GridList>
+            {/*<GridList cellHeight={300} className={classes.gridList} cols={2}>*/}
+            {/*    <GridListTile  cols={ 1}>*/}
+            {/*    </GridListTile>*/}
+            {/*    /!*<GridListTile  cols={ 1}>*!/*/}
+            {/*    /!*</GridListTile>*!/*/}
+            {/*    <GridListTile  cols={ 1}>*/}
+            {/*        <RecruitCard  style={classes.grid} name={""} time={""} content={""}/>*/}
+            {/*    </GridListTile>*/}
+            {/*</GridList>*/}
         </div>
     );
 }
