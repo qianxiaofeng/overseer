@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 const Level120Gallery = () => {
-    const classes = useStyles();
+    // const classes = useStyles();
     const images = [];
     for (let i = 1; i <= 9; i++) {
         images.push(

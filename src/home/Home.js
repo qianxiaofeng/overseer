@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Header from "./Header";
 import Introduction from "./Introduction";
 import Recruit from "./Recruit";
 import Contact from "./Contact";
-import DaylightMap from "./DaylightMap";
+import WorldMap from "./WorldMap";
 import Footer from "./Footer";
 
 
@@ -30,7 +30,7 @@ function Home() {
             </div>
             <Recruit />
 
-            <DaylightMap />
+            <WorldMap width={window.innerWidth}/>
 
             <Contact/>
            <Footer/>

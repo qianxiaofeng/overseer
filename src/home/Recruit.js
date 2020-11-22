@@ -1,16 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import Paper from '@material-ui/core/Paper';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
@@ -77,7 +71,7 @@ const QuestionDialog = () => {
 
     return (
         <div>
-            <img src={"images/question.gif"} className={classes.question} onClick={handleClickOpen}/>
+            <img src={"images/question.gif"} className={classes.question} onClick={handleClickOpen} alt={""}/>
             <Dialog
                 open={open}
                 onClose={handleClose}
@@ -107,7 +101,7 @@ const QuestionDialog = () => {
 }
 
 const RecruitCard = (props) => {
-    const classes = useStyles();
+    // const classes = useStyles();
     const {name, time, content, style} = props;
 
     return (
@@ -142,7 +136,7 @@ export default function Recruit() {
                 <GridListTile  cols={ 1}>
                 </GridListTile>
                 <GridListTile  cols={ 1}>
-                    <img src={"images/recruit.4.jpg"}/>
+                    <img src={"images/recruit.4.jpg"} alt={""}/>
                 </GridListTile>
                 <GridListTile  cols={ 1}>
                 </GridListTile>

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
@@ -35,7 +35,7 @@ function Gallery() {
                     <h3>第三名奖金1万G</h3>
                     <br/>
                     <h2>截图示例</h2>
-                    <img src={"photos/event_speed_levelup/example.jpg"}/>
+                    <img src={"photos/event_speed_levelup/example.jpg"} alt={""}/>
                 </div>
             </div>
             <Footer/>

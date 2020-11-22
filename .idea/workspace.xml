@@ -26,9 +26,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update daylight map data&#10;update gallery image thumbnail">
+      <change afterPath="$PROJECT_DIR$/public/countries-110m.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/land-10m.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/land-110m.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/WorldMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tool/Globe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/DaylightMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tool/Roller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Roller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +75,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tool" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,19 +90,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/home" />
-      <recent name="$PROJECT_DIR$/public/photos/lvl120/thumbnail" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src/tool" />
-      <recent name="$PROJECT_DIR$/src/event" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/photos/lvl120/original" />
       <recent name="$PROJECT_DIR$/public/photos/event_speed_levelup" />
       <recent name="$PROJECT_DIR$/public/photos/pre9_trans" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tool" />
+      <recent name="$PROJECT_DIR$/src/home" />
+      <recent name="$PROJECT_DIR$/public/photos/lvl120/thumbnail" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/event" />
     </key>
   </component>
   <component name="RunManager">
@@ -256,22 +273,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605427262579" />
-    <state width="1209" height="314" key="GridCell.Tab.0.bottom" timestamp="1605935286994">
+    <state width="1463" height="314" key="GridCell.Tab.0.bottom" timestamp="1606053785671">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286994" />
-    <state width="1209" height="314" key="GridCell.Tab.0.center" timestamp="1605935286993">
+    <state width="1463" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785671" />
+    <state width="1463" height="314" key="GridCell.Tab.0.center" timestamp="1606053785671">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286993" />
-    <state width="1209" height="314" key="GridCell.Tab.0.left" timestamp="1605935286993">
+    <state width="1463" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785671" />
+    <state width="1463" height="314" key="GridCell.Tab.0.left" timestamp="1606053785670">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286993" />
-    <state width="1209" height="314" key="GridCell.Tab.0.right" timestamp="1605935286993">
+    <state width="1463" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785670" />
+    <state width="1463" height="314" key="GridCell.Tab.0.right" timestamp="1606053785671">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1209" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1605935286993" />
+    <state width="1463" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785671" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

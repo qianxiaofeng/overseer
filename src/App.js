@@ -1,17 +1,12 @@
 import './App.css';
-import Button from '@material-ui/core/Button';
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Home from "./home/Home"
 import Gallery from "./gallery/Gallery"
 import Event from "./event/Event"
 import Event2 from "./event/Event2"
 import Roller from "./tool/Roller"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import Globe from "./tool/Globe"
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
 function App() {
@@ -33,6 +28,9 @@ function App() {
                     </Route>
                     <Route path="/roller">
                         <Roller />
+                    </Route>
+                    <Route path="/globe">
+                        <Globe />
                     </Route>
                 </Switch>
         </div>

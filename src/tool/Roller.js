@@ -1,10 +1,9 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
-import Button from "@material-ui/core/Button";
 import LoopOutlinedIcon from '@material-ui/icons/LoopOutlined';
-import { IconButton } from '@material-ui/core';
+import {IconButton} from '@material-ui/core';
 import {Wheel} from 'react-custom-roulette'
 
 
@@ -227,7 +226,7 @@ const Roll = () => {
             {
                 showResult ? (
                         <h1>
-                            <img src={specs[prizeNumber].icon}/>
+                            <img src={specs[prizeNumber].icon} alt={""}/>
                             <br/>
                             {specs[prizeNumber].spec}
                             <br/>
@@ -245,7 +244,6 @@ const Roll = () => {
 
 
 function Roller() {
-    const classes = useStyles();
 
     return (
         <>
