@@ -25,27 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update daylight map data&#10;update gallery image thumbnail">
-      <change afterPath="$PROJECT_DIR$/public/countries-110m.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/land-10m.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/land-110m.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/WorldMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tool/Globe.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add worldmap">
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/17.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/DaylightMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Introduction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/Roller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Roller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605936382504</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add worldmap">
+      <created>1606054583838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606054583838</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +250,8 @@
     <MESSAGE value="change to a better gallery" />
     <MESSAGE value="re-design homepage&#10;udpate event" />
     <MESSAGE value="update daylight map data&#10;update gallery image thumbnail" />
-    <option name="LAST_COMMIT_MESSAGE" value="update daylight map data&#10;update gallery image thumbnail" />
+    <MESSAGE value="add worldmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add worldmap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -273,30 +266,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605427262579" />
-    <state width="1463" height="314" key="GridCell.Tab.0.bottom" timestamp="1606053785671">
+    <state width="1463" height="314" key="GridCell.Tab.0.bottom" timestamp="1606055102088">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1463" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785671" />
-    <state width="1463" height="314" key="GridCell.Tab.0.center" timestamp="1606053785671">
+    <state width="1463" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606055102088" />
+    <state width="1463" height="314" key="GridCell.Tab.0.center" timestamp="1606055102088">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1463" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785671" />
-    <state width="1463" height="314" key="GridCell.Tab.0.left" timestamp="1606053785670">
+    <state width="1463" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606055102088" />
+    <state width="1463" height="314" key="GridCell.Tab.0.left" timestamp="1606055102087">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1463" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785670" />
-    <state width="1463" height="314" key="GridCell.Tab.0.right" timestamp="1606053785671">
+    <state width="1463" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606055102087" />
+    <state width="1463" height="314" key="GridCell.Tab.0.right" timestamp="1606055102088">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1463" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606053785671" />
+    <state width="1463" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606055102088" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1605936386374">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606054546673">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605936386374" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606054546673" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

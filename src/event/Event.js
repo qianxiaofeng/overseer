@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 const Pre9Trans = () => {
     // const classes = useStyles();
     const images = [];
-    for (let i = 1; i <= 16; i++) {
+    for (let i = 1; i <= 17; i++) {
         images.push(
             {
                 original: '/photos/pre9_trans/original/'+i+'.jpg',

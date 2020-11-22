@@ -15,7 +15,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 const useStyles = makeStyles((theme) => ({
     root: {
         height: 900,
-        paddingBottom: 20,
+        paddingBottom: 8,
         width: "100%",
         backgroundImage: `url(images/wallpaper.1.jpg)`,
         backgroundAttachment: 'fixed',
@@ -121,32 +121,32 @@ export default function Recruit() {
 
     return (
         <div className={classes.root}>
-            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+            <GridList cellHeight={450} className={classes.gridList} cols={2}>
                 <GridListTile  cols={ 1}>
                     <RecruitCard style={classes.grid} name={"午夜 | 欧洲团"} time={"每周三天，服务器时间周二三四(暂定)凌晨2：00-5：00。"} content={""}/>
                 </GridListTile>
+                {/*<GridListTile  cols={ 1}>*/}
+                {/*    <QuestionDialog className={classes.question}/>*/}
+                {/*</GridListTile>*/}
                 <GridListTile  cols={ 1}>
-                    <QuestionDialog className={classes.question}/>
-                </GridListTile>
-                <GridListTile  cols={ 1}>
-                    <RecruitCard style={classes.grid} name={"美西 | 白天团"} time={"每周两天 服务器时间周六周日上午9:00-11：00。"} content={"开荒延时一小时"}/>*/}
-                </GridListTile>
-            </GridList>
-            <GridList cellHeight={300} className={classes.gridList} cols={3}>
-                <GridListTile  cols={ 1}>
-                </GridListTile>
-                <GridListTile  cols={ 1}>
-                    <img src={"images/recruit.4.jpg"} alt={""}/>
-                </GridListTile>
-                <GridListTile  cols={ 1}>
+                    <RecruitCard style={classes.grid} name={"美西 | 白天一团"} time={"每周两天 服务器时间周六周日上午9:00-11：00。"} content={"开荒延时一小时"}/>*/}
                 </GridListTile>
             </GridList>
-            <GridList cellHeight={300} className={classes.gridList} cols={3}>
+            {/*<GridList cellHeight={300} className={classes.gridList} cols={3}>*/}
+            {/*    <GridListTile  cols={ 1}>*/}
+            {/*    </GridListTile>*/}
+            {/*    <GridListTile  cols={ 1}>*/}
+            {/*        <img src={"images/recruit.4.jpg"} alt={""}/>*/}
+            {/*    </GridListTile>*/}
+            {/*    <GridListTile  cols={ 1}>*/}
+            {/*    </GridListTile>*/}
+            {/*</GridList>*/}
+            <GridList cellHeight={450} className={classes.gridList} cols={2}>
                 <GridListTile  cols={ 1}>
                     <RecruitCard  style={classes.grid} name={"闲园 | 下午团"} time={"每周四天，进度团，服务器时间周四五一二下午14:00-17:00。"} content={""}/>
                 </GridListTile>
-                <GridListTile  cols={ 1}>
-                </GridListTile>
+                {/*<GridListTile  cols={ 1}>*/}
+                {/*</GridListTile>*/}
                 <GridListTile  cols={ 1}>
                     <RecruitCard style={classes.grid} name={"树色 | 晚间团"} time={"每周两天 服务器时间周六周日晚上21:00-23:00。"} content={"开荒延时一小时"}/>
                 </GridListTile>
