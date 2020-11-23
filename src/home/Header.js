@@ -30,6 +30,7 @@ export default function Header() {
                     <Link to="/"><HomeIcon style={{color:"white"}} /></Link>
                 </IconButton>
                 <Link to="/" className={classes.nav}><Typography variant="h6" >主页</Typography> </Link>
+                <Link to="/announce" className={classes.nav}><Typography variant="h6">公告</Typography> </Link>
                 <Link to="/event" className={classes.nav}><Typography variant="h6">幻化大赛</Typography> </Link>
                 <Link to="/event2" className={classes.nav}><Typography variant="h6" >竞速升级</Typography> </Link>
                 <Link to="/roller" className={classes.nav}><Typography variant="h6" >Roller</Typography> </Link>

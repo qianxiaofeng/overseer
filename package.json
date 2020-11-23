@@ -15,8 +15,10 @@
     "react-custom-roulette": "^1.1.5",
     "react-dom": "^17.0.1",
     "react-image-gallery": "^1.0.8",
+    "react-markdown": "^5.0.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "remark-gfm": "^1.0.0",
     "solar-calculator": "^0.3.0",
     "topojson": "^3.0.2",
     "web-vitals": "^0.2.4"
