@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announcement">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606184487897</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update event">
+      <created>1606184993206</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606184993206</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +277,6 @@
     <MESSAGE value="refine layout and add photo" />
     <MESSAGE value="add roller&#10;change gallery library" />
     <MESSAGE value="align roller" />
-    <MESSAGE value="update event" />
     <MESSAGE value="change to a better gallery" />
     <MESSAGE value="re-design homepage&#10;udpate event" />
     <MESSAGE value="update daylight map data&#10;update gallery image thumbnail" />
@@ -280,7 +285,8 @@
     <MESSAGE value="update recruit content" />
     <MESSAGE value="add announcement" />
     <MESSAGE value="update announcement" />
-    <option name="LAST_COMMIT_MESSAGE" value="update announcement" />
+    <MESSAGE value="update event" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -319,10 +325,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606184493244">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606184997101">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606184493244" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606184997101" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
