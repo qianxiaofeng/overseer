@@ -25,16 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/letter1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/letter2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/letter3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/screenshot1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/screenshot2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_speed_levelup/screenshot3.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606193436166</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update event 2">
+      <created>1606287455824</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606287455824</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +300,8 @@
     <MESSAGE value="add announcement" />
     <MESSAGE value="update announcement" />
     <MESSAGE value="update event" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event" />
+    <MESSAGE value="update event 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -340,10 +340,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606193439475">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606287459545">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606193439475" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606287459545" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
