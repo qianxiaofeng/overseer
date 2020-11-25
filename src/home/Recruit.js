@@ -144,42 +144,19 @@ export default function Recruit() {
                 <GridListTile  cols={ 1}>
                     <RecruitCard style={classes.grid} name={"午夜 | 欧洲团"} time={"每周三天，服务器时间周二三四(暂定)凌晨2：00-5：00。"} content={""}/>
                 </GridListTile>
-                {/*<GridListTile  cols={ 1}>*/}
-                {/*    <QuestionDialog className={classes.question}/>*/}
-                {/*</GridListTile>*/}
                 <GridListTile  cols={ 1}>
                     <RecruitCard style={classes.grid} name={"美西 | 白天一团"} time={"每周两天 服务器时间周六周日上午9:00-11：00。"} content={"开荒延时一小时"}/>*/}
                 </GridListTile>
             </GridList>
-            {/*<GridList cellHeight={300} className={classes.gridList} cols={3}>*/}
-            {/*    <GridListTile  cols={ 1}>*/}
-            {/*    </GridListTile>*/}
-            {/*    <GridListTile  cols={ 1}>*/}
-            {/*        <img src={"images/recruit.4.jpg"} alt={""}/>*/}
-            {/*    </GridListTile>*/}
-            {/*    <GridListTile  cols={ 1}>*/}
-            {/*    </GridListTile>*/}
-            {/*</GridList>*/}
             <GridList cellHeight={450} className={classes.gridList} cols={2}>
                 <GridListTile  cols={ 1}>
                     <RecruitCard  style={classes.grid} name={"闲园 | 下午团"} time={"进度团，每周四天，服务器时间周四五一二下午14:00-17:00。"} content={""}/>
                 </GridListTile>
-                {/*<GridListTile  cols={ 1}>*/}
-                {/*</GridListTile>*/}
                 <GridListTile  cols={ 1}>
                     <RecruitCard2  style={classes.grid} name1={"树色 | 晚间一团"} time1={"每周两天，服务器时间周六日下午21:00-23:00。"} content1={""}
                                     name2={"树色 | 晚间二团"} time2={"进度团，每周三天 服务器时间周四六日晚上20:00-23:30。"} content2={""}/>
                 </GridListTile>
             </GridList>
-            {/*<GridList cellHeight={300} className={classes.gridList} cols={2}>*/}
-            {/*    <GridListTile  cols={ 1}>*/}
-            {/*    </GridListTile>*/}
-            {/*    /!*<GridListTile  cols={ 1}>*!/*/}
-            {/*    /!*</GridListTile>*!/*/}
-            {/*    <GridListTile  cols={ 1}>*/}
-            {/*        <RecruitCard  style={classes.grid} name={""} time={""} content={""}/>*/}
-            {/*    </GridListTile>*/}
-            {/*</GridList>*/}
         </div>
     );
 }
