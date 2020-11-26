@@ -25,31 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/announce/Announce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announce.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event &#10;update announce">
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -297,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606290388807</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update event &#10;update announce">
+      <created>1606378866226</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606378866226</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +315,8 @@
     <MESSAGE value="update announcement" />
     <MESSAGE value="update event 2" />
     <MESSAGE value="update event" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event" />
+    <MESSAGE value="update event &#10;update announce" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event &#10;update announce" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -371,10 +355,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606290394762">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606378870812">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606290394762" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606378870812" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
