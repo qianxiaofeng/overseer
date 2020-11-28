@@ -25,8 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event &#10;update announce">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/announce/Announce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606378866226</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update event">
+      <created>1606379264549</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606379264549</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,9 +324,9 @@
     <MESSAGE value="add announcement" />
     <MESSAGE value="update announcement" />
     <MESSAGE value="update event 2" />
-    <MESSAGE value="update event" />
     <MESSAGE value="update event &#10;update announce" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event &#10;update announce" />
+    <MESSAGE value="update event" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -335,30 +345,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606184791271" />
-    <state width="1338" height="314" key="GridCell.Tab.0.bottom" timestamp="1606286587357">
+    <state width="1338" height="314" key="GridCell.Tab.0.bottom" timestamp="1606524059648">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606286587357" />
-    <state width="1338" height="314" key="GridCell.Tab.0.center" timestamp="1606286587356">
+    <state width="1338" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606524059648" />
+    <state width="1338" height="314" key="GridCell.Tab.0.center" timestamp="1606524059648">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606286587356" />
-    <state width="1338" height="314" key="GridCell.Tab.0.left" timestamp="1606286587356">
+    <state width="1338" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606524059648" />
+    <state width="1338" height="314" key="GridCell.Tab.0.left" timestamp="1606524059647">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606286587356" />
-    <state width="1338" height="314" key="GridCell.Tab.0.right" timestamp="1606286587357">
+    <state width="1338" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606524059647" />
+    <state width="1338" height="314" key="GridCell.Tab.0.right" timestamp="1606524059648">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606286587357" />
+    <state width="1338" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606524059648" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606378870812">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606379269738">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606378870812" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606379269738" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
