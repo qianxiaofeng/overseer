@@ -4,13 +4,15 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
+import Avatar from '@material-ui/core/Avatar';
+import { deepOrange } from '@material-ui/core/colors';
 
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: 900,
+        height: 1200,
         paddingBottom: 8,
-        width: "100%",
+        // width: "100%",
         backgroundImage: `url(images/wallpaper.1.jpg)`,
         backgroundAttachment: 'fixed',
         backgroundRepeat: 'no-repeat',
@@ -19,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
     grid: {
         height: "100%",
-        width: "100%",
+        // width: "100%",
         backgroundColor: "#394867",
         color: "#f1f6f9",
         opacity: 0.75,
@@ -28,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
         overflow: "hidden"
     },
     gridList: {
-        width: "100%",
+        // width: "100%",
         height: "auto",
     },
 
@@ -60,40 +62,25 @@ const useStyles = makeStyles((theme) => ({
             textShadow: "0 1 1 rgba(0,0,0,.2)",
             textAlign: "center",
         },
-    }
+    },
+    orange: {
+        color: theme.palette.getContrastText(deepOrange[500]),
+        backgroundColor: deepOrange[500],
+    },
 }));
 
 
 const RecruitCard = (props) => {
     const classes = useStyles();
-    const {name, time, content, isPro = false} = props;
+    const {name, time, content, groupId = "", isPro = false} = props;
 
     return (
         <Card className={classes.grid}>
             {isPro && <h3 className={classes.ribbon}><span>进度团</span></h3>}
             <CardContent>
-                <h1>{name}</h1>
+                <h1> <Avatar className={classes.orange}>{groupId}</Avatar> {name}</h1>
                 <h2>{time}</h2>
                 <p>{content}</p>
-            </CardContent>
-        </Card>
-    )
-}
-
-const RecruitCard2 = (props) => {
-    // const classes = useStyles();
-    const {name1, time1, content1, name2, time2, content2, style} = props;
-
-    return (
-        <Card className={style}>
-            <CardContent>
-                <h1>{name1}</h1>
-                <h2>{time1}</h2>
-                <p>{content1}</p>
-                <br/>
-                <h1>{name2}</h1>
-                <h2>{time2}</h2>
-                <p>{content2}</p>
             </CardContent>
         </Card>
     )
@@ -110,6 +97,7 @@ export default function Recruit() {
                     <RecruitCard name={"树色 | 晚间一团"}
                                  time={"每周两天，服务器时间周六日晚上21:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班) 全职业招募。"}
+                                 groupId = {"壹"}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
@@ -117,6 +105,7 @@ export default function Recruit() {
                                  time={"每周三天，服务器时间周四六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班) 全职业招募强力玩家。"}
                                  isPro={true}
+                                 groupId = {"伍"}
                     />
                 </GridListTile>
             </GridList>
@@ -125,6 +114,7 @@ export default function Recruit() {
                     <RecruitCard name={"美西 | 白天一团"}
                                  time={"每周两天 服务器时间周六日上午9:00-11：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
+                                 groupId = {"贰"}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
@@ -132,20 +122,42 @@ export default function Recruit() {
                                  time={"每周三天 服务器时间周五六日上午8:30-11：30。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班) 全职业招募强力玩家。"}
                                  isPro={true}
+                                 groupId = {"陆"}
                     />
                 </GridListTile>
             </GridList>
             <GridList cellHeight={300} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
-                    <RecruitCard name={"午夜 | 欧洲团"}
-                                 time={"每周三天，服务器时间周二三四(暂定)凌晨2：00-5：00。(海外玩家请自行换算时差)"}
+                    <RecruitCard name={"午夜 | 欧洲一团"}
+                                 time={"每周两天，服务器时间周二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班) 全职业招募。"}
+                                 groupId = {"叁"}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
+                    <RecruitCard name={"午夜 | 欧洲二团"}
+                                 time={"每周三天，服务器时间周一二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
+                                 content={"(开荒期间会有加班) 全职业招募强力玩家。招募指挥，管理人员"}
+                                 isPro={true}
+                                 groupId = {"捌"}
+                    />
+                </GridListTile>
+            </GridList>
+            <GridList cellHeight={300} className={classes.gridList} cols={2}>
+                <GridListTile cols={1}>
                     <RecruitCard name={"闲园 | 下午团"}
                                  time={"每周三天，服务器时间周四一二下午14:00-17:00。(海外玩家请自行换算时差)"}
-                                 content={"(加班期间为四天) 招募指挥，招募强力玩家。"}
+                                 content={"(加班期间为四天) 招募指挥，招募强力玩家，大米爱好者。"}
+                                 isPro={true}
+                                 groupId = {"肆"}
+                    />
+                </GridListTile>
+                <GridListTile cols={1}>
+                    <RecruitCard name={"美东 | 上午团"}
+                                 time={"每周三天，服务器时间周二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
+                                 content={"(加班期间为四天) 全职业招募。急招指挥，管理人员。欢迎强力回归等玩家。"}
+                                 isPro={true}
+                                 groupId = {"柒"}
                     />
                 </GridListTile>
             </GridList>
