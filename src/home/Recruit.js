@@ -170,6 +170,7 @@ const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
     const classes = useStyles();
     const bosses = ["啸翼","猎手阿尔迪莫","太阳之王的救赎","圣物匠赛*墨克斯",
         "饥饿的毁灭者","伊涅瓦*暗脉女勋爵","猩红议会","泥拳","顽石军团干将","德纳修斯大帝"]
+    console.log(progress)
 
     return (
         <div>
@@ -196,7 +197,9 @@ const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
 
 const RecruitCard = (props) => {
     const classes = useStyles();
-    const {name, time, content, groupId = "", timestamp = 0, leader = "", leaderClassImg = "images/class/class_mage.jpg", isPro = false} = props;
+    const {name, time, content, groupId = "",
+        timestamp = 0, leader = "", leaderClassImg = "images/class/class_mage.jpg",
+        isPro = false, progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]} = props;
 
     return (
         <Card className={classes.grid}>
@@ -220,7 +223,7 @@ const RecruitCard = (props) => {
                 <Typography variant={"h4"}>{name}</Typography>
                 <Typography variant={"h5"}>{time}</Typography>
                 <Typography variant={"h6"}>{content}</Typography>
-                <RaidProgressBar/>
+                <RaidProgressBar progress={progress}/>
             </CardContent>
         </Card>
     )
@@ -295,9 +298,10 @@ export default function Recruit() {
                                  content={"(开荒期间会有加班) 全职业招募强力玩家。招募指挥，管理人员"}
                                  isPro={true}
                                  groupId={"捌"}
-                                 leader={"暂无"}
-                                 leaderClassImg={""}
+                                 leader={"景行行芷"}
+                                 leaderClassImg={"images/class/class_deathknight.jpg"}
                                  timestamp={1607882400}
+                                 progress = {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                     />
                 </GridListTile>
             </GridList>
