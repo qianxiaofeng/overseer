@@ -25,14 +25,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update recruit">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update recruit &#10;update event">
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_deathknight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_demonhunter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_druid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_hunter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_mage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_monk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_paladin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_priest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_rogue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_shaman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_warlock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/class/class_warrior.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/broadcast/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tool/Broadcast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/original/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/original/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/pre9_trans/thumbnail/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,11 +92,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
+      <recent name="$PROJECT_DIR$/src/tool" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/photos/lvl120/original" />
-      <recent name="$PROJECT_DIR$/public/photos/event_speed_levelup" />
-      <recent name="$PROJECT_DIR$/public/photos/pre9_trans" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/announcement" />
@@ -125,6 +138,7 @@
       <workItem from="1605338094582" duration="3053000" />
       <workItem from="1605406586217" duration="52571000" />
       <workItem from="1605879120717" duration="15829000" />
+      <workItem from="1606799746812" duration="6648000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -301,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606528661164</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update recruit &#10;update event">
+      <created>1606753925562</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606753925562</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +359,8 @@
     <MESSAGE value="update event &#10;update announce" />
     <MESSAGE value="update event" />
     <MESSAGE value="update recruit" />
-    <option name="LAST_COMMIT_MESSAGE" value="update recruit" />
+    <MESSAGE value="update recruit &#10;update event" />
+    <option name="LAST_COMMIT_MESSAGE" value="update recruit &#10;update event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -357,30 +379,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1338" height="314" key="GridCell.Tab.0.bottom" timestamp="1606567723033">
+    <state width="1268" height="314" key="GridCell.Tab.0.bottom" timestamp="1606804659003">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606567723033" />
-    <state width="1338" height="314" key="GridCell.Tab.0.center" timestamp="1606567723033">
+    <state width="1268" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1606804659003" />
+    <state width="1268" height="314" key="GridCell.Tab.0.center" timestamp="1606804659002">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606567723033" />
-    <state width="1338" height="314" key="GridCell.Tab.0.left" timestamp="1606567723033">
+    <state width="1268" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1606804659002" />
+    <state width="1268" height="314" key="GridCell.Tab.0.left" timestamp="1606804659001">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606567723033" />
-    <state width="1338" height="314" key="GridCell.Tab.0.right" timestamp="1606567723033">
+    <state width="1268" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1606804659001" />
+    <state width="1268" height="314" key="GridCell.Tab.0.right" timestamp="1606804659002">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1338" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606567723033" />
+    <state width="1268" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1606804659002" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606528665513">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606753929459">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606528665513" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606753929459" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
