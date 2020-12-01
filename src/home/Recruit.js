@@ -1,4 +1,4 @@
-import React, {useRef, useState,useEffect} from "react";
+import React, {useRef, useState, useEffect} from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -9,13 +9,15 @@ import {deepOrange} from '@material-ui/core/colors';
 import Chip from '@material-ui/core/Chip';
 import Tick from "@pqina/flip";
 import "@pqina/flip/dist/flip.min.css";
-
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
 
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: 1200,
-        paddingBottom: 8,
+        height: "auto",
+        // paddingBottom: 8,
         backgroundImage: `url(images/wallpaper.1.jpg)`,
         backgroundAttachment: 'fixed',
         backgroundRepeat: 'no-repeat',
@@ -39,16 +41,16 @@ const useStyles = makeStyles((theme) => ({
         // justifyContent: "space-between",
     },
     alignLeft: {
-        display:"flex",
+        display: "flex",
         float: "left",
     },
     alignRight: {
-        display:"flex",
-        textAlign:"right",
+        display: "flex",
+        textAlign: "right",
         float: "right",
     },
-    clear:{
-        clear:"both",
+    clear: {
+        clear: "both",
     },
     ribbon: {
         top: -30,
@@ -82,26 +84,41 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.getContrastText(deepOrange[500]),
         backgroundColor: deepOrange[500],
     },
+    progressBarGridContainer: {
+        height: 45,
+    },
+    progressBarGrid: {
+        height: 45,
+    },
+    progressBarImg: {
+        height: "100%",
+        // width:"100%",
+        objectFit: "cover",
+    },
+    progressBarLine: {
+        width: "72.5%",
+        height: 3,
+        background: "orange",
+        position: "absolute",
+        marginTop: 22,
+        marginLeft:"12.5%",
+        zIndex: -1,
+    }
 }));
 
-export const CountDown = ({ timestamp }) => {
+export const CountDown = ({timestamp}) => {
     const divRef = useRef();
     const tickRef = useRef();
-    const initCountDownSeconds = Math.floor(timestamp - Date.now()/1000);
+    const initCountDownSeconds = Math.floor(timestamp - Date.now() / 1000);
 
     const [countDownSeconds, setCountDownSeconds] = useState(initCountDownSeconds);
 
     const cal_remaining = (countDownSeconds) => {
-        const days = Math.floor(countDownSeconds / (3600*24));
-        const hours = ("0"+Math.floor(countDownSeconds % (3600*24) / (3600))).slice(-2);
-        const minutes = ("0"+Math.floor(countDownSeconds % (3600) / 60)).slice(-2);
-        const seconds = ("0"+Math.floor(countDownSeconds % (60))).slice(-2);
-        // return {
-        //     days,
-        //     hours,
-        //     minutes,
-        //     seconds
-        // }
+        const days = Math.floor(countDownSeconds / (3600 * 24));
+        const hours = ("0" + Math.floor(countDownSeconds % (3600 * 24) / (3600))).slice(-2);
+        const minutes = ("0" + Math.floor(countDownSeconds % (3600) / 60)).slice(-2);
+        const seconds = ("0" + Math.floor(countDownSeconds % (60))).slice(-2);
+
         return `${days} ${hours}:${minutes}:${seconds}`;
     }
 
@@ -141,17 +158,45 @@ export const CountDown = ({ timestamp }) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCountDownSeconds(countDownSeconds-1);
+            setCountDownSeconds(countDownSeconds - 1);
         }, 1000);
         return () => clearInterval(interval);
-    }, );
+    },);
 
-    return <div ref={divRef} />;
+    return <div ref={divRef}/>;
 };
+
+const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
+    const classes = useStyles();
+    const bosses = ["啸翼","猎手阿尔迪莫","太阳之王的救赎","圣物匠赛*墨克斯",
+        "饥饿的毁灭者","伊涅瓦*暗脉女勋爵","猩红议会","泥拳","顽石军团干将","德纳修斯大帝"]
+
+    return (
+        <div>
+            <div className={classes.progressBarLine}></div>
+            <Grid container spacing={0} className={classes.progressBarGridContainer}>
+                <Grid item xs={1} className={classes.progressBarGrid}/>
+                {progress.map((v, i) => {
+                    let tooltip = bosses[i] + " | ";
+                    tooltip += v==0?"未击杀" : "已击杀";
+                    let imgFileName = `images/raid/nathria/${i+1}`;
+                    imgFileName += v==0?".png":"x.png";
+                    return (
+                    <Grid item xs={1} className={classes.progressBarGrid}>
+                        <Tooltip title={tooltip} arrow placement="top">
+                        <img className={classes.progressBarImg} src={imgFileName} alt={""}/>
+                        </Tooltip>
+                    </Grid>
+                    )})}
+                <Grid item xs={1} className={classes.progressBarGrid}/>
+            </Grid>
+        </div>
+    )
+}
 
 const RecruitCard = (props) => {
     const classes = useStyles();
-    const {name, time, content, groupId = "",timestamp=0, leader = "", leaderClassImg ="images/class/class_mage.jpg", isPro = false} = props;
+    const {name, time, content, groupId = "", timestamp = 0, leader = "", leaderClassImg = "images/class/class_mage.jpg", isPro = false} = props;
 
     return (
         <Card className={classes.grid}>
@@ -164,7 +209,7 @@ const RecruitCard = (props) => {
                         label={leader}
                         variant={"outlined"}
                     />
-                    {timestamp > Date.now()/1000 && <CountDown timestamp={timestamp}/>}
+                    {timestamp > Date.now() / 1000 && <CountDown timestamp={timestamp}/>}
                 </div>
                 <div className={classes.alignRight}>
 
@@ -172,10 +217,10 @@ const RecruitCard = (props) => {
                 <div className={classes.clear}/>
             </div>
             <CardContent>
-                <h1>{name}</h1>
-
-                <h2>{time}</h2>
-                <p>{content}</p>
+                <Typography variant={"h4"}>{name}</Typography>
+                <Typography variant={"h5"}>{time}</Typography>
+                <Typography variant={"h6"}>{content}</Typography>
+                <RaidProgressBar/>
             </CardContent>
         </Card>
     )
@@ -187,7 +232,7 @@ export default function Recruit() {
 
     return (
         <div className={classes.root}>
-            <GridList cellHeight={300} className={classes.gridList} cols={2}>
+            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
                     <RecruitCard name={"树色 | 晚间一团"}
                                  time={"每周两天，服务器时间周六日晚上21:00-23:00。(海外玩家请自行换算时差)"}
@@ -210,7 +255,7 @@ export default function Recruit() {
                     />
                 </GridListTile>
             </GridList>
-            <GridList cellHeight={300} className={classes.gridList} cols={2}>
+            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
                     <RecruitCard name={"美西 | 白天一团"}
                                  time={"每周两天 服务器时间周六日上午9:00-11：00。(海外玩家请自行换算时差)"}
@@ -233,7 +278,7 @@ export default function Recruit() {
                     />
                 </GridListTile>
             </GridList>
-            <GridList cellHeight={300} className={classes.gridList} cols={2}>
+            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
                     <RecruitCard name={"午夜 | 欧洲一团"}
                                  time={"每周两天，服务器时间周二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
@@ -256,7 +301,7 @@ export default function Recruit() {
                     />
                 </GridListTile>
             </GridList>
-            <GridList cellHeight={300} className={classes.gridList} cols={2}>
+            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
                     <RecruitCard name={"闲园 | 下午团"}
                                  time={"每周三天，服务器时间周四一二下午14:00-17:00。(海外玩家请自行换算时差)"}

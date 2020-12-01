@@ -30,7 +30,7 @@ function Home() {
             </div>
             <Recruit />
 
-            <WorldMap width={window.innerWidth}/>
+            <WorldMap width={window.innerWidth} isFlat={false}/>
 
             <Contact/>
            <Footer/>
