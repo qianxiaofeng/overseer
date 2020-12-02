@@ -15,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
 
 const WorldMap = ({isFlat=false,isFull=false, width=900}) => {
     const height = width/640*320;
-    console.log(width,height)
     const scaleRatio = isFull? (width/640)*100 : width;
 
     const projection = isFlat? geoEquirectangular().scale((width/640)*100).translate([width / 2, height / 2]) :geoOrthographic().scale(scaleRatio).translate([width / 2, height / 2]);
@@ -54,6 +53,9 @@ const WorldMap = ({isFlat=false,isFull=false, width=900}) => {
         .center(antipode(sun()))
 
     useEffect(() => {
+        if(geographies.length===0){
+            return;
+        }
         const svgElement = select(ref.current);
         const markerGroup = svgElement.append('g');
 
@@ -119,7 +121,7 @@ const WorldMap = ({isFlat=false,isFull=false, width=900}) => {
         if(!isFlat){
             enableRotation();
         }
-    }, [geographies])
+    }, )
 
     useEffect(() => {
         fetch("/countries-110m.json")

@@ -3,7 +3,6 @@ import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
 import Container from '@material-ui/core/Container';
-import Divider from '@material-ui/core/Divider';
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 

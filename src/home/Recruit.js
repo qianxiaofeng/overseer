@@ -170,26 +170,25 @@ const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
     const classes = useStyles();
     const bosses = ["啸翼","猎手阿尔迪莫","太阳之王的救赎","圣物匠赛*墨克斯",
         "饥饿的毁灭者","伊涅瓦*暗脉女勋爵","猩红议会","泥拳","顽石军团干将","德纳修斯大帝"]
-    console.log(progress)
 
     return (
         <div>
-            <div className={classes.progressBarLine}></div>
+            <div className={classes.progressBarLine}/>
             <Grid container spacing={0} className={classes.progressBarGridContainer}>
-                <Grid item xs={1} className={classes.progressBarGrid}/>
+                <Grid item xs={1} key={1} className={classes.progressBarGrid}/>
                 {progress.map((v, i) => {
                     let tooltip = bosses[i] + " | ";
-                    tooltip += v==0?"未击杀" : "已击杀";
+                    tooltip += v===0?"未击杀" : "已击杀";
                     let imgFileName = `images/raid/nathria/${i+1}`;
-                    imgFileName += v==0?".png":"x.png";
+                    imgFileName += v===0?".png":"x.png";
                     return (
-                    <Grid item xs={1} className={classes.progressBarGrid}>
+                    <Grid item xs={1} key={i+1} className={classes.progressBarGrid}>
                         <Tooltip title={tooltip} arrow placement="top">
                         <img className={classes.progressBarImg} src={imgFileName} alt={""}/>
                         </Tooltip>
                     </Grid>
                     )})}
-                <Grid item xs={1} className={classes.progressBarGrid}/>
+                <Grid item xs={1} key={12} className={classes.progressBarGrid}/>
             </Grid>
         </div>
     )
@@ -241,8 +240,8 @@ export default function Recruit() {
                                  time={"每周两天，服务器时间周六日晚上21:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班) 全职业招募。"}
                                  groupId={"壹"}
-                                 leader={"叫我圆圆吧"}
-                                 leaderClassImg={"images/class/class_monk.jpg"}
+                                 leader={"月光茉莉哑"}
+                                 leaderClassImg={"images/class/class_warlock.jpg"}
                                  timestamp={1607778000}
                     />
                 </GridListTile>
@@ -252,8 +251,8 @@ export default function Recruit() {
                                  content={"(开荒期间会有加班) 全职业招募强力玩家。"}
                                  isPro={true}
                                  groupId={"伍"}
-                                 leader={"月光茉莉哑"}
-                                 leaderClassImg={"images/class/class_warlock.jpg"}
+                                 leader={"叫我圆圆吧"}
+                                 leaderClassImg={"images/class/class_monk.jpg"}
                                  timestamp={1607601600}
                     />
                 </GridListTile>
