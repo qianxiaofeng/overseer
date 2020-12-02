@@ -25,12 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add progress demo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/announce/Announce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/WorldMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/WorldMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/Broadcast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Broadcast.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update recruit data&#10;fix world map show two points bug&#10;fix some react warning">
+      <change beforePath="$PROJECT_DIR$/src/event/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +118,7 @@
       <workItem from="1605338094582" duration="3053000" />
       <workItem from="1605406586217" duration="52571000" />
       <workItem from="1605879120717" duration="15829000" />
-      <workItem from="1606799746812" duration="16613000" />
+      <workItem from="1606799746812" duration="16845000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -327,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606839659484</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update recruit data&#10;fix world map show two points bug&#10;fix some react warning">
+      <created>1606884786290</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606884786290</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +371,8 @@
     <MESSAGE value="update recruit &#10;add broadcast" />
     <MESSAGE value="add raid progress bar" />
     <MESSAGE value="add progress demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add progress demo" />
+    <MESSAGE value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -407,10 +411,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606839663040">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606884789946">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606839663040" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606884789946" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
