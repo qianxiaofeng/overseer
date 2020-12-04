@@ -25,8 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update donation data">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update recruit">
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,7 @@
       <workItem from="1605406586217" duration="52571000" />
       <workItem from="1605879120717" duration="15829000" />
       <workItem from="1606799746812" duration="17146000" />
-      <workItem from="1607042086351" duration="144000" />
+      <workItem from="1607042086351" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606885050112</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update recruit">
+      <created>1607042257074</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607042257074</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,14 +381,14 @@
     <MESSAGE value="update event 2" />
     <MESSAGE value="update event &#10;update announce" />
     <MESSAGE value="update event" />
-    <MESSAGE value="update recruit" />
     <MESSAGE value="update recruit &#10;update event" />
     <MESSAGE value="update recruit &#10;add broadcast" />
     <MESSAGE value="add raid progress bar" />
     <MESSAGE value="add progress demo" />
     <MESSAGE value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
     <MESSAGE value="update donation data" />
-    <option name="LAST_COMMIT_MESSAGE" value="update donation data" />
+    <MESSAGE value="update recruit" />
+    <option name="LAST_COMMIT_MESSAGE" value="update recruit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -421,10 +427,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1606885066564">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607042261801">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1606885066564" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607042261801" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

@@ -318,7 +318,7 @@ export default function Recruit() {
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"美东 | 上午团"}
-                                 time={"每周三天，服务器时间周二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
+                                 time={"每周四天，服务器时间周一二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天) 全职业招募。"}
                                  isPro={true}
                                  groupId={"柒"}
