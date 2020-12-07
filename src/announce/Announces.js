@@ -89,9 +89,9 @@ const announceDataList = [
 
 `,
         signature: `
-再次感谢大家选择细水！爱你们的秃头大胡子致。
-2020.11.23日9.0前夜
-2020.12.07日更新
+再次感谢大家选择细水！爱你们的秃头大胡子致。  
+2020.11.23日9.0前夜  
+2020.12.07日更新  
 
 `
     },
@@ -120,8 +120,8 @@ const announceDataList = [
 
 `,
         signature: `
-至此。爱你们的秃头大胡子致！
-2020.12.05
+至此。爱你们的秃头大胡子致！  
+2020.12.05  
 
 `
     }
@@ -151,7 +151,7 @@ function Announces() {
             <Container maxWidth="lg">
                 <h1>公告列表</h1>
                 {
-                    announceDataList.reverse().map((a) => {
+                    announceDataList.slice(0).reverse().map((a) => {
                         return (<AnnounceCard key={a.id} announceId={a.id} title={a.title}/>)
                     })
                 }
