@@ -3,14 +3,8 @@ import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
 import Container from '@material-ui/core/Container';
-import ReactMarkdown from 'react-markdown'
-import gfm from 'remark-gfm'
 import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
-import Chip from "@material-ui/core/Chip";
-import Avatar from "@material-ui/core/Avatar";
 import CardActionArea from "@material-ui/core/CardActionArea";
-import CardMedia from "@material-ui/core/CardMedia";
 import {Link} from "react-router-dom";
 
 
