@@ -2,7 +2,8 @@ import './App.css';
 import React from "react";
 import Home from "./home/Home"
 import Gallery from "./gallery/Gallery"
-import Event from "./event/Event"
+import Events from "./event/Events"
+import Event1 from "./event/Event1"
 import Event2 from "./event/Event2"
 import Roller from "./tool/Roller"
 import Broadcast from "./tool/Broadcast"
@@ -22,12 +23,17 @@ function App() {
                     <Route path="/gallery">
                         <Gallery/>
                     </Route>
-                    <Route path="/event">
-                        <Event/>
-                    </Route>
-                    <Route path="/event2">
-                        <Event2/>
-                    </Route>
+                    <Route path="/event"
+                           render={(renderProps) => (
+                               <>
+                                   <Route path={`${renderProps.match.url}/`} component={Events} exact/>
+                                   <Route path={`${renderProps.match.url}/1`}
+                                          render={()=><Event1 {...renderProps} eventId={"1"}/>}/>
+                                   <Route path={`${renderProps.match.url}/2`}
+                                          render={()=><Event2 {...renderProps} eventId={"2"} />}/>
+                               </>
+                           )}
+                    />
                     <Route path="/roller">
                         <Roller/>
                     </Route>
