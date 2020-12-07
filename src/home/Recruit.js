@@ -293,14 +293,14 @@ export default function Recruit() {
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"午夜 | 欧洲二团"}
-                                 time={"每周三天，服务器时间周一二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
+                                 time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班) 全职业招募强力玩家。"}
                                  isPro={true}
                                  groupId={"捌"}
-                                 leader={"景行行芷"}
-                                 leaderClassImg={"images/class/class_deathknight.jpg"}
-                                 timestamp={1607882400}
-                                 progress = {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+                                 leader={"清风惊游梦"}
+                                 leaderClassImg={"images/class/class_druid.jpg"}
+                                 timestamp={1607623200}
+                                 progress = {[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
