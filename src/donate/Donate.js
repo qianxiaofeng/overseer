@@ -36,7 +36,7 @@ const data = [
     {name:"Hydz", value:40000},
     {name:"朋友的母亲二", value:30000},
     {name:"彩虹猎杀", value:5000},
-    {name:"最后的贫民", value:66666},
+    {name:"最后的平民", value:66666},
     {name:"小柒姐", value:23333},
     {name:"Mars", value:50000},
     {name:"仙儿", value:100000},
@@ -79,7 +79,6 @@ const DonateWordCloud = () => {
 
 const Thanks = () =>{
     const initShowIndex = Math.floor(Math.random()*data.length);
-    console.log(initShowIndex)
     const [showIndex, setShowIndex] = useState(initShowIndex);
 
     useEffect(() => {
