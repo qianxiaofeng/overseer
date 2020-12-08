@@ -25,8 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event list">
-      <change beforePath="$PROJECT_DIR$/src/event/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Events.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="fix warning">
+      <change afterPath="$PROJECT_DIR$/src/donate/Donate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/event" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/donate" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/donate" />
       <recent name="$PROJECT_DIR$/src/event" />
       <recent name="$PROJECT_DIR$/src/announce" />
       <recent name="$PROJECT_DIR$/src/announcement" />
       <recent name="$PROJECT_DIR$/src/tool" />
-      <recent name="$PROJECT_DIR$/src/home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
@@ -372,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607351989466</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix warning">
+      <created>1607352071611</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607352071611</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +404,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add home and gallery page" />
     <MESSAGE value="add event page" />
     <MESSAGE value="refine layout and add photo" />
     <MESSAGE value="add roller&#10;change gallery library" />
@@ -416,7 +428,8 @@
     <MESSAGE value="update recruit" />
     <MESSAGE value="update announce" />
     <MESSAGE value="update event list" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event list" />
+    <MESSAGE value="fix warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix warning" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -435,30 +448,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1268" height="314" key="GridCell.Tab.0.bottom" timestamp="1607348748025">
+    <state width="1268" height="314" key="GridCell.Tab.0.bottom" timestamp="1607420473610">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607348748025" />
-    <state width="1268" height="314" key="GridCell.Tab.0.center" timestamp="1607348748024">
+    <state width="1268" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473610" />
+    <state width="1268" height="314" key="GridCell.Tab.0.center" timestamp="1607420473609">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607348748024" />
-    <state width="1268" height="314" key="GridCell.Tab.0.left" timestamp="1607348748024">
+    <state width="1268" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473609" />
+    <state width="1268" height="314" key="GridCell.Tab.0.left" timestamp="1607420473609">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607348748024" />
-    <state width="1268" height="314" key="GridCell.Tab.0.right" timestamp="1607348748025">
+    <state width="1268" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473609" />
+    <state width="1268" height="314" key="GridCell.Tab.0.right" timestamp="1607420473610">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607348748025" />
+    <state width="1268" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473610" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607350072595">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607352089923">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607350072595" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607352089923" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -467,9 +480,9 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1607351094134" />
-    <state x="385" y="348" key="search.everywhere.popup" timestamp="1607350065503">
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1607420223813">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="385" y="348" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1607350065503" />
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1607420223813" />
   </component>
 </project>

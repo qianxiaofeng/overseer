@@ -35,6 +35,7 @@ export default function Header() {
                 <Link to="/event" className={classes.nav}><Typography variant="h6">活动</Typography> </Link>
                 {/*<Link to="/roller" className={classes.nav}><Typography variant="h6" >Roller</Typography> </Link>*/}
                 <Link to="/gallery" className={classes.nav}><Typography variant="h6" >相册</Typography> </Link>
+                <Link to="/donate" className={classes.nav}><Typography variant="h6" >捐款</Typography> </Link>
             </Toolbar>
         </AppBar>
     )

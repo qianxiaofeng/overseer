@@ -9,6 +9,7 @@ import Roller from "./tool/Roller"
 import Broadcast from "./tool/Broadcast"
 import {Announces, announceDataList} from "./announce/Announces"
 import Announce from "./announce/Announce"
+import Donate from "./donate/Donate"
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
@@ -39,6 +40,9 @@ function App() {
                     </Route>
                     <Route path="/broadcast">
                         <Broadcast/>
+                    </Route>
+                    <Route path="/donate">
+                        <Donate/>
                     </Route>
                     <Route path="/announce"
                         render={(renderProps) => (
