@@ -25,13 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update donate">
-      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -406,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607571566619</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update raid progress">
+      <created>1607574567053</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607574567053</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="align roller" />
     <MESSAGE value="change to a better gallery" />
     <MESSAGE value="re-design homepage&#10;udpate event" />
     <MESSAGE value="update daylight map data&#10;update gallery image thumbnail" />
@@ -450,7 +450,8 @@
     <MESSAGE value="typo" />
     <MESSAGE value="update event2 and donate" />
     <MESSAGE value="update donate" />
-    <option name="LAST_COMMIT_MESSAGE" value="update donate" />
+    <MESSAGE value="update raid progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -489,10 +490,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607571572661">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607574571116">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607571572661" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607574571116" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
