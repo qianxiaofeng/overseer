@@ -44,13 +44,12 @@ const data = [
     {name:"斩冬", value:50000},
     {name:"Gladitatroll", value:45000},
     {name:"巨蘑菇", value:23333},
-    {name:"欧洲团", value:50000},
     {name:"业之子", value:50000},
     {name:"厚德、载物", value:1000000},
     {name:"今夜看海吗、", value:50000},
     {name:"安妮菲娅", value:66666},
     {name:"树色一团", value:200000},
-    {name:"欧洲一团", value:200000},
+    {name:"欧洲一团", value:250000},
 ]
 
 const DonateWordCloud = () => {
@@ -59,11 +58,14 @@ const DonateWordCloud = () => {
         wordField: 'name',
         weightField: 'value',
         colorField: 'name',
+        "theme":{"styleSheet":{"brandColor":"#025DF4","paletteQualitative10":["#025DF4","#DB6BCF","#2498D1","#BBBDE6","#4045B2","#21A97A","#FF745A","#007E99","#FFA8A8","#2391FF"],"paletteQualitative20":["#025DF4","#DB6BCF","#2498D1","#BBBDE6","#4045B2","#21A97A","#FF745A","#007E99","#FFA8A8","#2391FF","#FFC328","#A0DC2C","#946DFF","#626681","#EB4185","#CD8150","#36BCCB","#327039","#803488","#83BC99"]}},
+        // color:["#FF4500","#1AAF8B","#406C85","#F6BD16","#B40F0F","#2FB8FC","#4435FF","#FF5CA2","#BBE800","#FE8A26"],"paletteQualitative20":["#FF4500","#1AAF8B","#406C85","#F6BD16","#B40F0F","#2FB8FC","#4435FF","#FF5CA2","#BBE800","#FE8A26","#946DFF","#6C3E00","#6193FF","#FF988E","#36BCCB","#004988","#FFCF9D","#CCDC8A","#8D00A1","#1CC25E"],
+        // color:["#025DF4","#DB6BCF","#2498D1","#BBBDE6","#4045B2","#21A97A","#FF745A","#007E99","#FFA8A8","#2391FF"],"paletteQualitative20":["#025DF4","#DB6BCF","#2498D1","#BBBDE6","#4045B2","#21A97A","#FF745A","#007E99","#FFA8A8","#2391FF","#FFC328","#A0DC2C","#946DFF","#626681","#EB4185","#CD8150","#36BCCB","#327039","#803488","#83BC99"],
         wordStyle: {
             fontFamily: 'Verdana',
             fontSize: [
-                8,
-                32
+                16,
+                64
             ],
             rotation: 0
         },
@@ -71,6 +73,7 @@ const DonateWordCloud = () => {
             return Math.random();
         }
     };
+
 
     return (
 
