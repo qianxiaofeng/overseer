@@ -30,13 +30,13 @@ const useStyles = makeStyles((theme) => ({
 const eventDataList = [
     {
         id: "1",
-        title: "竞速升级",
+        title: "竞速升级 [已结束]",
         status: "close",
     },
     {
         id: "2",
-        title: "幻化大赛",
-        status: "open",
+        title: "幻化大赛 [已结束]",
+        status: "close",
     },
 ]
 

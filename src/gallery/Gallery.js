@@ -23,8 +23,8 @@ const Level120Gallery = () => {
     for (let i = 1; i <= 8; i++) {
         images.push(
             {
-                original: '/photos/lvl120/original/lvl120.'+i+'.jpg',
-                thumbnail: '/photos/lvl120/thumbnail/lvl120.'+i+'.jpg',
+                original: '/photos/group/original/group.'+i+'.jpg',
+                thumbnail: '/photos/group/thumbnail/group.'+i+'.jpg',
             }
         )
     }

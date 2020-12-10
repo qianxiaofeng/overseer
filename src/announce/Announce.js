@@ -25,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
 function Announce(props) {
     const classes = useStyles();
     let {announceId} = useParams();
-    console.log(props)
     const announceData = props.announceDataList.find((a) => a.id === announceId);
     return (
         <div className={classes.root}>
