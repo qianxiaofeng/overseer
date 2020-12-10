@@ -14,17 +14,18 @@ const useStyles = makeStyles((theme) => ({
     card: {
         backgroundColor: "#9ba4b4",
         height: "auto",
+        marginBottom:10,
     },
     screenshot: {
         margin: 5
     }
 }));
 
-const BroadcastCard = () => {
+const BroadcastCardList = () => {
     const classes = useStyles();
 
     return (
-
+        <div>
         <Card className={classes.card}>
             <CardHeader
                 // avatar={
@@ -53,6 +54,35 @@ const BroadcastCard = () => {
                 </CardActionArea>
             </a>
         </Card>
+            <Card className={classes.card}>
+                <CardHeader
+                    // avatar={
+                    //
+                    //
+                    // }
+                    title={
+                        <Chip
+                            avatar={<Avatar aria-label="recipe" className={classes.avatar} src={"images/class/class_warlock.jpg"}/>}
+                            label="Bryan叔叔"
+                            variant={"outlined"}
+                        />
+                    }
+                    // subheader="斗鱼直播 https://www.douyu.com/9358539"
+                />
+                <a href={"https://www.douyu.com/765003"} target="_blank" rel="noopener noreferrer">
+                    <CardActionArea>
+                        <CardMedia
+                            className={classes.screenshot}
+                            component="img"
+                            alt="Contemplative Reptile"
+                            height="auto"
+                            image="photos/broadcast/2.jpg"
+                            title="Contemplative Reptile"
+                        />
+                    </CardActionArea>
+                </a>
+            </Card>
+        </div>
 
     )
 }
@@ -63,7 +93,7 @@ function Broadcast() {
         <>
             <Header/>
             <h1>直播列表</h1>
-            <BroadcastCard/>
+            <BroadcastCardList/>
             <Footer/>
         </>
     )

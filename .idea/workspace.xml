@@ -25,8 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid time">
+      <change afterPath="$PROJECT_DIR$/public/photos/broadcast/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tool/Broadcast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Broadcast.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/donate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/broadcast" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
       <recent name="$PROJECT_DIR$/src/donate" />
       <recent name="$PROJECT_DIR$/src/event" />
       <recent name="$PROJECT_DIR$/src/announce" />
       <recent name="$PROJECT_DIR$/src/announcement" />
-      <recent name="$PROJECT_DIR$/src/tool" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
@@ -407,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607574567053</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update raid time">
+      <created>1607574662318</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1607574662318</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change to a better gallery" />
     <MESSAGE value="re-design homepage&#10;udpate event" />
     <MESSAGE value="update daylight map data&#10;update gallery image thumbnail" />
     <MESSAGE value="add worldmap" />
@@ -451,7 +460,8 @@
     <MESSAGE value="update event2 and donate" />
     <MESSAGE value="update donate" />
     <MESSAGE value="update raid progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
+    <MESSAGE value="update raid time" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid time" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -490,10 +500,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607574571116">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607574667483">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607574571116" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607574667483" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

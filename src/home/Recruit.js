@@ -294,7 +294,7 @@ export default function Recruit() {
                 <GridListTile cols={1}>
                     <RecruitCard name={"午夜 | 欧洲二团"}
                                  time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
-                                 content={"(开荒期间会有加班) 全职业招募强力玩家。"}
+                                 content={"(开荒期间会有加班)"}
                                  isPro={true}
                                  groupId={"捌"}
                                  leader={"清风惊游梦"}
@@ -308,7 +308,7 @@ export default function Recruit() {
                 <GridListTile cols={1}>
                     <RecruitCard name={"闲园 | 下午团"}
                                  time={"每周三天，服务器时间周四一二下午14:00-17:00。(海外玩家请自行换算时差)"}
-                                 content={"(加班期间为四天) 招募指挥，招募强力玩家，大米爱好者。"}
+                                 content={"(加班期间为四天)"}
                                  isPro={true}
                                  groupId={"肆"}
                                  leader={"神韵地煞"}
@@ -319,7 +319,7 @@ export default function Recruit() {
                 <GridListTile cols={1}>
                     <RecruitCard name={"美东 | 上午团"}
                                  time={"每周四天，服务器时间周一二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
-                                 content={"(加班期间为四天) 全职业招募。"}
+                                 content={"(加班期间为四天)"}
                                  isPro={true}
                                  groupId={"柒"}
                                  leader={"Vizone"}
