@@ -25,11 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid time">
-      <change afterPath="$PROJECT_DIR$/public/photos/broadcast/2.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update recruit&#10;update broadcast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/Broadcast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Broadcast.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +44,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="23" />
-    <option name="width" value="1274" />
-    <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1kJ6w0Pb5x2AoUGvUechKX0MsKB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -129,6 +121,7 @@
       <workItem from="1605879120717" duration="15829000" />
       <workItem from="1606799746812" duration="17146000" />
       <workItem from="1607042086351" duration="508000" />
+      <workItem from="1607596312858" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -417,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1607574662318</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update recruit&#10;update broadcast">
+      <created>1607579817760</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607579817760</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -436,7 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="re-design homepage&#10;udpate event" />
     <MESSAGE value="update daylight map data&#10;update gallery image thumbnail" />
     <MESSAGE value="add worldmap" />
     <MESSAGE value="update recruit&#10;update event" />
@@ -461,7 +460,8 @@
     <MESSAGE value="update donate" />
     <MESSAGE value="update raid progress" />
     <MESSAGE value="update raid time" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid time" />
+    <MESSAGE value="update recruit&#10;update broadcast" />
+    <option name="LAST_COMMIT_MESSAGE" value="update recruit&#10;update broadcast" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -480,30 +480,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1268" height="314" key="GridCell.Tab.0.bottom" timestamp="1607420473610">
+    <state width="1268" height="314" key="GridCell.Tab.0.bottom" timestamp="1607596372681">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473610" />
-    <state width="1268" height="314" key="GridCell.Tab.0.center" timestamp="1607420473609">
+    <state width="1268" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607596372681" />
+    <state width="1268" height="314" key="GridCell.Tab.0.center" timestamp="1607596372681">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473609" />
-    <state width="1268" height="314" key="GridCell.Tab.0.left" timestamp="1607420473609">
+    <state width="1268" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607596372681" />
+    <state width="1268" height="314" key="GridCell.Tab.0.left" timestamp="1607596372680">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473609" />
-    <state width="1268" height="314" key="GridCell.Tab.0.right" timestamp="1607420473610">
+    <state width="1268" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607596372680" />
+    <state width="1268" height="314" key="GridCell.Tab.0.right" timestamp="1607596372681">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607420473610" />
+    <state width="1268" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607596372681" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607574667483">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607579821620">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607574667483" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607579821620" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
