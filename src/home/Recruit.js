@@ -301,7 +301,7 @@ export default function Recruit() {
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
                                  timestamp={1607623200}
-                                 progress = {[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+                                 progress = {[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
