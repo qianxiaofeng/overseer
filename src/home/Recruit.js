@@ -249,7 +249,7 @@ export default function Recruit() {
                     <RecruitCard name={"树色 | 晚间二团"}
                                  time={"每周三天，服务器时间周四六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={true}
+                                 isPro={false}
                                  groupId={"伍"}
                                  leader={"叫我圆圆吧"}
                                  leaderClassImg={"images/class/class_monk.jpg"}
@@ -272,11 +272,12 @@ export default function Recruit() {
                     <RecruitCard name={"美西 | 白天二团"}
                                  time={"每周三天 服务器时间周五六日上午8:30-11：30。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={true}
+                                 isPro={false}
                                  groupId={"陆"}
                                  leader={"业之子"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
                                  timestamp={1607646600}
+                                 progress = {[1, 1, 0, 0, 1, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
@@ -295,7 +296,7 @@ export default function Recruit() {
                     <RecruitCard name={"午夜 | 欧洲二团"}
                                  time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={true}
+                                 isPro={false}
                                  groupId={"捌"}
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
@@ -309,7 +310,7 @@ export default function Recruit() {
                     <RecruitCard name={"闲园 | 下午团"}
                                  time={"每周三天，服务器时间周四一二下午14:00-17:00。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天)"}
-                                 isPro={true}
+                                 isPro={false}
                                  groupId={"肆"}
                                  leader={"神韵地煞"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
@@ -321,7 +322,7 @@ export default function Recruit() {
                     <RecruitCard name={"美东 | 上午团"}
                                  time={"每周四天，服务器时间周一二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天)"}
-                                 isPro={true}
+                                 isPro={false}
                                  groupId={"柒"}
                                  leader={"Vizone"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
