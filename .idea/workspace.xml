@@ -26,7 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +42,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="9" />
+          <entry key="js" value="14" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="9" />
+          <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -101,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/home/Recruit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="278" column="54" selection-start-line="278" selection-start-column="54" selection-end-line="278" selection-end-column="54" />
+            <state relative-caret-position="497">
+              <caret line="303" column="62" selection-start-line="303" selection-start-column="62" selection-end-line="303" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -177,6 +176,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="76" />
+    <option name="y" value="23" />
+    <option name="width" value="1274" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1kJ6w0Pb5x2AoUGvUechKX0MsKB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -798,11 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1607663264434</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update raid progress">
+      <created>1607663323591</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607663323591</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230000" />
+    <option name="totallyTimeSpent" value="643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="23" width="1274" height="1417" extended-state="0" />
@@ -961,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/home/Recruit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="278" column="54" selection-start-line="278" selection-start-column="54" selection-end-line="278" selection-end-column="54" />
+        <state relative-caret-position="497">
+          <caret line="303" column="62" selection-start-line="303" selection-start-column="62" selection-end-line="303" selection-end-column="62" />
         </state>
       </provider>
     </entry>
