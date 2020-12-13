@@ -26,6 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/donate/Donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/donate/Donate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +45,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="23" />
-    <option name="width" value="1274" />
-    <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1kJ6w0Pb5x2AoUGvUechKX0MsKB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -127,7 +123,7 @@
       <workItem from="1606799746812" duration="17146000" />
       <workItem from="1607042086351" duration="508000" />
       <workItem from="1607596312858" duration="163000" />
-      <workItem from="1607789887420" duration="273000" />
+      <workItem from="1607789887420" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -451,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607789946469</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update raid progress">
+      <created>1607831795000</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607831795000</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update raid progress">
+      <created>1607831949616</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1607831949616</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,10 +544,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607789953048">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607831953450">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607789953048" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607831953450" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

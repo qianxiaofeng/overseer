@@ -276,10 +276,10 @@ export default function Recruit() {
                                  content={"(开荒期间会有加班)"}
                                  isPro={false}
                                  groupId={"陆"}
-                                 leader={"业之子"}
+                                 leader={"以火焰的名义"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
-                                 timestamp={1607733000}
-                                 progress = {[1, 1, 0, 0, 1, 0, 0, 0, 0, 0]}
+                                 timestamp={1608251400}
+                                 progress = {[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>

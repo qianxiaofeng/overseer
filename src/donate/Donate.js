@@ -28,7 +28,6 @@ const data = [
     {name:"统一、曲马多", value:70000},
     {name:"战争督军", value:93000},
     {name:"韩公子、", value:5000},
-    {name:"神韵地煞", value:100000},
     {name:"超幸运的锦鲤", value:100000},
     {name:"叫我圆圆吧", value:100000},
     {name:"Reonana", value:150000},
