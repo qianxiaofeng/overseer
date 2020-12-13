@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/donate/Donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/donate/Donate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,8 @@
       <workItem from="1606799746812" duration="17146000" />
       <workItem from="1607042086351" duration="508000" />
       <workItem from="1607596312858" duration="163000" />
-      <workItem from="1607789887420" duration="1326000" />
+      <workItem from="1607789887420" duration="1859000" />
+      <workItem from="1607872291565" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="add home and gallery page">
       <created>1605433509086</created>
@@ -461,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607831949616</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="update raid progress">
+      <created>1607871512272</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1607871512272</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,30 +531,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1268" height="314" key="GridCell.Tab.0.bottom" timestamp="1607735493650">
+    <state width="1277" height="314" key="GridCell.Tab.0.bottom" timestamp="1607872215519">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607735493650" />
-    <state width="1268" height="314" key="GridCell.Tab.0.center" timestamp="1607735493650">
+    <state width="1277" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607872215519" />
+    <state width="1277" height="314" key="GridCell.Tab.0.center" timestamp="1607872215518">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607735493650" />
-    <state width="1268" height="314" key="GridCell.Tab.0.left" timestamp="1607735493649">
+    <state width="1277" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607872215518" />
+    <state width="1277" height="314" key="GridCell.Tab.0.left" timestamp="1607872215518">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607735493649" />
-    <state width="1268" height="314" key="GridCell.Tab.0.right" timestamp="1607735493650">
+    <state width="1277" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607872215518" />
+    <state width="1277" height="314" key="GridCell.Tab.0.right" timestamp="1607872215519">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1268" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607735493650" />
+    <state width="1277" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607872215519" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607831953450">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607871818546">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607831953450" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607871818546" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
