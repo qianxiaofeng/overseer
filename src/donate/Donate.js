@@ -63,8 +63,8 @@ const DonateWordCloud = () => {
         wordStyle: {
             fontFamily: 'Verdana',
             fontSize: [
-                16,
-                64
+                12,
+                32
             ],
             rotation: 0
         },
