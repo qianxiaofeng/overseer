@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
             zIndex: -1,
             content: '',
             display: 'block',
-            background: "rebeccapurple",
+            background: "#c4c1c0",
         },
         "& span": {
             position: 'absolute',
@@ -74,11 +74,17 @@ const useStyles = makeStyles((theme) => ({
             left: -25,
             top: 30,
             transform: "rotate(45deg)",
-            backgroundColor: "rebeccapurple",
-            color: "#fff",
+            backgroundColor: "#c4c1c0",
+            color: "#212121",
             textShadow: "0 1 1 rgba(0,0,0,.2)",
             textAlign: "center",
         },
+        "& span img": {
+            maxHeight:"100%",
+            marginTop:5,
+            width:"auto",
+            objectFit:"contain"
+        }
     },
     orange: {
         color: theme.palette.getContrastText(deepOrange[500]),
@@ -202,7 +208,7 @@ const RecruitCard = (props) => {
 
     return (
         <Card className={classes.grid}>
-            {isPro && <h3 className={classes.ribbon}><span>进度团</span></h3>}
+            {isPro && <h3 className={classes.ribbon}><span><img src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span></h3>}
             <div className={`${classes.gridHeader} `}>
                 <div className={`${classes.alignLeft}`}>
                     <Avatar className={`${classes.orange}`}>{groupId}</Avatar>
@@ -292,18 +298,19 @@ export default function Recruit() {
                                  leader={"希序弗斯"}
                                  leaderClassImg={"images/class/class_hunter.jpg"}
                                  timestamp={1607968800}
+                                 progress = {[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"午夜 | 欧洲二团"}
                                  time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={false}
+                                 isPro={true}
                                  groupId={"捌"}
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
-                                 timestamp={1607882400}
-                                 progress = {[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
+                                 timestamp={1608228000}
+                                 progress = {[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
