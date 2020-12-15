@@ -25,10 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/announce/Announces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announces.js" afterDir="false" />
-    </list>
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,14 +124,7 @@
       <workItem from="1607918199873" duration="352000" />
       <workItem from="1607927112759" duration="215000" />
       <workItem from="1607934486642" duration="595000" />
-      <workItem from="1608007593221" duration="286000" />
-    </task>
-    <task id="LOCAL-00005" summary="align roller">
-      <created>1605523215196</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605523215196</updated>
+      <workItem from="1608007593221" duration="490000" />
     </task>
     <task id="LOCAL-00006" summary="update event">
       <created>1605537654157</created>
@@ -472,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608002916253</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update announce">
+      <created>1608007909003</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1608007909003</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +503,6 @@
     <MESSAGE value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
     <MESSAGE value="update donation data" />
     <MESSAGE value="update recruit" />
-    <MESSAGE value="update announce" />
     <MESSAGE value="update event list" />
     <MESSAGE value="fix warning" />
     <MESSAGE value="typo" />
@@ -516,7 +512,8 @@
     <MESSAGE value="update recruit&#10;update broadcast" />
     <MESSAGE value="update donate font size" />
     <MESSAGE value="update raid progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
+    <MESSAGE value="update announce" />
+    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -535,22 +532,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1277" height="314" key="GridCell.Tab.0.bottom" timestamp="1608007796805">
+    <state width="1277" height="314" key="GridCell.Tab.0.bottom" timestamp="1608011212054">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1608007796805" />
-    <state width="1277" height="314" key="GridCell.Tab.0.center" timestamp="1608007796804">
+    <state width="1277" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1608011212054" />
+    <state width="1277" height="314" key="GridCell.Tab.0.center" timestamp="1608011212053">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1608007796804" />
-    <state width="1277" height="314" key="GridCell.Tab.0.left" timestamp="1608007796804">
+    <state width="1277" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1608011212053" />
+    <state width="1277" height="314" key="GridCell.Tab.0.left" timestamp="1608011212053">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1608007796804" />
-    <state width="1277" height="314" key="GridCell.Tab.0.right" timestamp="1608007796805">
+    <state width="1277" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1608011212053" />
+    <state width="1277" height="314" key="GridCell.Tab.0.right" timestamp="1608011212054">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1608007796805" />
+    <state width="1277" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1608011212054" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -559,10 +556,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1608002921788">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1608007912029">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1608002921788" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1608007912029" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
