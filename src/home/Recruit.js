@@ -323,8 +323,8 @@ export default function Recruit() {
                                  groupId={"肆"}
                                  leader={"神韵地煞"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
-                                 progress = {[1, 1, 1, 1, 1, 1, 1, 1, 1, 0]}
-                                 timestamp={1608012000}
+                                 progress = {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+                                 timestamp={1608184800}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
