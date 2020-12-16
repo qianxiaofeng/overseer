@@ -2,14 +2,9 @@ import React,{useEffect, useState} from "react";
 import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
-import Container from '@material-ui/core/Container';
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import {Link} from "react-router-dom";
 import { WordCloud } from '@ant-design/charts';
 import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
-import animType from 'rc-texty/lib/animTypes';
 import QueueAnim from "rc-queue-anim";
 
 

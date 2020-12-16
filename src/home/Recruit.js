@@ -241,8 +241,7 @@ const RecruitCard = (props) => {
 const RecruitCardStopped = (props) => {
     const classes = useStyles();
     const {name, time, content, groupId = "",
-        timestamp = 0, leader = "", leaderClassImg = "images/class/class_mage.jpg",
-        isPro = false, progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]} = props;
+        isPro = false, } = props;
 
     return (
         <Card className={classes.grid}>

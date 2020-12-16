@@ -26,34 +26,34 @@ const BroadcastCardList = () => {
 
     return (
         <div>
-        <Card className={classes.card}>
-            <CardHeader
-                // avatar={
-                //
-                //
-                // }
-                title={
-                    <Chip
-                        avatar={<Avatar aria-label="recipe" className={classes.avatar} src={"images/class/class_mage.jpg"}/>}
-                        label="神韵地煞"
-                        variant={"outlined"}
-                    />
-                }
-                // subheader="斗鱼直播 https://www.douyu.com/9358539"
-            />
-            <a href={"https://www.douyu.com/9358539"} target="_blank" rel="noopener noreferrer">
-                <CardActionArea>
-                    <CardMedia
-                        className={classes.screenshot}
-                        component="img"
-                        alt="Contemplative Reptile"
-                        height="auto"
-                        image="photos/broadcast/1.jpg"
-                        title="Contemplative Reptile"
-                    />
-                </CardActionArea>
-            </a>
-        </Card>
+        {/*<Card className={classes.card}>*/}
+        {/*    <CardHeader*/}
+        {/*        // avatar={*/}
+        {/*        //*/}
+        {/*        //*/}
+        {/*        // }*/}
+        {/*        title={*/}
+        {/*            <Chip*/}
+        {/*                avatar={<Avatar aria-label="recipe" className={classes.avatar} src={"images/class/class_mage.jpg"}/>}*/}
+        {/*                label="神韵地煞"*/}
+        {/*                variant={"outlined"}*/}
+        {/*            />*/}
+        {/*        }*/}
+        {/*        // subheader="斗鱼直播 https://www.douyu.com/9358539"*/}
+        {/*    />*/}
+        {/*    <a href={"https://www.douyu.com/9358539"} target="_blank" rel="noopener noreferrer">*/}
+        {/*        <CardActionArea>*/}
+        {/*            <CardMedia*/}
+        {/*                className={classes.screenshot}*/}
+        {/*                component="img"*/}
+        {/*                alt="Contemplative Reptile"*/}
+        {/*                height="auto"*/}
+        {/*                image="photos/broadcast/1.jpg"*/}
+        {/*                title="Contemplative Reptile"*/}
+        {/*            />*/}
+        {/*        </CardActionArea>*/}
+        {/*    </a>*/}
+        {/*</Card>*/}
             <Card className={classes.card}>
                 <CardHeader
                     // avatar={
