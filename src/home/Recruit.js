@@ -52,6 +52,10 @@ const useStyles = makeStyles((theme) => ({
     clear: {
         clear: "both",
     },
+    strikeTrough:{
+        textDecoration:"line-through",
+        opacity:0.4,
+    },
     ribbon: {
         top: -30,
         right: -30,
@@ -234,6 +238,41 @@ const RecruitCard = (props) => {
     )
 }
 
+const RecruitCardStopped = (props) => {
+    const classes = useStyles();
+    const {name, time, content, groupId = "",
+        timestamp = 0, leader = "", leaderClassImg = "images/class/class_mage.jpg",
+        isPro = false, progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]} = props;
+
+    return (
+        <Card className={classes.grid}>
+            {isPro && <h3 className={classes.ribbon}><span><img src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span></h3>}
+            <div className={`${classes.gridHeader} `}>
+                <div className={`${classes.alignLeft}`}>
+                    <Avatar className={`${classes.orange} ${classes.strikeTrough}` }>{groupId}</Avatar>
+                    <Typography variant={"h4"}>暂停中</Typography>
+                    {/*<Chip*/}
+                    {/*    avatar={<Avatar src={leaderClassImg}/>}*/}
+                    {/*    label={leader}*/}
+                    {/*    variant={"outlined"}*/}
+                    {/*/>*/}
+                    {/*{timestamp > Date.now() / 1000 && <CountDown timestamp={timestamp}/>}*/}
+                </div>
+                <div className={classes.alignRight}>
+
+                </div>
+                <div className={classes.clear}/>
+            </div>
+            <CardContent>
+                <Typography variant={"h4"} className={classes.strikeTrough}>{name}</Typography>
+                <Typography variant={"h5"} className={classes.strikeTrough}>{time}</Typography>
+                <Typography variant={"h6"} className={classes.strikeTrough}>{content}</Typography>
+                {/*<RaidProgressBar progress={progress}/>*/}
+            </CardContent>
+        </Card>
+    )
+}
+
 
 export default function Recruit() {
     const classes = useStyles();
@@ -316,7 +355,7 @@ export default function Recruit() {
             </GridList>
             <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
-                    <RecruitCard name={"闲园 | 下午团"}
+                    <RecruitCardStopped name={"闲园 | 下午团"}
                                  time={"每周三天，服务器时间周四一二下午14:00-17:00。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天)"}
                                  isPro={false}
