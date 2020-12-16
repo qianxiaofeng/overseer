@@ -49,6 +49,7 @@ const data = [
     {name:"安妮菲娅", value:66666},
     {name:"树色一团", value:200000},
     {name:"欧洲一团", value:250000},
+    {name:"Susuu", value:66666},
 ]
 
 const DonateWordCloud = () => {
