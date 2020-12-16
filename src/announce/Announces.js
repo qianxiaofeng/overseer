@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 const announceDataList = [
     {
         id: "1123",
-        title: "2020.11.23 致9.0前夕 [公会的总体规章制度]",
+        title: "2020.11.23 致9.0前夕 [公会的总体规章制度] [2020.12.16日更新]",
         content: `
 ## 首先：欢迎来到我们“细水长流一世安”这个大家庭！
 
