@@ -52,9 +52,9 @@ const useStyles = makeStyles((theme) => ({
     clear: {
         clear: "both",
     },
-    strikeTrough:{
-        textDecoration:"line-through",
-        opacity:0.4,
+    strikeTrough: {
+        textDecoration: "line-through",
+        opacity: 0.4,
     },
     ribbon: {
         top: -30,
@@ -78,17 +78,22 @@ const useStyles = makeStyles((theme) => ({
             left: -25,
             top: 30,
             transform: "rotate(45deg)",
-            backgroundColor: "#c4c1c0",
             color: "#212121",
             textShadow: "0 1 1 rgba(0,0,0,.2)",
             textAlign: "center",
         },
         "& span img": {
-            maxHeight:"100%",
-            marginTop:5,
-            width:"auto",
-            objectFit:"contain"
+            maxHeight: "100%",
+            marginTop: 5,
+            width: "auto",
+            objectFit: "contain"
         }
+    },
+    bgSilver: {
+        backgroundColor: "#c4c1c0",
+    },
+    bgGold:{
+        backgroundColor: "#e3b430",
     },
     orange: {
         color: theme.palette.getContrastText(deepOrange[500]),
@@ -111,7 +116,7 @@ const useStyles = makeStyles((theme) => ({
         background: "orange",
         position: "absolute",
         marginTop: 22,
-        marginLeft:"12.5%",
+        marginLeft: "12.5%",
         zIndex: -1,
     }
 }));
@@ -178,8 +183,8 @@ export const CountDown = ({timestamp}) => {
 
 const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
     const classes = useStyles();
-    const bosses = ["啸翼","猎手阿尔迪莫","太阳之王的救赎","圣物匠赛*墨克斯",
-        "饥饿的毁灭者","伊涅瓦*暗脉女勋爵","猩红议会","泥拳","顽石军团干将","德纳修斯大帝"]
+    const bosses = ["啸翼", "猎手阿尔迪莫", "太阳之王的救赎", "圣物匠赛*墨克斯",
+        "饥饿的毁灭者", "伊涅瓦*暗脉女勋爵", "猩红议会", "泥拳", "顽石军团干将", "德纳修斯大帝"]
 
     return (
         <div>
@@ -188,16 +193,17 @@ const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
                 <Grid item xs={1} key={1} className={classes.progressBarGrid}/>
                 {progress.map((v, i) => {
                     let tooltip = bosses[i] + " | ";
-                    tooltip += v===0?"未击杀" : "已击杀";
-                    let imgFileName = `images/raid/nathria/${i+1}`;
-                    imgFileName += v===0?".png":"x.png";
+                    tooltip += v === 0 ? "未击杀" : "已击杀";
+                    let imgFileName = `images/raid/nathria/${i + 1}`;
+                    imgFileName += v === 0 ? ".png" : "x.png";
                     return (
-                    <Grid item xs={1} key={i+1} className={classes.progressBarGrid}>
-                        <Tooltip title={tooltip} arrow placement="top">
-                        <img className={classes.progressBarImg} src={imgFileName} alt={""}/>
-                        </Tooltip>
-                    </Grid>
-                    )})}
+                        <Grid item xs={1} key={i + 1} className={classes.progressBarGrid}>
+                            <Tooltip title={tooltip} arrow placement="top">
+                                <img className={classes.progressBarImg} src={imgFileName} alt={""}/>
+                            </Tooltip>
+                        </Grid>
+                    )
+                })}
                 <Grid item xs={1} key={12} className={classes.progressBarGrid}/>
             </Grid>
         </div>
@@ -206,13 +212,20 @@ const RaidProgressBar = ({progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}) => {
 
 const RecruitCard = (props) => {
     const classes = useStyles();
-    const {name, time, content, groupId = "",
+    const {
+        name, time, content, groupId = "",
         timestamp = 0, leader = "", leaderClassImg = "images/class/class_mage.jpg",
-        isPro = false, progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]} = props;
+        isHeroic = false, isMythic = false, progress = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } = props;
 
     return (
         <Card className={classes.grid}>
-            {isPro && <h3 className={classes.ribbon}><span><img src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span></h3>}
+            {isHeroic &&
+            <h3 className={classes.ribbon}><span className={classes.bgSilver}><img src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span>
+            </h3>}
+            {isMythic &&
+            <h3 className={classes.ribbon}><span className={classes.bgGold}><img src={"/images/raid/Icon-mythic-22x22.png"} alt={"mystic"}/></span>
+            </h3>}
             <div className={`${classes.gridHeader} `}>
                 <div className={`${classes.alignLeft}`}>
                     <Avatar className={`${classes.orange}`}>{groupId}</Avatar>
@@ -238,41 +251,6 @@ const RecruitCard = (props) => {
     )
 }
 
-const RecruitCardStopped = (props) => {
-    const classes = useStyles();
-    const {name, time, content, groupId = "",
-        isPro = false, } = props;
-
-    return (
-        <Card className={classes.grid}>
-            {isPro && <h3 className={classes.ribbon}><span><img src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span></h3>}
-            <div className={`${classes.gridHeader} `}>
-                <div className={`${classes.alignLeft}`}>
-                    <Avatar className={`${classes.orange} ${classes.strikeTrough}` }>{groupId}</Avatar>
-                    <Typography variant={"h4"}>暂停中</Typography>
-                    {/*<Chip*/}
-                    {/*    avatar={<Avatar src={leaderClassImg}/>}*/}
-                    {/*    label={leader}*/}
-                    {/*    variant={"outlined"}*/}
-                    {/*/>*/}
-                    {/*{timestamp > Date.now() / 1000 && <CountDown timestamp={timestamp}/>}*/}
-                </div>
-                <div className={classes.alignRight}>
-
-                </div>
-                <div className={classes.clear}/>
-            </div>
-            <CardContent>
-                <Typography variant={"h4"} className={classes.strikeTrough}>{name}</Typography>
-                <Typography variant={"h5"} className={classes.strikeTrough}>{time}</Typography>
-                <Typography variant={"h6"} className={classes.strikeTrough}>{content}</Typography>
-                {/*<RaidProgressBar progress={progress}/>*/}
-            </CardContent>
-        </Card>
-    )
-}
-
-
 export default function Recruit() {
     const classes = useStyles();
 
@@ -287,14 +265,13 @@ export default function Recruit() {
                                  leader={"月光茉莉哑"}
                                  leaderClassImg={"images/class/class_warlock.jpg"}
                                  timestamp={1608382800}
-                                 progress = {[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
+                                 progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"树色 | 晚间二团"}
                                  time={"每周三天，服务器时间周四六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={false}
                                  groupId={"伍"}
                                  leader={"叫我圆圆吧"}
                                  leaderClassImg={"images/class/class_monk.jpg"}
@@ -311,19 +288,18 @@ export default function Recruit() {
                                  leader={"苍云之吻"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
                                  timestamp={1608339600}
-                                 progress = {[1, 1, 0, 0, 1, 1, 0, 0, 0, 0]}
+                                 progress={[1, 1, 0, 0, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"美西 | 白天二团"}
                                  time={"每周三天 服务器时间周五六日上午8:30-11：30。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={false}
                                  groupId={"陆"}
                                  leader={"以火焰的名义"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
                                  timestamp={1608251400}
-                                 progress = {[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
+                                 progress={[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
@@ -336,44 +312,43 @@ export default function Recruit() {
                                  leader={"希序弗斯"}
                                  leaderClassImg={"images/class/class_hunter.jpg"}
                                  timestamp={1608573600}
-                                 progress = {[1, 1, 1, 1, 1, 1, 1, 0, 0, 0]}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"午夜 | 欧洲二团"}
                                  time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 isPro={true}
                                  groupId={"捌"}
+                                 isHeroic
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
                                  timestamp={1608228000}
-                                 progress = {[1, 1, 1, 0, 0, 0, 0, 0, 0, 0]}
+                                 progress={[1, 1, 1, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
             <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
-                    <RecruitCardStopped name={"闲园 | 下午团"}
-                                 time={"每周三天，服务器时间周四一二下午14:00-17:00。(海外玩家请自行换算时差)"}
-                                 content={"(加班期间为四天)"}
-                                 isPro={false}
-                                 groupId={"肆"}
-                                 leader={"神韵地煞"}
-                                 leaderClassImg={"images/class/class_mage.jpg"}
-                                 progress = {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
-                                 timestamp={1608184800}
-                    />
-                </GridListTile>
-                <GridListTile cols={1}>
-                    <RecruitCard name={"美东 | 上午团"}
+                    <RecruitCard name={"美东 | 上午一团"}
                                  time={"每周四天，服务器时间周一二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天)"}
-                                 isPro={false}
                                  groupId={"柒"}
                                  leader={"Vizone"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 progress = {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+                                 timestamp={1608166800}
+                    />
+                </GridListTile>
+                <GridListTile cols={1}>
+                    <RecruitCard name={"美东 | 上午二团"}
+                                 time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
+                                 content={"(开荒期间会有加班)"}
+                                 groupId={"肆"}
+                                 isMythic
+                                 leader={"景行行芷"}
+                                 leaderClassImg={"images/class/class_deathknight.jpg"}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                                  timestamp={1608166800}
                     />
                 </GridListTile>
