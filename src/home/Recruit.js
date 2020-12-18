@@ -259,7 +259,7 @@ export default function Recruit() {
             <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
                     <RecruitCard name={"树色 | 晚间一团"}
-                                 time={"每周两天，服务器时间周六日晚上21:00-23:00。(海外玩家请自行换算时差)"}
+                                 time={"每周两天，服务器时间周六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"壹"}
                                  leader={"月光茉莉哑"}
@@ -270,11 +270,11 @@ export default function Recruit() {
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"树色 | 晚间二团"}
-                                 time={"每周三天，服务器时间周四六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
+                                 time={"每周两天，服务器时间周六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"伍"}
-                                 leader={"叫我圆圆吧"}
-                                 leaderClassImg={"images/class/class_monk.jpg"}
+                                 leader={"英俊的跳跳"}
+                                 leaderClassImg={"images/class/class_warrior.jpg"}
                                  timestamp={1607601600}
                     />
                 </GridListTile>
