@@ -300,7 +300,7 @@ export default function Recruit() {
                                  leader={"以火焰的名义"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
                                  timestamp={1608251400}
-                                 progress={[1, 1, 0, 1, 1, 1, 0, 0, 0, 0]}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
