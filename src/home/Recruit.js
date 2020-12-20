@@ -272,10 +272,11 @@ export default function Recruit() {
                                  time={"每周两天，服务器时间周六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"壹"}
+                                 isHeroic
                                  leader={"月光茉莉哑"}
                                  leaderClassImg={"images/class/class_warlock.jpg"}
-                                 timestamp={1608382800}
-                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 0]}
+                                 timestamp={1608984000}
+                                 progress={[1, 1, 0, 0, 1, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
