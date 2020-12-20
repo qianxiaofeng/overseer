@@ -251,6 +251,16 @@ const RecruitCard = (props) => {
     )
 }
 
+const RecruitCardDisabled = () => {
+    const classes = useStyles();
+
+    return (
+        <Card className={classes.grid}>
+
+        </Card>
+    )
+}
+
 export default function Recruit() {
     const classes = useStyles();
 
@@ -342,7 +352,7 @@ export default function Recruit() {
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
-                    <RecruitCard name={"美东 | 上午二团"}
+                    <RecruitCardDisabled name={"美东 | 上午二团"}
                                  time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"肆"}
