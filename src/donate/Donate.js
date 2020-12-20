@@ -46,6 +46,8 @@ const data = [
     {name:"欧洲一团", value:250000},
     {name:"Susuu", value:66666},
     {name:"英俊的跳跳", value:20000},
+    {name:"树色二团", value:28500},
+    {name:"灰灰天", value:560000},
 ]
 
 const DonateWordCloud = () => {
