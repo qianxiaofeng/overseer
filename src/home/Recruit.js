@@ -288,8 +288,8 @@ export default function Recruit() {
                                  groupId={"贰"}
                                  leader={"苍云之吻"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 timestamp={1608339600}
-                                 progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
+                                 timestamp={1608942600}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
