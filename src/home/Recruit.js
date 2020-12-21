@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     bgSilver: {
         backgroundColor: "#c4c1c0",
     },
-    bgGold:{
+    bgGold: {
         backgroundColor: "#e3b430",
     },
     orange: {
@@ -221,10 +221,12 @@ const RecruitCard = (props) => {
     return (
         <Card className={classes.grid}>
             {isHeroic &&
-            <h3 className={classes.ribbon}><span className={classes.bgSilver}><img src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span>
+            <h3 className={classes.ribbon}><span className={classes.bgSilver}><img
+                src={"/images/raid/Icon-heroic-22x22.png"} alt={"heroic"}/></span>
             </h3>}
             {isMythic &&
-            <h3 className={classes.ribbon}><span className={classes.bgGold}><img src={"/images/raid/Icon-mythic-22x22.png"} alt={"mystic"}/></span>
+            <h3 className={classes.ribbon}><span className={classes.bgGold}><img
+                src={"/images/raid/Icon-mythic-22x22.png"} alt={"mystic"}/></span>
             </h3>}
             <div className={`${classes.gridHeader} `}>
                 <div className={`${classes.alignLeft}`}>
@@ -256,7 +258,10 @@ const RecruitCardDisabled = () => {
 
     return (
         <Card className={classes.grid}>
-
+            <h1>禁止金团及工作室的公告</h1>
+            <h3>公会不支持线下活动。严禁跟金币、现金等有关的一切活动，诸如此类不一一列举。</h3>
+            <h3>一旦发现在公会内部搞工作室接单直接踢除❗️凡组织团队搞金团、工作室等此类活动，全团解散❗️欢迎大家监督帮忙剔除毒瘤。凡发现违返公会规章的个人、管理、团队，可匿名反应。</h3>
+            <h3>举报邮箱 2743530249@qq.com</h3>
         </Card>
     )
 }
@@ -346,22 +351,23 @@ export default function Recruit() {
                                  time={"每周四天，服务器时间周一二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天)"}
                                  groupId={"柒"}
+                                 isHeroic
                                  leader={"Vizone"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
-                                 timestamp={1608166800}
+                                 progress={[1, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
+                                 timestamp={1609117200}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCardDisabled name={"美东 | 上午二团"}
-                                 time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
-                                 content={"(开荒期间会有加班)"}
-                                 groupId={"肆"}
-                                 isMythic
-                                 leader={"景行行芷"}
-                                 leaderClassImg={"images/class/class_deathknight.jpg"}
-                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
-                                 timestamp={1608166800}
+                                         time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
+                                         content={"(开荒期间会有加班)"}
+                                         groupId={"肆"}
+                                         isMythic
+                                         leader={"景行行芷"}
+                                         leaderClassImg={"images/class/class_deathknight.jpg"}
+                                         progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+                                         timestamp={1608166800}
                     />
                 </GridListTile>
             </GridList>

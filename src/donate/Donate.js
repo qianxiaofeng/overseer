@@ -42,11 +42,10 @@ const data = [
     {name:"厚德、载物", value:1000000},
     {name:"今夜看海吗、", value:50000},
     {name:"安妮菲娅", value:66666},
-    {name:"树色一团", value:200000},
+    {name:"树色一团", value:228500},
     {name:"欧洲一团", value:250000},
     {name:"Susuu", value:66666},
     {name:"英俊的跳跳", value:20000},
-    {name:"树色二团", value:28500},
     {name:"灰灰天", value:560000},
 ]
 
