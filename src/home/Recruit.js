@@ -315,7 +315,7 @@ export default function Recruit() {
                                  groupId={"陆"}
                                  leader={"以火焰的名义"}
                                  leaderClassImg={"images/class/class_mage.jpg"}
-                                 timestamp={1608251400}
+                                 timestamp={1608856200}
                                  progress={[1, 1, 1, 1, 1, 1, 1, 1, 0, 0]}
                     />
                 </GridListTile>
@@ -328,7 +328,7 @@ export default function Recruit() {
                                  groupId={"叁"}
                                  leader={"希序弗斯"}
                                  leaderClassImg={"images/class/class_hunter.jpg"}
-                                 timestamp={1608573600}
+                                 timestamp={1609178400}
                                  progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                     />
                 </GridListTile>
@@ -340,7 +340,7 @@ export default function Recruit() {
                                  isHeroic
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
-                                 timestamp={1608228000}
+                                 timestamp={1608832800}
                                  progress={[1, 1, 1, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
