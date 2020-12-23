@@ -354,8 +354,8 @@ export default function Recruit() {
                                  isHeroic
                                  leader={"Vizone"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 progress={[1, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
-                                 timestamp={1609117200}
+                                 progress={[1, 1, 0, 1, 1, 0, 0, 0, 0, 0]}
+                                 timestamp={1608771600}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
