@@ -286,7 +286,7 @@ export default function Recruit() {
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"树色 | 晚间二团"}
-                                 time={"每周两天，服务器时间周六日晚上20:00-23:00。(海外玩家请自行换算时差)"}
+                                 time={"每周两天，服务器时间周四五晚上20:00-23:00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"伍"}
                                  leader={"英俊的跳跳"}
