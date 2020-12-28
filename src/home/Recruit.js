@@ -306,8 +306,8 @@ export default function Recruit() {
                                  isHeroic
                                  leader={"苍云之吻"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 timestamp={1608942600}
-                                 progress={[1, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
+                                 timestamp={1609547400}
+                                 progress={[1, 1, 1, 0, 1, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
@@ -356,7 +356,7 @@ export default function Recruit() {
                                  isHeroic
                                  leader={"Vizone"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 progress={[1, 1, 0, 1, 1, 0, 0, 0, 0, 0]}
+                                 progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
                                  timestamp={1608771600}
                     />
                 </GridListTile>
