@@ -341,11 +341,11 @@ export default function Recruit() {
                                  time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"捌"}
-                                 isHeroic
+                                 isMythic
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
                                  timestamp={1608832800}
-                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 0]}
+                                 progress={[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
