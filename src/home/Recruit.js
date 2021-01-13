@@ -285,15 +285,15 @@ export default function Recruit() {
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
-                    <RecruitCard name={"树色 | 晚间二团"}
-                                 time={"每周两天，服务器时间周四五晚上20:00-23:00。(海外玩家请自行换算时差)"}
-                                 content={"(开荒期间会有加班)"}
-                                 groupId={"伍"}
-                                 isHeroic
-                                 leader={"英俊的跳跳"}
-                                 leaderClassImg={"images/class/class_warrior.jpg"}
-                                 progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
-                                 timestamp={1608984000}
+                    <RecruitCardDisabled name={"美东 | 上午二团"}
+                                         time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
+                                         content={"(开荒期间会有加班)"}
+                                         groupId={"肆"}
+                                         isMythic
+                                         leader={"景行行芷"}
+                                         leaderClassImg={"images/class/class_deathknight.jpg"}
+                                         progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+                                         timestamp={1608166800}
                     />
                 </GridListTile>
             </GridList>
@@ -345,33 +345,7 @@ export default function Recruit() {
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
                                  timestamp={1608832800}
-                                 progress={[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
-                    />
-                </GridListTile>
-            </GridList>
-            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
-                <GridListTile cols={1}>
-                    <RecruitCardDisabled name={"美东 | 上午二团"}
-                                         time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
-                                         content={"(开荒期间会有加班)"}
-                                         groupId={"肆"}
-                                         isMythic
-                                         leader={"景行行芷"}
-                                         leaderClassImg={"images/class/class_deathknight.jpg"}
-                                         progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
-                                         timestamp={1608166800}
-                    />
-                </GridListTile>
-                <GridListTile cols={1}>
-                    <RecruitCardDisabled name={"美东 | 上午二团"}
-                                         time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
-                                         content={"(开荒期间会有加班)"}
-                                         groupId={"肆"}
-                                         isMythic
-                                         leader={"景行行芷"}
-                                         leaderClassImg={"images/class/class_deathknight.jpg"}
-                                         progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
-                                         timestamp={1608166800}
+                                 progress={[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
