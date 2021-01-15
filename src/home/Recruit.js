@@ -312,7 +312,7 @@ export default function Recruit() {
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"美东 | 上午一团"}
-                                 time={"每周四天，服务器时间周一二三四上午9:00-11:30。(海外玩家请自行换算时差)"}
+                                 time={"每周四天，服务器时间周四五一二上午9:00-11:30。(海外玩家请自行换算时差)"}
                                  content={"(加班期间为四天)"}
                                  groupId={"柒"}
                                  isHeroic
