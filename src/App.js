@@ -5,7 +5,6 @@ import Gallery from "./gallery/Gallery"
 import Events from "./event/Events"
 import Event1 from "./event/Event1"
 import Event2 from "./event/Event2"
-import Roller from "./tool/Roller"
 import Broadcast from "./tool/Broadcast"
 import {Announces, announceDataList} from "./announce/Announces"
 import Announce from "./announce/Announce"
@@ -35,9 +34,6 @@ function App() {
                                </>
                            )}
                     />
-                    <Route path="/roller">
-                        <Roller/>
-                    </Route>
                     <Route path="/broadcast">
                         <Broadcast/>
                     </Route>
