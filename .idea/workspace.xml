@@ -25,169 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="remove one raid group">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/Roller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/node_modules/" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1698802873">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="ESLintLanguageService" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="8" />
-          <entry key="json" value="5" />
-          <entry key="txt" value="47" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="8" />
-          <entry key="PLAIN_TEXT" value="47" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="2" />
-          <entry key="json" value="1" />
-          <entry key="lock" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
-          <entry key="yarn.lock" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/home/Recruit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="285" column="31" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/announce/Announces.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="325" column="21" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/home/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/donate/Donate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tool/Broadcast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="6" selection-start-line="13" selection-start-column="3" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/announce/Announce.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,111 +40,14 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>babel-jest</find>
-      <find>isM</find>
-      <find>1</find>
-      <find>next</find>
-      <find>create</find>
-      <find>babel</find>
-      <find>react</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>0</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/donate/Donate.js" />
-        <option value="$PROJECT_DIR$/src/home/Recruit.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="23" />
-    <option name="width" value="1274" />
-    <option name="height" value="1417" />
   </component>
   <component name="ProjectId" id="1kJ6w0Pb5x2AoUGvUechKX0MsKB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="announce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="overseer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="overseer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -309,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/broadcast" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -332,145 +79,15 @@
       <recent name="$PROJECT_DIR$/src/announcement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/raid" />
       <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
       <recent name="$PROJECT_DIR$/public/photos/broadcast" />
       <recent name="$PROJECT_DIR$/src/tool" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/announce/Announces.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/donate/Donate.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/home/Home.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/home/Recruit.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/home/WorldMap.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/tool/Broadcast.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/raid/Icon-heroic-22x22.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/public/images/raid/Icon-mythic-22x22.png</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -509,321 +126,20 @@
       <workItem from="1607918199873" duration="352000" />
       <workItem from="1607927112759" duration="215000" />
       <workItem from="1607934486642" duration="595000" />
-    </task>
-    <task id="LOCAL-00005" summary="align roller">
-      <created>1605523215196</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605523215196</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update event">
-      <created>1605537654157</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605537654157</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update event">
-      <created>1605538406579</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1605538406579</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update event">
-      <created>1605580323501</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1605580323501</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update event">
-      <created>1605613408297</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1605613408297</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update event">
-      <created>1605670876556</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1605670876556</updated>
-    </task>
-    <task id="LOCAL-00011" summary="change to a better gallery">
-      <created>1605711692591</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1605711692591</updated>
-    </task>
-    <task id="LOCAL-00012" summary="re-design homepage&#10;udpate event">
-      <created>1605892138884</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1605892138884</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update daylight map data&#10;update gallery image thumbnail">
-      <created>1605936382504</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1605936382504</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add worldmap">
-      <created>1606054583838</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1606054583838</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update recruit&#10;update event">
-      <created>1606055311683</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1606055311683</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update recruit content">
-      <created>1606062833300</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1606062833300</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add announcement">
-      <created>1606145148272</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1606145148272</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update announcement">
-      <created>1606184487897</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1606184487897</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update event">
-      <created>1606184993206</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1606184993206</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update event">
-      <created>1606193436166</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1606193436166</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update event 2">
-      <created>1606287455824</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1606287455824</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update event">
-      <created>1606290388807</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1606290388807</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update event &#10;update announce">
-      <created>1606378866226</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1606378866226</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update event">
-      <created>1606379264549</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1606379264549</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update recruit">
-      <created>1606528661164</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1606528661164</updated>
-    </task>
-    <task id="LOCAL-00026" summary="update recruit &#10;update event">
-      <created>1606753925562</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1606753925562</updated>
-    </task>
-    <task id="LOCAL-00027" summary="update recruit &#10;add broadcast">
-      <created>1606818604260</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1606818604260</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add raid progress bar">
-      <created>1606835579609</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1606835579609</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add progress demo">
-      <created>1606839659484</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1606839659484</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update recruit data&#10;fix world map show two points bug&#10;fix some react warning">
-      <created>1606884786290</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1606884786290</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update donation data">
-      <created>1606885050112</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1606885050112</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update recruit">
-      <created>1607042257074</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1607042257074</updated>
-    </task>
-    <task id="LOCAL-00033" summary="update announce">
-      <created>1607323842375</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1607323842375</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update announce">
-      <created>1607324095249</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1607324095249</updated>
-    </task>
-    <task id="LOCAL-00035" summary="update event list">
-      <created>1607351989466</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1607351989466</updated>
-    </task>
-    <task id="LOCAL-00036" summary="fix warning">
-      <created>1607352071611</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1607352071611</updated>
-    </task>
-    <task id="LOCAL-00037" summary="typo">
-      <created>1607427179702</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1607427179702</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update event2 and donate">
-      <created>1607568248833</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1607568248833</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update donate">
-      <created>1607571566619</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1607571566619</updated>
-    </task>
-    <task id="LOCAL-00040" summary="update raid progress">
-      <created>1607574567053</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1607574567053</updated>
-    </task>
-    <task id="LOCAL-00041" summary="update raid time">
-      <created>1607574662318</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1607574662318</updated>
-    </task>
-    <task id="LOCAL-00042" summary="update recruit&#10;update broadcast">
-      <created>1607579817760</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1607579817760</updated>
-    </task>
-    <task id="LOCAL-00043" summary="update raid progress">
-      <created>1607663264434</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1607663264434</updated>
-    </task>
-    <task id="LOCAL-00044" summary="update raid progress">
-      <created>1607663323591</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1607663323591</updated>
-    </task>
-    <task id="LOCAL-00045" summary="update raid progress">
-      <created>1607701758098</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1607701758098</updated>
-    </task>
-    <task id="LOCAL-00046" summary="update raid progress">
-      <created>1607789946469</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1607789946469</updated>
-    </task>
-    <task id="LOCAL-00047" summary="update raid progress">
-      <created>1607831795000</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1607831795000</updated>
-    </task>
-    <task id="LOCAL-00048" summary="update raid progress">
-      <created>1607831949616</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1607831949616</updated>
-    </task>
-    <task id="LOCAL-00049" summary="update raid progress">
-      <created>1607871512272</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1607871512272</updated>
+      <workItem from="1608007593221" duration="490000" />
+      <workItem from="1608011603613" duration="1025000" />
+      <workItem from="1608024459766" duration="560000" />
+      <workItem from="1608074960887" duration="649000" />
+      <workItem from="1608086030875" duration="7224000" />
+      <workItem from="1608305104403" duration="5146000" />
+      <workItem from="1608647696513" duration="2095000" />
+      <workItem from="1608957206112" duration="2658000" />
+      <workItem from="1609497497391" duration="580000" />
+      <workItem from="1609641519428" duration="392000" />
+      <workItem from="1609750519850" duration="348000" />
+      <workItem from="1609934567622" duration="1738000" />
+      <workItem from="1610521796391" duration="329000" />
+      <workItem from="1610549776389" duration="974000" />
     </task>
     <task id="LOCAL-00050" summary="update raid progress">
       <created>1607872386366</created>
@@ -847,71 +163,346 @@
       <updated>1607927232470</updated>
     </task>
     <task id="LOCAL-00053" summary="update raid progress">
-      <created>1611060840711</created>
+      <created>1608002916253</created>
       <option name="number" value="00053" />
       <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1611060840711</updated>
+      <updated>1608002916253</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update announce">
+      <created>1608007909003</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1608007909003</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update raid progress">
+      <created>1608011674274</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1608011674274</updated>
+    </task>
+    <task id="LOCAL-00056" summary="update raid progress">
+      <created>1608024054108</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1608024054108</updated>
+    </task>
+    <task id="LOCAL-00057" summary="update raid progress">
+      <created>1608075060952</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1608075060952</updated>
+    </task>
+    <task id="LOCAL-00058" summary="update donate">
+      <created>1608082587531</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1608082587531</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update raid group">
+      <created>1608087620468</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1608087620468</updated>
+    </task>
+    <task id="LOCAL-00060" summary="update Broadcast">
+      <created>1608089212465</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1608089212465</updated>
+    </task>
+    <task id="LOCAL-00061" summary="update announce">
+      <created>1608098352102</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1608098352102</updated>
+    </task>
+    <task id="LOCAL-00062" summary="update raid progress">
+      <created>1608098790594</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1608098790594</updated>
+    </task>
+    <task id="LOCAL-00063" summary="update announce">
+      <created>1608108289215</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108289215</updated>
+    </task>
+    <task id="LOCAL-00064" summary="update announce">
+      <created>1608108740986</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108740986</updated>
+    </task>
+    <task id="LOCAL-00065" summary="update announce&#10;update raid progress&#10;update map locations">
+      <created>1608177716003</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1608177716003</updated>
+    </task>
+    <task id="LOCAL-00066" summary="update recruit">
+      <created>1608191143382</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1608191143382</updated>
+    </task>
+    <task id="LOCAL-00067" summary="update recruit">
+      <created>1608305373135</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1608305373136</updated>
+    </task>
+    <task id="LOCAL-00068" summary="update raid progress">
+      <created>1608359526532</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1608359526532</updated>
+    </task>
+    <task id="LOCAL-00069" summary="update raid progress">
+      <created>1608395644150</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1608395644150</updated>
+    </task>
+    <task id="LOCAL-00070" summary="update raid progress">
+      <created>1608395891620</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1608395891620</updated>
+    </task>
+    <task id="LOCAL-00071" summary="update raid progress">
+      <created>1608395925716</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1608395925716</updated>
+    </task>
+    <task id="LOCAL-00072" summary="update raid progress">
+      <created>1608395992144</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1608395992144</updated>
+    </task>
+    <task id="LOCAL-00073" summary="update donate">
+      <created>1608396528822</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1608396528822</updated>
+    </task>
+    <task id="LOCAL-00074" summary="update raid progress">
+      <created>1608438292844</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1608438292844</updated>
+    </task>
+    <task id="LOCAL-00075" summary="update raid group">
+      <created>1608475773835</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1608475773835</updated>
+    </task>
+    <task id="LOCAL-00076" summary="update raid progress">
+      <created>1608476962550</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1608476962550</updated>
+    </task>
+    <task id="LOCAL-00077" summary="update raid progress">
+      <created>1608481593638</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481593638</updated>
+    </task>
+    <task id="LOCAL-00078" summary="update donate">
+      <created>1608482920903</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1608482920903</updated>
+    </task>
+    <task id="LOCAL-00079" summary="update raid">
+      <created>1608564571955</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1608564571955</updated>
+    </task>
+    <task id="LOCAL-00080" summary="update raid progress">
+      <created>1608607896496</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1608607896496</updated>
+    </task>
+    <task id="LOCAL-00081" summary="update raid progress">
+      <created>1608647714399</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1608647714399</updated>
+    </task>
+    <task id="LOCAL-00082" summary="update raid progress">
+      <created>1608698142359</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1608698142359</updated>
+    </task>
+    <task id="LOCAL-00083" summary="update raid progress">
+      <created>1608698256191</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1608698256191</updated>
+    </task>
+    <task id="LOCAL-00084" summary="update raid progress">
+      <created>1608712471781</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1608712471781</updated>
+    </task>
+    <task id="LOCAL-00085" summary="update raid progress">
+      <created>1608786667906</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1608786667907</updated>
+    </task>
+    <task id="LOCAL-00086" summary="update raid progress">
+      <created>1608866467785</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1608866467786</updated>
+    </task>
+    <task id="LOCAL-00087" summary="update raid progress">
+      <created>1608957260308</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1608957260308</updated>
+    </task>
+    <task id="LOCAL-00088" summary="update raid progress">
+      <created>1608999909190</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1608999909190</updated>
+    </task>
+    <task id="LOCAL-00089" summary="update raid progress">
+      <created>1609170064788</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1609170064788</updated>
+    </task>
+    <task id="LOCAL-00090" summary="update raid progress">
+      <created>1609298584715</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1609298584715</updated>
+    </task>
+    <task id="LOCAL-00091" summary="update raid progress">
+      <created>1609301036024</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1609301036024</updated>
+    </task>
+    <task id="LOCAL-00092" summary="update raid progress">
+      <created>1609497821195</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1609497821195</updated>
+    </task>
+    <task id="LOCAL-00093" summary="update raid progress">
+      <created>1609750643727</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1609750643727</updated>
+    </task>
+    <task id="LOCAL-00094" summary="update raid progress">
+      <created>1609934604052</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1609934604053</updated>
+    </task>
+    <task id="LOCAL-00095" summary="update raid progress">
+      <created>1610293935730</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1610293935730</updated>
+    </task>
+    <task id="LOCAL-00096" summary="update raid progress">
+      <created>1610425903957</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1610425903958</updated>
+    </task>
+    <task id="LOCAL-00097" summary="update raid progress">
+      <created>1610521857677</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1610521857677</updated>
+    </task>
+    <task id="LOCAL-00098" summary="remove one raid group">
+      <created>1610550091109</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1610550091109</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3903000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="76" y="23" width="1582" height="1417" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21909033" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32981133" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32981133" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32981133" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add worldmap" />
-    <MESSAGE value="update recruit&#10;update event" />
-    <MESSAGE value="update recruit content" />
-    <MESSAGE value="add announcement" />
-    <MESSAGE value="update announcement" />
     <MESSAGE value="update event 2" />
     <MESSAGE value="update event &#10;update announce" />
     <MESSAGE value="update event" />
@@ -921,18 +512,23 @@
     <MESSAGE value="add progress demo" />
     <MESSAGE value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
     <MESSAGE value="update donation data" />
-    <MESSAGE value="update recruit" />
-    <MESSAGE value="update announce" />
     <MESSAGE value="update event list" />
     <MESSAGE value="fix warning" />
     <MESSAGE value="typo" />
     <MESSAGE value="update event2 and donate" />
-    <MESSAGE value="update donate" />
     <MESSAGE value="update raid time" />
     <MESSAGE value="update recruit&#10;update broadcast" />
     <MESSAGE value="update donate font size" />
+    <MESSAGE value="update Broadcast" />
+    <MESSAGE value="update announce" />
+    <MESSAGE value="update announce&#10;update raid progress&#10;update map locations" />
+    <MESSAGE value="update recruit" />
+    <MESSAGE value="update raid group" />
+    <MESSAGE value="update donate" />
+    <MESSAGE value="update raid" />
     <MESSAGE value="update raid progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
+    <MESSAGE value="remove one raid group" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove one raid group" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -951,30 +547,34 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1277" height="314" key="GridCell.Tab.0.bottom" timestamp="1607872471262">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1610552997820">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1607872471262" />
-    <state width="1277" height="314" key="GridCell.Tab.0.center" timestamp="1607872471262">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1610552997820" />
+    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1610552997819">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1607872471262" />
-    <state width="1277" height="314" key="GridCell.Tab.0.left" timestamp="1607872471262">
+    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1610552997819" />
+    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1610552997819">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1607872471262" />
-    <state width="1277" height="314" key="GridCell.Tab.0.right" timestamp="1607872471262">
+    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1610552997819" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1610552997819">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1277" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1607872471262" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1610552997819" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1607872389778">
+    <state x="538" y="441" key="RollbackChangesDialog" timestamp="1608001225983">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1607872389778" />
+    <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1610550095339">
+      <screen x="75" y="23" width="2485" height="1417" />
+    </state>
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1610550095339" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -987,117 +587,5 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1607420223813" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/announce/Announces.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="325" column="21" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/donate/Donate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tool/Broadcast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="6" selection-start-line="13" selection-start-column="3" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/announce/Announce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/Recruit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="285" column="31" selection-start-line="285" selection-start-column="31" selection-end-line="285" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="303" column="11" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="241" column="27" selection-start-line="241" selection-start-column="27" selection-end-line="241" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
