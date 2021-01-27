@@ -122,6 +122,7 @@ const announceDataList = [
         signature: `
 至此。爱你们的秃头大胡子致！  
 2020.12.05  
+2021.01.27 更新
 
 `
     },

@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce">
       <change beforePath="$PROJECT_DIR$/src/announce/Announces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announces.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,13 +140,6 @@
       <workItem from="1609934567622" duration="1738000" />
       <workItem from="1610521796391" duration="329000" />
       <workItem from="1610549776389" duration="974000" />
-    </task>
-    <task id="LOCAL-00051" summary="update donate font size">
-      <created>1607918425386</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1607918425386</updated>
     </task>
     <task id="LOCAL-00052" summary="update raid progress">
       <created>1607927232470</created>
@@ -486,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611549154431</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="update announce">
+      <created>1611712325515</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1611712325515</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +520,6 @@
     <MESSAGE value="update recruit&#10;update broadcast" />
     <MESSAGE value="update donate font size" />
     <MESSAGE value="update Broadcast" />
-    <MESSAGE value="update announce" />
     <MESSAGE value="update announce&#10;update raid progress&#10;update map locations" />
     <MESSAGE value="update recruit" />
     <MESSAGE value="update raid group" />
@@ -530,7 +527,8 @@
     <MESSAGE value="update raid" />
     <MESSAGE value="remove one raid group" />
     <MESSAGE value="update raid progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
+    <MESSAGE value="update announce" />
+    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -573,10 +571,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1611549159448">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1611712328554">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1611549159448" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1611712328554" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
