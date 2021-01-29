@@ -316,8 +316,8 @@ export default function Recruit() {
                                  content={"(海外玩家请自行换算时差)"}
                                  groupId={"柒"}
                                  isMythic
-                                 leader={"Vizone"}
-                                 leaderClassImg={"images/class/class_demonhunter.jpg"}
+                                 leader={"晚风吹"}
+                                 leaderClassImg={"images/class/class_rogue.jpg"}
                                  progress={[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
                                  timestamp={1608771600}
                     />
@@ -325,7 +325,7 @@ export default function Recruit() {
             </GridList>
             <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
-                    <RecruitCard name={"午夜 | 欧洲一团"}
+                    <RecruitCard name={"暮影 | 欧洲一团"}
                                  time={"每周两天，服务器时间周二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"叁"}
@@ -333,7 +333,7 @@ export default function Recruit() {
                                  leader={"希序弗斯"}
                                  leaderClassImg={"images/class/class_hunter.jpg"}
                                  timestamp={1609178400}
-                                 progress={[1, 1, 1, 1, 1, 1, 1, 0, 0, 0]}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
@@ -345,7 +345,7 @@ export default function Recruit() {
                                  leader={"清风惊游梦"}
                                  leaderClassImg={"images/class/class_druid.jpg"}
                                  timestamp={1608832800}
-                                 progress={[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+                                 progress={[1, 1, 1, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
