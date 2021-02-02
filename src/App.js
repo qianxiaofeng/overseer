@@ -34,9 +34,9 @@ function App() {
                                </>
                            )}
                     />
-                    <Route path="/broadcast">
-                        <Broadcast/>
-                    </Route>
+                    {/*<Route path="/broadcast">*/}
+                    {/*    <Broadcast/>*/}
+                    {/*</Route>*/}
                     <Route path="/donate">
                         <Donate/>
                     </Route>

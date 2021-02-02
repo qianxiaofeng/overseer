@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,14 +144,8 @@
       <workItem from="1610549776389" duration="974000" />
       <workItem from="1611713042578" duration="103000" />
       <workItem from="1611713228624" duration="44000" />
-      <workItem from="1611885856002" duration="254000" />
-    </task>
-    <task id="LOCAL-00055" summary="update raid progress">
-      <created>1608011674274</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1608011674274</updated>
+      <workItem from="1611885856002" duration="560000" />
+      <workItem from="1612283312839" duration="118000" />
     </task>
     <task id="LOCAL-00056" summary="update raid progress">
       <created>1608024054108</created>
@@ -488,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611713244256</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="update raid progress">
+      <created>1611886168019</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1611886168020</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,9 +532,9 @@
     <MESSAGE value="update donate" />
     <MESSAGE value="update raid" />
     <MESSAGE value="remove one raid group" />
-    <MESSAGE value="update raid progress" />
     <MESSAGE value="update announce" />
-    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
+    <MESSAGE value="update raid progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -551,22 +553,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1611712978282">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1611886694425">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1611712978282" />
-    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1611712978281">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1611886694425" />
+    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1611886694424">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1611712978281" />
-    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1611712978281">
+    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1611886694424" />
+    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1611886694423">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1611712978281" />
-    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1611712978282">
+    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1611886694423" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1611886694424">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1611712978282" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1611886694424" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -575,10 +577,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1611713265850">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1611886172123">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1611713265850" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1611886172123" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
