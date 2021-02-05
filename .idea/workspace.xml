@@ -25,10 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="remove broadcast">
+      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,14 +143,7 @@
       <workItem from="1611713042578" duration="103000" />
       <workItem from="1611713228624" duration="44000" />
       <workItem from="1611885856002" duration="560000" />
-      <workItem from="1612283312839" duration="118000" />
-    </task>
-    <task id="LOCAL-00056" summary="update raid progress">
-      <created>1608024054108</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1608024054108</updated>
+      <workItem from="1612283312839" duration="333000" />
     </task>
     <task id="LOCAL-00057" summary="update raid progress">
       <created>1608075060952</created>
@@ -490,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611886168020</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="remove broadcast">
+      <created>1612283462315</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1612283462316</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +507,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update event 2" />
     <MESSAGE value="update event &#10;update announce" />
     <MESSAGE value="update event" />
     <MESSAGE value="update recruit &#10;update event" />
@@ -534,7 +531,8 @@
     <MESSAGE value="remove one raid group" />
     <MESSAGE value="update announce" />
     <MESSAGE value="update raid progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
+    <MESSAGE value="remove broadcast" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove broadcast" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -577,10 +575,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1611886172123">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612283466444">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1611886172123" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612283466444" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
