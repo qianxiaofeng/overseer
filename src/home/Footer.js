@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
         backgroundColor: '#9ba4b4',
         color: '#394867',
-        opacity: 0.5,
+        opacity: 0.8,
     }
 }));
 

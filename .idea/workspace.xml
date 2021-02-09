@@ -25,9 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="remove broadcast.js">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce">
+      <change afterPath="$PROJECT_DIR$/src/event/Event3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/announce/Announces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/event" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,19 +75,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
-      <recent name="$PROJECT_DIR$/src/donate" />
-      <recent name="$PROJECT_DIR$/src/event" />
-      <recent name="$PROJECT_DIR$/src/announce" />
-      <recent name="$PROJECT_DIR$/src/announcement" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/raid" />
       <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
       <recent name="$PROJECT_DIR$/public/photos/broadcast" />
       <recent name="$PROJECT_DIR$/src/tool" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/event" />
+      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
+      <recent name="$PROJECT_DIR$/src/donate" />
+      <recent name="$PROJECT_DIR$/src/announce" />
+      <recent name="$PROJECT_DIR$/src/announcement" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,14 +147,8 @@
       <workItem from="1611713042578" duration="103000" />
       <workItem from="1611713228624" duration="44000" />
       <workItem from="1611885856002" duration="560000" />
-      <workItem from="1612283312839" duration="1935000" />
-    </task>
-    <task id="LOCAL-00060" summary="update Broadcast">
-      <created>1608089212465</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1608089212465</updated>
+      <workItem from="1612283312839" duration="2176000" />
+      <workItem from="1612885853359" duration="779000" />
     </task>
     <task id="LOCAL-00061" summary="update announce">
       <created>1608098352102</created>
@@ -489,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612714078315</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="update announce">
+      <created>1612797406082</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1612797406082</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,11 +533,11 @@
     <MESSAGE value="update donate" />
     <MESSAGE value="update raid" />
     <MESSAGE value="remove one raid group" />
-    <MESSAGE value="update announce" />
     <MESSAGE value="remove broadcast" />
     <MESSAGE value="update raid progress" />
     <MESSAGE value="remove broadcast.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove broadcast.js" />
+    <MESSAGE value="update announce" />
+    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -544,30 +548,30 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="569" y="601" key="#Notifications/75.23.2485.1417@75.23.2485.1417" timestamp="1605456773759" />
-    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605427262579">
+    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605427262579" />
+    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1612886387870" />
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog" timestamp="1606568012009">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1612714045498">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1612803375286">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1612714045498" />
-    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1612714045498">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
+    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1612803375286">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1612714045498" />
-    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1612714045497">
+    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
+    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1612803375286">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1612714045497" />
-    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1612714045498">
+    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1612803375286">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1612714045498" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -576,10 +580,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612714083186">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612797409646">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612714083186" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612797409646" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

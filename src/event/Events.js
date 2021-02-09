@@ -38,6 +38,11 @@ const eventDataList = [
         title: "幻化大赛 [已结束]",
         status: "close",
     },
+    {
+        id:"3",
+        title:"9.0“正月里来正月正”春节第二届幻化大赛",
+        status:"open"
+    }
 ]
 
 const EventCard = ({eventId, title, status}) => {

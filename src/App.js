@@ -5,6 +5,7 @@ import Gallery from "./gallery/Gallery"
 import Events from "./event/Events"
 import Event1 from "./event/Event1"
 import Event2 from "./event/Event2"
+import Event3 from "./event/Event3"
 import {Announces, announceDataList} from "./announce/Announces"
 import Announce from "./announce/Announce"
 import Donate from "./donate/Donate"
@@ -30,6 +31,8 @@ function App() {
                                           render={()=><Event1 {...renderProps} eventId={"1"}/>}/>
                                    <Route path={`${renderProps.match.url}/2`}
                                           render={()=><Event2 {...renderProps} eventId={"2"} />}/>
+                                   <Route path={`${renderProps.match.url}/3`}
+                                          render={()=><Event3 {...renderProps} eventId={"3"} />}/>
                                </>
                            )}
                     />
