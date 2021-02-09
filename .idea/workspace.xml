@@ -25,12 +25,25 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce">
-      <change afterPath="$PROJECT_DIR$/src/event/Event3.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add event 3">
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/original/group.18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/thumbnail/group.18.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +89,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/group/original" />
+      <recent name="$PROJECT_DIR$/public/photos/group/thumbnail" />
+      <recent name="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" />
       <recent name="$PROJECT_DIR$/public/images/raid" />
       <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
-      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
-      <recent name="$PROJECT_DIR$/src/tool" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/event" />
@@ -148,14 +161,7 @@
       <workItem from="1611713228624" duration="44000" />
       <workItem from="1611885856002" duration="560000" />
       <workItem from="1612283312839" duration="2176000" />
-      <workItem from="1612885853359" duration="779000" />
-    </task>
-    <task id="LOCAL-00061" summary="update announce">
-      <created>1608098352102</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1608098352102</updated>
+      <workItem from="1612885853359" duration="1607000" />
     </task>
     <task id="LOCAL-00062" summary="update raid progress">
       <created>1608098790594</created>
@@ -493,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612797406082</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="add event 3">
+      <created>1612886681309</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1612886681310</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +525,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update event" />
     <MESSAGE value="update recruit &#10;update event" />
     <MESSAGE value="update recruit &#10;add broadcast" />
     <MESSAGE value="add raid progress bar" />
@@ -537,7 +549,8 @@
     <MESSAGE value="update raid progress" />
     <MESSAGE value="remove broadcast.js" />
     <MESSAGE value="update announce" />
-    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
+    <MESSAGE value="add event 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add event 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -580,10 +593,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612797409646">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612886684394">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612797409646" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612886684394" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -592,9 +605,9 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1612714040337" />
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1607420223813">
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1612887337742">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1607420223813" />
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1612887337742" />
   </component>
 </project>

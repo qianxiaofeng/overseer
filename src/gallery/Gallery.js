@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 const Level120Gallery = () => {
     // const classes = useStyles();
     const images = [];
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 18; i++) {
         images.push(
             {
                 original: '/photos/group/original/group.'+i+'.jpg',
