@@ -31,7 +31,7 @@ export default function Header() {
                 </IconButton>
                 <Link to="/" className={classes.nav}><Typography variant="h6" >主页</Typography> </Link>
                 <Link to="/announce" className={classes.nav}><Typography variant="h6">公告</Typography> </Link>
-                {/*<Link to="/broadcast" className={classes.nav}><Typography variant="h6">直播</Typography> </Link>*/}
+                <Link to="/broadcast" className={classes.nav}><Typography variant="h6">直播</Typography> </Link>
                 <Link to="/event" className={classes.nav}><Typography variant="h6">活动</Typography> </Link>
                 {/*<Link to="/roller" className={classes.nav}><Typography variant="h6" >Roller</Typography> </Link>*/}
                 <Link to="/gallery" className={classes.nav}><Typography variant="h6" >相册</Typography> </Link>

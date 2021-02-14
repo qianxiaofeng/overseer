@@ -10,6 +10,7 @@ import Event4 from "./event/Event4"
 import {Announces, announceDataList} from "./announce/Announces"
 import Announce from "./announce/Announce"
 import Donate from "./donate/Donate"
+import Broadcast from "./tool/Broadcast";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
@@ -39,9 +40,9 @@ function App() {
                                </>
                            )}
                     />
-                    {/*<Route path="/broadcast">*/}
-                    {/*    <Broadcast/>*/}
-                    {/*</Route>*/}
+                    <Route path="/broadcast">
+                        <Broadcast/>
+                    </Route>
                     <Route path="/donate">
                         <Donate/>
                     </Route>
