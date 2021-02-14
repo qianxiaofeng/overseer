@@ -26,7 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update gallery">
-      <change beforePath="$PROJECT_DIR$/src/announce/Announces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/event/Event4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Events.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +75,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/photos/group/original" />
-      <recent name="$PROJECT_DIR$/public/photos/group/thumbnail" />
-      <recent name="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" />
-      <recent name="$PROJECT_DIR$/public/images/raid" />
-      <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/event" />
       <recent name="$PROJECT_DIR$/public/photos/broadcast" />
       <recent name="$PROJECT_DIR$/src/donate" />
       <recent name="$PROJECT_DIR$/src/announce" />
       <recent name="$PROJECT_DIR$/src/announcement" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/group/original" />
+      <recent name="$PROJECT_DIR$/public/photos/group/thumbnail" />
+      <recent name="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" />
+      <recent name="$PROJECT_DIR$/public/images/raid" />
+      <recent name="$PROJECT_DIR$/public/images/raid/nathria" />
     </key>
   </component>
   <component name="RunManager">
@@ -144,14 +148,8 @@
       <workItem from="1611713228624" duration="44000" />
       <workItem from="1611885856002" duration="560000" />
       <workItem from="1612283312839" duration="2176000" />
-      <workItem from="1612885853359" duration="2235000" />
-    </task>
-    <task id="LOCAL-00064" summary="update announce">
-      <created>1608108740986</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1608108740986</updated>
+      <workItem from="1612885853359" duration="2489000" />
+      <workItem from="1613274762394" duration="273000" />
     </task>
     <task id="LOCAL-00065" summary="update announce&#10;update raid progress&#10;update map locations">
       <created>1608177716003</created>
@@ -489,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612887976547</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="update gallery">
+      <created>1612888179035</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1612888179035</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,22 +557,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1612803375286">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1613016957628">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
-    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1612803375286">
+    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1613016957628" />
+    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1613016957627">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
-    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1612803375286">
+    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1613016957627" />
+    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1613016957627">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
-    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1612803375286">
+    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1613016957627" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1613016957628">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1612803375286" />
+    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1613016957628" />
     <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -576,10 +581,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612887980371">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1612888182809">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612887980371" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1612888182809" />
     <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

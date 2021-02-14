@@ -42,6 +42,11 @@ const eventDataList = [
         id:"3",
         title:"9.0“正月里来正月正”春节第二届幻化大赛",
         status:"open"
+    },
+    {
+        id:"4",
+        title:"细水第一届暨二月二抬头节PK插旗大赛",
+        status:"open"
     }
 ]
 

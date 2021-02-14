@@ -52,7 +52,7 @@ function Gallery() {
     return (
         <>
             <Header/>
-            <Container maxWidth="sm">
+            <Container maxWidth="md">
                 <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>
             </Container>
             <Footer/>
