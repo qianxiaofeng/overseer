@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add Broadcast">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update donate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/donate/Donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/donate/Donate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,20 +147,7 @@
       <workItem from="1612283312839" duration="2176000" />
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
-    </task>
-    <task id="LOCAL-00067" summary="update recruit">
-      <created>1608305373135</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1608305373136</updated>
-    </task>
-    <task id="LOCAL-00068" summary="update raid progress">
-      <created>1608359526532</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1608359526532</updated>
+      <workItem from="1613837770340" duration="406000" />
     </task>
     <task id="LOCAL-00069" summary="update raid progress">
       <created>1608395644150</created>
@@ -490,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613277378476</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="update raid progress">
+      <created>1613837827932</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1613837827932</updated>
+    </task>
+    <task id="LOCAL-00117" summary="update donate">
+      <created>1613837979567</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1613837979567</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,18 +565,18 @@
     <MESSAGE value="update announce&#10;update raid progress&#10;update map locations" />
     <MESSAGE value="update recruit" />
     <MESSAGE value="update raid group" />
-    <MESSAGE value="update donate" />
     <MESSAGE value="update raid" />
     <MESSAGE value="remove one raid group" />
     <MESSAGE value="remove broadcast" />
-    <MESSAGE value="update raid progress" />
     <MESSAGE value="remove broadcast.js" />
     <MESSAGE value="update announce" />
     <MESSAGE value="add event 3" />
     <MESSAGE value="update gallery" />
     <MESSAGE value="update event" />
     <MESSAGE value="add Broadcast" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Broadcast" />
+    <MESSAGE value="update raid progress" />
+    <MESSAGE value="update donate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update donate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -621,10 +623,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1613277381884">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1613837989210">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1613277381884" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1613837989210" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -637,9 +639,9 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1612714040337" />
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1612887337742">
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1613837894276">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1612887337742" />
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1613837894276" />
   </component>
 </project>
