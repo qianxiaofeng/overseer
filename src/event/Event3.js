@@ -6,6 +6,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import Container from '@material-ui/core/Container';
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
+import ImageGallery from "react-image-gallery";
 
 const useStyles = makeStyles((theme) => ({
     carousel: {
@@ -46,6 +47,29 @@ const content = `
 ## 参与奖若干（其实是所有参与者都有），视参加人数随机发放鼓励金或者小礼品（其实就是看会长大人的心情好不好）。
 `
 
+const EventTrans2 = () => {
+    // const classes = useStyles();
+    const images = [];
+    for (let i = 1; i <= 11; i++) {
+        images.push(
+            {
+                original: '/photos/event_trans_2/original/' + i + '.jpg',
+                thumbnail: '/photos/event_trans_2/thumbnail/' + i + '.jpg',
+            }
+        )
+    }
+    return (
+        <ImageGallery
+            items={images}
+            lazyLoad={false}
+            thumbnailPosition={"left"}
+            autoPlay={false}
+            showIndex={true}
+            infinite={false}
+        />
+    );
+}
+
 function Gallery() {
     const classes = useStyles();
 
@@ -55,6 +79,8 @@ function Gallery() {
             <Container maxWidth="md">
                 <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>
             </Container>
+            <h1>参赛作品</h1>
+            <EventTrans2/>
             <Footer/>
         </>
     )
