@@ -49,6 +49,7 @@ const data = [
     {name:"Kygo", value:1000000},
     {name:"星驰游侠", value:500000},
     {name:"安妮菲娅", value:100000},
+    {name:"虞兮兮", value:200000},
 ]
 
 const DonateWordCloud = () => {
