@@ -25,29 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update donate">
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/original/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail/9.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Event3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event3.js" afterDir="false" />
     </list>
@@ -94,19 +72,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
-      <recent name="$PROJECT_DIR$/public/photos/group/original" />
-      <recent name="$PROJECT_DIR$/public/photos/group/thumbnail" />
-      <recent name="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" />
-      <recent name="$PROJECT_DIR$/public/images/raid" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail" />
       <recent name="$PROJECT_DIR$/public/photos/event_trans_2/original" />
       <recent name="$PROJECT_DIR$/src/event" />
       <recent name="$PROJECT_DIR$/public/photos/broadcast" />
       <recent name="$PROJECT_DIR$/src/donate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
+      <recent name="$PROJECT_DIR$/public/photos/group/original" />
+      <recent name="$PROJECT_DIR$/public/photos/group/thumbnail" />
+      <recent name="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" />
+      <recent name="$PROJECT_DIR$/public/images/raid" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,6 +104,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,13 +149,6 @@
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
       <workItem from="1613837770340" duration="1181000" />
-    </task>
-    <task id="LOCAL-00070" summary="update raid progress">
-      <created>1608395891620</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1608395891620</updated>
     </task>
     <task id="LOCAL-00071" summary="update raid progress">
       <created>1608395925716</created>
@@ -514,11 +486,18 @@
       <option name="project" value="LOCAL" />
       <updated>1614006651765</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="update event and donate">
+      <created>1614046799327</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1614046799327</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -573,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add progress demo" />
     <MESSAGE value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
     <MESSAGE value="update donation data" />
     <MESSAGE value="update event list" />
@@ -598,79 +576,7 @@
     <MESSAGE value="add Broadcast" />
     <MESSAGE value="update raid progress" />
     <MESSAGE value="update donate" />
-    <option name="LAST_COMMIT_MESSAGE" value="update donate" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="421" y="476" key="#ESLint/75.23.2485.1417@75.23.2485.1417" timestamp="1605710354764" />
-    <state x="569" y="601" key="#Notifications" timestamp="1605456773759">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="569" y="601" key="#Notifications/75.23.2485.1417@75.23.2485.1417" timestamp="1605456773759" />
-    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1612886387870" />
-    <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog" timestamp="1606568012009">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom" timestamp="1613364112809">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1613364112809" />
-    <state width="1695" height="314" key="GridCell.Tab.0.center" timestamp="1613364112808">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1613364112808" />
-    <state width="1695" height="314" key="GridCell.Tab.0.left" timestamp="1613364112808">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1613364112808" />
-    <state width="1695" height="314" key="GridCell.Tab.0.right" timestamp="1613364112809">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1613364112809" />
-    <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
-    <state x="538" y="441" key="RollbackChangesDialog" timestamp="1608001225983">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="1547" y="652" key="VCS.ChangelistChooser" timestamp="1613276967289">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614006655669">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614006655669" />
-    <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1613276923922" />
-    <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605756529374">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="479" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/75.23.2485.1417@75.23.2485.1417" timestamp="1605756529374" />
-    <state x="449" y="486" width="795" height="490" key="find.popup" timestamp="1612714040337">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1612714040337" />
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1613837894276">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1613837894276" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="update event and donate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update event and donate" />
   </component>
 </project>
