@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update event">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
@@ -72,19 +72,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail" />
-      <recent name="$PROJECT_DIR$/public/photos/event_trans_2/original" />
-      <recent name="$PROJECT_DIR$/src/event" />
-      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
-      <recent name="$PROJECT_DIR$/src/donate" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/photos/broadcast" />
       <recent name="$PROJECT_DIR$/public/photos/group/original" />
       <recent name="$PROJECT_DIR$/public/photos/group/thumbnail" />
       <recent name="$PROJECT_DIR$/public/photos/group/original/group.11.jpg" />
       <recent name="$PROJECT_DIR$/public/images/raid" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail" />
+      <recent name="$PROJECT_DIR$/public/photos/event_trans_2/original" />
+      <recent name="$PROJECT_DIR$/src/event" />
+      <recent name="$PROJECT_DIR$/public/photos/broadcast" />
+      <recent name="$PROJECT_DIR$/src/donate" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +104,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -148,14 +148,7 @@
       <workItem from="1612283312839" duration="2176000" />
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
-      <workItem from="1613837770340" duration="1719000" />
-    </task>
-    <task id="LOCAL-00071" summary="update raid progress">
-      <created>1608395925716</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1608395925716</updated>
+      <workItem from="1613837770340" duration="1992000" />
     </task>
     <task id="LOCAL-00072" summary="update raid progress">
       <created>1608395992144</created>
@@ -493,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614009357583</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="update raid info">
+      <created>1614262835799</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1614262835799</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,10 +611,14 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state width="1695" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1613364112809" />
-    <state x="75" y="154" key="MergeDialog" timestamp="1605892035731">
+    <state x="75" y="154" key="MergeDialog" timestamp="1614262913634">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1605892035731" />
+    <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1614262913634" />
+    <state x="1043" y="605" width="443" height="252" key="MultipleFileMergeDialog" timestamp="1614262913651">
+      <screen x="75" y="23" width="2485" height="1417" />
+    </state>
+    <state x="1043" y="605" width="443" height="252" key="MultipleFileMergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1614262913651" />
     <state x="538" y="441" key="RollbackChangesDialog" timestamp="1608001225983">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -623,10 +627,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614009361163">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614262930360">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614009361163" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614262930360" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
