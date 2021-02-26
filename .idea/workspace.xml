@@ -148,14 +148,7 @@
       <workItem from="1612283312839" duration="2176000" />
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
-      <workItem from="1613837770340" duration="1992000" />
-    </task>
-    <task id="LOCAL-00072" summary="update raid progress">
-      <created>1608395992144</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1608395992144</updated>
+      <workItem from="1613837770340" duration="2213000" />
     </task>
     <task id="LOCAL-00073" summary="update donate">
       <created>1608396528822</created>
@@ -493,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614262835799</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="update raid info">
+      <created>1614266543764</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1614266543764</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +576,8 @@
     <MESSAGE value="update raid progress" />
     <MESSAGE value="update donate" />
     <MESSAGE value="update event" />
-    <option name="LAST_COMMIT_MESSAGE" value="update event" />
+    <MESSAGE value="update raid info" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid info" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -627,10 +628,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614262930360">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614266547270">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614262930360" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614266547270" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
