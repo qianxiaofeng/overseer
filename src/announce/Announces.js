@@ -20,11 +20,20 @@ const useStyles = makeStyles((theme) => ({
         height: "auto",
         textAlign:"left",
     },
+    cardTop: {
+        backgroundColor: "#493319",
+        color:"white",
+        marginTop: 50,
+        marginBottom:10,
+        paddingLeft:30,
+        height: "auto",
+        textAlign:"left",
+    },
 }));
 const announceDataList = [
     {
         id: "1123",
-        title: "2020.11.23 致9.0前夕 [公会的总体规章制度] [2021.01.27日更新]",
+        title: "【必看】[公会的总体规章制度] [2021.01.27日更新]",
         content: `
 ## 首先：欢迎来到我们“细水长流一世安”这个大家庭！
 
@@ -282,15 +291,32 @@ const AnnounceCard = ({announceId, title}) => {
     )
 }
 
+const AnnounceCardTop = ({announceId, title}) => {
+    const classes = useStyles();
+
+    return (
+
+        <Card className={classes.cardTop}>
+            <Link to={`/announce/${announceId}`} style={{textDecoration:"none"}}>
+                <CardActionArea>
+                    <h1 style={{color:"white"}}>{title}</h1>
+                </CardActionArea>
+            </Link>
+        </Card>
+
+    )
+}
+
 function Announces() {
     const classes = useStyles();
     return (
         <div className={classes.root}>
             <Header/>
             <Container maxWidth="lg">
+                <AnnounceCardTop key={announceDataList[0].id} announceId={announceDataList[0].id} title={announceDataList[0].title}/>
                 <h1>公告列表</h1>
                 {
-                    announceDataList.slice(0).reverse().map((a) => {
+                    announceDataList.slice(1).reverse().map((a) => {
                         return (<AnnounceCard key={a.id} announceId={a.id} title={a.title}/>)
                     })
                 }
