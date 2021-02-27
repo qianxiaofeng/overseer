@@ -11,6 +11,7 @@ import {Announces, announceDataList} from "./announce/Announces"
 import Announce from "./announce/Announce"
 import Donate from "./donate/Donate"
 import Broadcast from "./tool/Broadcast";
+import Mail from "./tool/Mail";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 
@@ -45,6 +46,9 @@ function App() {
                     </Route>
                     <Route path="/donate">
                         <Donate/>
+                    </Route>
+                    <Route path="/mail">
+                        <Mail/>
                     </Route>
                     <Route path="/announce"
                         render={(renderProps) => (
