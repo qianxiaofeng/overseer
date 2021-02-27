@@ -3,9 +3,6 @@ import {makeStyles} from '@material-ui/core/styles';
 import Header from "../home/Header";
 import Footer from "../home/Footer";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Container from '@material-ui/core/Container';
-import ReactMarkdown from "react-markdown";
-import gfm from "remark-gfm";
 import ImageGallery from "react-image-gallery";
 
 const useStyles = makeStyles((theme) => ({
@@ -31,9 +28,6 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const content = `
-
-`
 
 const EventTrans2 = () => {
     // const classes = useStyles();
@@ -61,14 +55,11 @@ const EventTrans2 = () => {
 }
 
 function Gallery() {
-    const classes = useStyles();
+    // const classes = useStyles();
 
     return (
         <>
             <Header/>
-            {/*<Container maxWidth="md">*/}
-            {/*    <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>*/}
-            {/*</Container>*/}
             <h1>曝光！会长的信箱里竟然是这些</h1>
             <img src={"photos/mail/mailer.jpg"} alt={"mailer"}/>
             <EventTrans2/>

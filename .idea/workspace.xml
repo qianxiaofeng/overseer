@@ -25,90 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid info">
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4631614394084_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4631614394084_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4631614394084_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4641614394088_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4641614394088_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4641614394088_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4651614394091_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4651614394091_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4651614394091_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4661614394094_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4661614394094_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4661614394094_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4671614394098_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4671614394098_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4671614394098_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4681614394101_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4681614394101_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4681614394101_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4691614394103_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4691614394103_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4691614394103_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4721614394107_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4721614394107_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4721614394107_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4731614394110_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4731614394110_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4731614394110_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4741614394122_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4741614394122_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4741614394122_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4751614394125_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4751614394125_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4751614394125_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4761614394128_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4761614394128_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4761614394128_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4771614394131_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4771614394131_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4771614394131_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4781614394135_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4781614394135_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4781614394135_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4791614394138_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4791614394138_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4791614394138_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4801614394141_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4801614394141_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4801614394141_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4811614394144_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4811614394144_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4811614394144_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4821614394147_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4821614394147_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4821614394147_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4831614394204_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4831614394204_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4831614394204_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4841614394207_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4841614394207_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4841614394207_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4851614394211_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4851614394211_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4851614394211_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4861614394214_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4861614394214_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4861614394214_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4871614394217_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4871614394217_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4871614394217_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4881614394220_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4881614394220_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4881614394220_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4891614394223_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4891614394223_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4891614394223_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4901614394226_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4901614394226_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/4901614394226_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/mailer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tool/Mail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Header.js" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="add mail">
+      <change beforePath="$PROJECT_DIR$/src/tool/Mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Mail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,14 +147,7 @@
       <workItem from="1612283312839" duration="2176000" />
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
-      <workItem from="1613837770340" duration="3795000" />
-    </task>
-    <task id="LOCAL-00074" summary="update raid progress">
-      <created>1608438292844</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1608438292844</updated>
+      <workItem from="1613837770340" duration="4088000" />
     </task>
     <task id="LOCAL-00075" summary="update raid group">
       <created>1608475773835</created>
@@ -574,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614355398749</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="add mail">
+      <created>1614396146915</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1614396146915</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update recruit data&#10;fix world map show two points bug&#10;fix some react warning" />
     <MESSAGE value="update donation data" />
     <MESSAGE value="update event list" />
     <MESSAGE value="fix warning" />
@@ -658,7 +575,8 @@
     <MESSAGE value="update donate" />
     <MESSAGE value="update event" />
     <MESSAGE value="update raid info" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raid info" />
+    <MESSAGE value="add mail" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -709,10 +627,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614355401663">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614396150274">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614355401663" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614396150274" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
