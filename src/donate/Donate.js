@@ -6,6 +6,8 @@ import { WordCloud } from '@ant-design/charts';
 import Texty from 'rc-texty';
 import 'rc-texty/assets/index.css';
 import QueueAnim from "rc-queue-anim";
+import Typography from "@material-ui/core/Typography";
+import {Link} from "react-router-dom";
 
 
 
@@ -123,6 +125,7 @@ function Donate() {
         <div className={classes.root}>
             <Header/>
             <Thanks/>
+            <Link to="/donate_ledger" className={classes.nav} style={{textDecoration: "none", color:"blue"}}><Typography variant="h6">( 账目明细 )</Typography> </Link>
             <DonateWordCloud/>
             <Footer/>
         </div>

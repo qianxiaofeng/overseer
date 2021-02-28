@@ -50,7 +50,7 @@ const content = `
 const EventTrans2 = () => {
     // const classes = useStyles();
     const images = [];
-    for (let i = 1; i <= 13; i++) {
+    for (let i = 1; i <= 14; i++) {
         images.push(
             {
                 original: '/photos/event_trans_2/original/' + i + '.jpg',
