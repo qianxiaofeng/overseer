@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
 const announceDataList = [
     {
         id: "1123",
-        title: "【必看】[公会的总体规章制度] [2021.01.27日更新]",
+        title: "【必看】[公会的总体规章制度] [2021.02.28日更新]",
         content: `
 ## 首先：欢迎来到我们“细水长流一世安”这个大家庭！
 
