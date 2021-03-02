@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="remove mistyped '}' in donate ledger &#10;update announce title">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/announce/Announces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/announce/Announces.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,21 +147,7 @@
       <workItem from="1612283312839" duration="2176000" />
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
-      <workItem from="1613837770340" duration="7881000" />
-    </task>
-    <task id="LOCAL-00080" summary="update raid progress">
-      <created>1608607896496</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1608607896496</updated>
-    </task>
-    <task id="LOCAL-00081" summary="update raid progress">
-      <created>1608647714399</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1608647714399</updated>
+      <workItem from="1613837770340" duration="8482000" />
     </task>
     <task id="LOCAL-00082" summary="update raid progress">
       <created>1608698142359</created>
@@ -493,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614488284430</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="update announce">
+      <created>1614491637849</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1614491637849</updated>
+    </task>
+    <task id="LOCAL-00130" summary="update announce">
+      <created>1614491801434</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1614491801434</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +563,6 @@
     <MESSAGE value="remove one raid group" />
     <MESSAGE value="remove broadcast" />
     <MESSAGE value="remove broadcast.js" />
-    <MESSAGE value="update announce" />
     <MESSAGE value="add event 3" />
     <MESSAGE value="update gallery" />
     <MESSAGE value="add Broadcast" />
@@ -577,7 +575,8 @@
     <MESSAGE value="announce add top announce card&#10;update mail text" />
     <MESSAGE value="add donate ledger&#10;update event3&#10;update announce" />
     <MESSAGE value="remove mistyped '}' in donate ledger &#10;update announce title" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove mistyped '}' in donate ledger &#10;update announce title" />
+    <MESSAGE value="update announce" />
+    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -628,10 +627,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614488287486">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614491804927">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614488287486" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614491804927" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
