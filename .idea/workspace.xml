@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update announce">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,14 +147,7 @@
       <workItem from="1612283312839" duration="2176000" />
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
-      <workItem from="1613837770340" duration="8482000" />
-    </task>
-    <task id="LOCAL-00082" summary="update raid progress">
-      <created>1608698142359</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1608698142359</updated>
+      <workItem from="1613837770340" duration="8637000" />
     </task>
     <task id="LOCAL-00083" summary="update raid progress">
       <created>1608698256191</created>
@@ -492,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614491801434</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="update raid progress">
+      <created>1614700211367</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1614700211367</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +566,6 @@
     <MESSAGE value="add event 3" />
     <MESSAGE value="update gallery" />
     <MESSAGE value="add Broadcast" />
-    <MESSAGE value="update raid progress" />
     <MESSAGE value="update donate" />
     <MESSAGE value="update event" />
     <MESSAGE value="update raid info" />
@@ -576,7 +575,8 @@
     <MESSAGE value="add donate ledger&#10;update event3&#10;update announce" />
     <MESSAGE value="remove mistyped '}' in donate ledger &#10;update announce title" />
     <MESSAGE value="update announce" />
-    <option name="LAST_COMMIT_MESSAGE" value="update announce" />
+    <MESSAGE value="update raid progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="476" key="#ESLint" timestamp="1605710354764">
@@ -595,22 +595,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1436" height="314" key="GridCell.Tab.0.bottom" timestamp="1614487838173">
+    <state width="1436" height="314" key="GridCell.Tab.0.bottom" timestamp="1614992511793">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1614487838173" />
-    <state width="1436" height="314" key="GridCell.Tab.0.center" timestamp="1614487838173">
+    <state width="1436" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1614992511793" />
+    <state width="1436" height="314" key="GridCell.Tab.0.center" timestamp="1614992511793">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1614487838173" />
-    <state width="1436" height="314" key="GridCell.Tab.0.left" timestamp="1614487838172">
+    <state width="1436" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1614992511793" />
+    <state width="1436" height="314" key="GridCell.Tab.0.left" timestamp="1614992511792">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1614487838172" />
-    <state width="1436" height="314" key="GridCell.Tab.0.right" timestamp="1614487838173">
+    <state width="1436" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1614992511792" />
+    <state width="1436" height="314" key="GridCell.Tab.0.right" timestamp="1614992511793">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1614487838173" />
+    <state width="1436" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1614992511793" />
     <state x="75" y="154" key="MergeDialog" timestamp="1614262913634">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -627,10 +627,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614491804927">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1614700215147">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614491804927" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1614700215147" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
