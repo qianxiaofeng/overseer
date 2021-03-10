@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Ledger = () =>{
     //helper scripts run in public/photos/donate:  for f in *.pic_hd.jpg ; do printf '%s,'  "\"${f%.pic_hd.jpg}\"" ; done;
-    const filenames = ["5001614444013_","5011614444038_","5021614444065_"];
+    const filenames = ["5001614444013_","5011614444038_","5021614444065_","5501615301423_"];
 
     return(
         <div>
