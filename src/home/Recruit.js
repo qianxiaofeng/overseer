@@ -316,9 +316,9 @@ export default function Recruit() {
                                  content={"(海外玩家请自行换算时差)"}
                                  groupId={"柒"}
                                  isMythic
-                                 leader={"丶叮叮咚咚丶"}
-                                 leaderClassImg={"images/class/class_demonhunter.jpg"}
-                                 progress={[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+                                 leader={"璟行行芷"}
+                                 leaderClassImg={"images/class/class_rogue.jpg"}
+                                 progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                                  timestamp={1608771600}
                     />
                 </GridListTile>

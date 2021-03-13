@@ -25,20 +25,35 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update pvp event">
-      <change afterPath="$PROJECT_DIR$/public/photos/donate/5501615301423_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/donate/5501615301423_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/donate/5501615301423_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/5481615301396_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/5481615301396_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/5481615301396_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/5491615301405_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/5491615301405_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/mail/images/5491615301405_.pic_thumb.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update mail&#10;update donate ledger">
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70931615599162_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70931615599162_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70941615599164_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70941615599164_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70951615599165_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70951615599165_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70961615599166_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70961615599166_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70971615599168_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70971615599168_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70981615599169_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70981615599169_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70991615599170_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70991615599170_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71001615599172_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71001615599172_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71011615599173_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71011615599173_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71021615599175_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71021615599175_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71081615601070_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71081615601070_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71081615601070_.pic_thumb.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/donate/DonateLedger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/donate/DonateLedger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tool/Mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tool/Mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +83,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/donate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/event_trans_2/result" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,11 +99,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/event_trans_2/result" />
       <recent name="$PROJECT_DIR$/public/photos/donate" />
       <recent name="$PROJECT_DIR$/public/photos/mail/images" />
       <recent name="$PROJECT_DIR$/public/photos/event_pvp" />
       <recent name="$PROJECT_DIR$/src/donate" />
-      <recent name="$PROJECT_DIR$/src/tool" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail" />
@@ -160,14 +175,7 @@
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
       <workItem from="1613837770340" duration="8637000" />
-      <workItem from="1615044143511" duration="1972000" />
-    </task>
-    <task id="LOCAL-00085" summary="update raid progress">
-      <created>1608786667906</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1608786667907</updated>
+      <workItem from="1615044143511" duration="3453000" />
     </task>
     <task id="LOCAL-00086" summary="update raid progress">
       <created>1608866467785</created>
@@ -505,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615204174319</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="update mail&#10;update donate ledger">
+      <created>1615386024733</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1615386024733</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +579,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update raid time" />
     <MESSAGE value="update recruit&#10;update broadcast" />
     <MESSAGE value="update donate font size" />
     <MESSAGE value="update Broadcast" />
@@ -589,7 +603,8 @@
     <MESSAGE value="update announce" />
     <MESSAGE value="update raid progress" />
     <MESSAGE value="update pvp event" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pvp event" />
+    <MESSAGE value="update mail&#10;update donate ledger" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mail&#10;update donate ledger" />
   </component>
   <component name="WindowStateProjectService">
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
@@ -600,22 +615,22 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="176" y="123" width="1159" height="1217" key="DiffContextDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1606568012009" />
-    <state width="1436" height="314" key="GridCell.Tab.0.bottom" timestamp="1615385841087">
+    <state width="1436" height="314" key="GridCell.Tab.0.bottom" timestamp="1615627876311">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1615385841087" />
-    <state width="1436" height="314" key="GridCell.Tab.0.center" timestamp="1615385841086">
+    <state width="1436" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1615627876311" />
+    <state width="1436" height="314" key="GridCell.Tab.0.center" timestamp="1615627876311">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1615385841086" />
-    <state width="1436" height="314" key="GridCell.Tab.0.left" timestamp="1615385841086">
+    <state width="1436" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1615627876311" />
+    <state width="1436" height="314" key="GridCell.Tab.0.left" timestamp="1615627876310">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1615385841086" />
-    <state width="1436" height="314" key="GridCell.Tab.0.right" timestamp="1615385841086">
+    <state width="1436" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1615627876310" />
+    <state width="1436" height="314" key="GridCell.Tab.0.right" timestamp="1615627876311">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1615385841086" />
+    <state width="1436" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1615627876311" />
     <state x="75" y="154" key="MergeDialog" timestamp="1614262913634">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -632,10 +647,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615204179296">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615386030151">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615204179296" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615386030151" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

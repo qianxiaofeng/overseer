@@ -70,6 +70,30 @@ const EventTrans2 = () => {
     );
 }
 
+const Result = () => {
+    // const classes = useStyles();
+    const images = [];
+    const filenames = ["70931615599162_","70941615599164_","70951615599165_","70961615599166_","70971615599168_","70981615599169_","70991615599170_","71001615599172_","71011615599173_","71021615599175_","71081615601070_"]
+    for (let i = 0; i < filenames.length; i++) {
+        images.push(
+            {
+                original: '/photos/event_trans_2/result/' +  filenames[i] + '.pic.jpg',
+                thumbnail: '/photos/event_trans_2/result/' +  filenames[i] + '.pic_thumb.jpg',
+            }
+        )
+    }
+    return (
+        <ImageGallery
+            items={images}
+            lazyLoad={false}
+            thumbnailPosition={"left"}
+            autoPlay={false}
+            showIndex={true}
+            infinite={false}
+        />
+    );
+}
+
 function Gallery() {
     const classes = useStyles();
 
@@ -79,6 +103,9 @@ function Gallery() {
             <Container maxWidth="md">
                 <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>
             </Container>
+            <h1>活动已结束</h1>
+            <h1>获奖作品</h1>
+            <Result/>
             <h1>参赛作品</h1>
             <EventTrans2/>
             <Footer/>
