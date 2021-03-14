@@ -12,12 +12,23 @@ import ImageGallery from "react-image-gallery";
 
 const Rules = () => {
     const images = [];
+    //for f in *.pic.jpg ; do printf '%s,'  "\"${f%.pic.jpg}\"" ; done;
     const filenames=["68991615181672_","69001615181674_","69011615181676_","69031615181678_","69041615181679_","69051615181681_","69061615181683_"]
+    const filenames2 = ["5761615684535_","5771615684537_","5791615684539_","5801615684541_","5811615684542_","5831615684544_","5841615684545_","5851615684548_","68991615181672_","69001615181674_","69011615181676_","69031615181678_","69041615181679_","69051615181681_","69061615181683_","73201615703883_","73211615703895_","5861615684550_"]
+    const resultFiles = filenames2.filter(a => !filenames.includes(a))
     for (let i = 0; i < filenames.length; i++) {
         images.push(
             {
                 original: '/photos/event_pvp/' + filenames[i] + '.pic.jpg',
                 thumbnail: '/photos/event_pvp/' + filenames[i] + '.pic_thumb.jpg',
+            }
+        )
+    }
+    for (let i = 0; i < resultFiles.length; i++) {
+        images.push(
+            {
+                original: '/photos/event_pvp/' + resultFiles[resultFiles.length-i-1] + '.pic.jpg',
+                thumbnail: '/photos/event_pvp/' + resultFiles[resultFiles.length-i-1] + '.pic_thumb.jpg',
             }
         )
     }
@@ -78,10 +89,6 @@ function Gallery() {
             <h1>细水第一届暨二月二抬头节PK插旗大赛</h1>
             <h1>冠军 眼镜起雾</h1>
             <img width={"100%"} src={"/photos/event_pvp/first.jpg"} alt={"winner"}/>
-            <h1>亚军 Fitzalan</h1>
-            <img width={"100%"} src={"/photos/event_pvp/second.jpg"} alt={"winner"}/>
-            <h1>季军 Tanakarie</h1>
-            <img width={"100%"} src={"/photos/event_pvp/third.jpg"} alt={"winner"}/>
             <Container maxWidth="md">
                 <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>
             </Container>
