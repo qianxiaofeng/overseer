@@ -45,8 +45,8 @@ const eventDataList = [
     },
     {
         id:"4",
-        title:"细水第一届暨二月二抬头节PK插旗大赛",
-        status:"open"
+        title:"细水第一届暨二月二抬头节PK插旗大赛 [已结束]",
+        status:"close"
     }
 ]
 

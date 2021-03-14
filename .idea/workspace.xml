@@ -25,35 +25,31 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update mail&#10;update donate ledger">
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70931615599162_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70931615599162_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70941615599164_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70941615599164_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70951615599165_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70951615599165_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70961615599166_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70961615599166_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70971615599168_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70971615599168_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70981615599169_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70981615599169_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70991615599170_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/70991615599170_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71001615599172_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71001615599172_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71011615599173_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71011615599173_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71021615599175_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71021615599175_.pic_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71081615601070_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71081615601070_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photos/event_trans_2/result/71081615601070_.pic_thumb.jpg" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid group info&#10;update event 3 content">
+      <change afterPath="$PROJECT_DIR$/public/photos/event_pvp/winner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5761615684535_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5761615684535_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5771615684537_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5771615684537_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5791615684539_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5791615684539_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5801615684541_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5801615684541_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5811615684542_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5811615684542_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5831615684544_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5831615684544_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5841615684545_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5841615684545_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5851615684548_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5851615684548_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5861615684550_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photos/group/images/5861615684550_.pic_thumb.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/event/Event4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/event/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/event_trans_2/result" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/photos/event_pvp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,18 +95,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/event_pvp" />
       <recent name="$PROJECT_DIR$/public/photos/event_trans_2/result" />
       <recent name="$PROJECT_DIR$/public/photos/donate" />
       <recent name="$PROJECT_DIR$/public/photos/mail/images" />
-      <recent name="$PROJECT_DIR$/public/photos/event_pvp" />
       <recent name="$PROJECT_DIR$/src/donate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/photos/group/images" />
       <recent name="$PROJECT_DIR$/public/photos/event_trans_2/thumbnail" />
       <recent name="$PROJECT_DIR$/public/photos/event_trans_2/original" />
       <recent name="$PROJECT_DIR$/public/photos/mail/mails" />
       <recent name="$PROJECT_DIR$/public/photos/mail" />
-      <recent name="$PROJECT_DIR$/public/photos/mailer" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,14 +171,7 @@
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
       <workItem from="1613837770340" duration="8637000" />
-      <workItem from="1615044143511" duration="3453000" />
-    </task>
-    <task id="LOCAL-00086" summary="update raid progress">
-      <created>1608866467785</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1608866467786</updated>
+      <workItem from="1615044143511" duration="4495000" />
     </task>
     <task id="LOCAL-00087" summary="update raid progress">
       <created>1608957260308</created>
@@ -520,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615386024733</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="update raid group info&#10;update event 3 content">
+      <created>1615628215843</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1615628215843</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +575,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update recruit&#10;update broadcast" />
     <MESSAGE value="update donate font size" />
     <MESSAGE value="update Broadcast" />
     <MESSAGE value="update announce&#10;update raid progress&#10;update map locations" />
@@ -604,7 +599,8 @@
     <MESSAGE value="update raid progress" />
     <MESSAGE value="update pvp event" />
     <MESSAGE value="update mail&#10;update donate ledger" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mail&#10;update donate ledger" />
+    <MESSAGE value="update raid group info&#10;update event 3 content" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid group info&#10;update event 3 content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
@@ -647,10 +643,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615386030151">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615628219129">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615386030151" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615628219129" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
@@ -659,9 +655,9 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="449" y="486" width="795" height="490" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1614487614394" />
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1615203264065">
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1615698484640">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1615203264065" />
+    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1615698484640" />
   </component>
 </project>

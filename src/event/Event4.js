@@ -57,8 +57,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const content = `
-# 细水第一届暨二月二抬头节PK插旗大赛
-
 ## 大家千呼万唤（并没有）的 PVP 大赛终于要开始了！经活动策划群亚美欧三地管理掰着脚趾头算时差研究了一晚上，终于确定在三月13号晚上23:00举行。
 
 ## 个人总冠军奖金10万G
@@ -69,7 +67,6 @@ const content = `
 
 ## 欢迎团队或个人对本次活动进行赞助，活动会对赞助者冠名宣传哦！（哈哈）
 
-# 规则详情见下方图片
 `
 
 function Gallery() {
@@ -78,9 +75,14 @@ function Gallery() {
     return (
         <>
             <Header/>
+            <h1>细水第一届暨二月二抬头节PK插旗大赛</h1>
+            <h1>冠军 眼镜起雾</h1>
+            <img width={"100%"} src={"/photos/event_pvp/winner.jpg"} alt={"winner"}/>
+
             <Container maxWidth="md">
                 <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>
             </Container>
+            <h1>规则详情见下方图片</h1>
             <Rules/>
             <Footer/>
         </>

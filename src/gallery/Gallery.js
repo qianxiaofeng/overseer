@@ -20,6 +20,16 @@ const useStyles = makeStyles((theme) => ({
 const Level120Gallery = () => {
     // const classes = useStyles();
     const images = [];
+    const filenames = ["5761615684535_","5771615684537_","5791615684539_","5801615684541_","5811615684542_","5831615684544_","5841615684545_","5851615684548_","5861615684550_"]
+
+    for (let i = 0; i < filenames.length; i++) {
+        images.push(
+            {
+                original: '/photos/group/images/' + filenames[filenames.length-i-1] + '.pic.jpg',
+                thumbnail: '/photos/group/images/' + filenames[filenames.length-i-1] + '.pic_thumb.jpg',
+            }
+        )
+    }
     for (let i = 1; i <= 18; i++) {
         images.push(
             {
@@ -28,6 +38,7 @@ const Level120Gallery = () => {
             }
         )
     }
+
     return (
         <ImageGallery
             items={images}
