@@ -77,8 +77,11 @@ function Gallery() {
             <Header/>
             <h1>细水第一届暨二月二抬头节PK插旗大赛</h1>
             <h1>冠军 眼镜起雾</h1>
-            <img width={"100%"} src={"/photos/event_pvp/winner.jpg"} alt={"winner"}/>
-
+            <img width={"100%"} src={"/photos/event_pvp/first.jpg"} alt={"winner"}/>
+            <h1>亚军 Fitzalan</h1>
+            <img width={"100%"} src={"/photos/event_pvp/second.jpg"} alt={"winner"}/>
+            <h1>季军 Tanakarie</h1>
+            <img width={"100%"} src={"/photos/event_pvp/third.jpg"} alt={"winner"}/>
             <Container maxWidth="md">
                 <ReactMarkdown plugins={[gfm]} className={classes.content}>{content}</ReactMarkdown>
             </Container>
