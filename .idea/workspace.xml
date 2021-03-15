@@ -25,35 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update gallery&#10;update event pvp result">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="rollback gallery&#10;update event pvp result">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/event_pvp/second.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/event_pvp/third.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5761615684535_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5761615684535_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5761615684535_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5761615684535_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5771615684537_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5771615684537_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5771615684537_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5771615684537_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5791615684539_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5791615684539_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5791615684539_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5791615684539_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5801615684541_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5801615684541_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5801615684541_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5801615684541_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5811615684542_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5811615684542_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5811615684542_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5811615684542_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5831615684544_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5831615684544_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5831615684544_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5831615684544_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5841615684545_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5841615684545_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5841615684545_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5841615684545_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5851615684548_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5851615684548_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5851615684548_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5851615684548_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5861615684550_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5861615684550_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/5861615684550_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/5861615684550_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/73201615703883_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/73201615703883_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/73201615703883_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/73201615703883_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/73211615703895_.pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/73211615703895_.pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/group/images/73211615703895_.pic_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/event_pvp/73211615703895_.pic_thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/event/Event4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/event/Event4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +148,7 @@
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
       <workItem from="1613837770340" duration="8637000" />
-      <workItem from="1615044143511" duration="6027000" />
-    </task>
-    <task id="LOCAL-00089" summary="update raid progress">
-      <created>1609170064788</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1609170064788</updated>
+      <workItem from="1615044143511" duration="6472000" />
     </task>
     <task id="LOCAL-00090" summary="update raid progress">
       <created>1609298584715</created>
@@ -520,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615706049997</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="rollback gallery&#10;update event pvp result">
+      <created>1615710061369</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1615710061370</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update Broadcast" />
     <MESSAGE value="update announce&#10;update raid progress&#10;update map locations" />
     <MESSAGE value="update recruit" />
     <MESSAGE value="update raid group" />
@@ -604,7 +576,8 @@
     <MESSAGE value="update mail&#10;update donate ledger" />
     <MESSAGE value="update raid group info&#10;update event 3 content" />
     <MESSAGE value="update gallery&#10;update event pvp result" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gallery&#10;update event pvp result" />
+    <MESSAGE value="rollback gallery&#10;update event pvp result" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollback gallery&#10;update event pvp result" />
   </component>
   <component name="WindowStateProjectService">
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
@@ -647,10 +620,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615706053553">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615710064664">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615706053553" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615710064664" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>

@@ -330,8 +330,8 @@ export default function Recruit() {
                                  content={"(开荒期间会有加班)"}
                                  groupId={"叁"}
                                  isMythic
-                                 leader={"希序弗斯"}
-                                 leaderClassImg={"images/class/class_hunter.jpg"}
+                                 leader={"鬼迷心窍"}
+                                 leaderClassImg={"images/class/class_deathknight.jpg"}
                                  timestamp={1609178400}
                                  progress={[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
                     />
