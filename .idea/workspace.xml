@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="rollback gallery&#10;update event pvp result">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid group info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,14 +148,7 @@
       <workItem from="1612885853359" duration="2489000" />
       <workItem from="1613274762394" duration="1146000" />
       <workItem from="1613837770340" duration="8637000" />
-      <workItem from="1615044143511" duration="6472000" />
-    </task>
-    <task id="LOCAL-00090" summary="update raid progress">
-      <created>1609298584715</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1609298584715</updated>
+      <workItem from="1615044143511" duration="6674000" />
     </task>
     <task id="LOCAL-00091" summary="update raid progress">
       <created>1609301036024</created>
@@ -493,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615710061370</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="update raid group info">
+      <created>1615852000753</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852000753</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update announce&#10;update raid progress&#10;update map locations" />
     <MESSAGE value="update recruit" />
     <MESSAGE value="update raid group" />
     <MESSAGE value="update raid" />
@@ -577,7 +576,8 @@
     <MESSAGE value="update raid group info&#10;update event 3 content" />
     <MESSAGE value="update gallery&#10;update event pvp result" />
     <MESSAGE value="rollback gallery&#10;update event pvp result" />
-    <option name="LAST_COMMIT_MESSAGE" value="rollback gallery&#10;update event pvp result" />
+    <MESSAGE value="update raid group info" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid group info" />
   </component>
   <component name="WindowStateProjectService">
     <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
@@ -620,10 +620,10 @@
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
     <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615710064664">
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1615852004564">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615710064664" />
+    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1615852004564" />
     <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
       <screen x="75" y="23" width="2485" height="1417" />
     </state>
