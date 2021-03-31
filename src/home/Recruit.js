@@ -330,10 +330,10 @@ export default function Recruit() {
                                  content={"(开荒期间会有加班)"}
                                  groupId={"叁"}
                                  isMythic
-                                 leader={"璟航行芷"}
-                                 leaderClassImg={"images/class/class_deathknight.jpg"}
+                                 leader={"饱满的瓜爸"}
+                                 leaderClassImg={"images/class/class_paladin.jpg"}
                                  timestamp={1609178400}
-                                 progress={[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+                                 progress={[1, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
