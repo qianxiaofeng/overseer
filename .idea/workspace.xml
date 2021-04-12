@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid progress">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Recruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Recruit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,7 +104,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,27 +153,8 @@
       <workItem from="1616076704469" duration="484000" />
       <workItem from="1616204662105" duration="16000" />
       <workItem from="1616341437210" duration="192000" />
-    </task>
-    <task id="LOCAL-00094" summary="update raid progress">
-      <created>1609934604052</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1609934604053</updated>
-    </task>
-    <task id="LOCAL-00095" summary="update raid progress">
-      <created>1610293935730</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1610293935730</updated>
-    </task>
-    <task id="LOCAL-00096" summary="update raid progress">
-      <created>1610425903957</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1610425903958</updated>
+      <workItem from="1616989020980" duration="310000" />
+      <workItem from="1617155884916" duration="245000" />
     </task>
     <task id="LOCAL-00097" summary="update raid progress">
       <created>1610521857677</created>
@@ -497,11 +478,32 @@
       <option name="project" value="LOCAL" />
       <updated>1616076758537</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="update raid progress">
+      <created>1616654324919</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1616654324919</updated>
+    </task>
+    <task id="LOCAL-00144" summary="update raid progress">
+      <created>1616989064924</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1616989064924</updated>
+    </task>
+    <task id="LOCAL-00145" summary="update raid progress">
+      <created>1617155943261</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1617155943261</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -582,59 +584,5 @@
     <MESSAGE value="update raid group info" />
     <MESSAGE value="update raid progress" />
     <option name="LAST_COMMIT_MESSAGE" value="update raid progress" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612886387870">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="486" y="485" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1612886387870" />
-    <state width="1436" height="314" key="GridCell.Tab.0.bottom" timestamp="1615968602813">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.bottom/75.23.2485.1417@75.23.2485.1417" timestamp="1615968602813" />
-    <state width="1436" height="314" key="GridCell.Tab.0.center" timestamp="1615968602813">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.center/75.23.2485.1417@75.23.2485.1417" timestamp="1615968602813" />
-    <state width="1436" height="314" key="GridCell.Tab.0.left" timestamp="1615968602812">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.left/75.23.2485.1417@75.23.2485.1417" timestamp="1615968602812" />
-    <state width="1436" height="314" key="GridCell.Tab.0.right" timestamp="1615968602813">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state width="1436" height="314" key="GridCell.Tab.0.right/75.23.2485.1417@75.23.2485.1417" timestamp="1615968602813" />
-    <state x="75" y="154" key="MergeDialog" timestamp="1614262913634">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="75" y="154" key="MergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1614262913634" />
-    <state x="1043" y="605" width="443" height="252" key="MultipleFileMergeDialog" timestamp="1614262913651">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="1043" y="605" width="443" height="252" key="MultipleFileMergeDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1614262913651" />
-    <state x="538" y="441" key="RollbackChangesDialog" timestamp="1608001225983">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="538" y="441" key="RollbackChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1608001225983" />
-    <state x="1547" y="652" key="VCS.ChangelistChooser" timestamp="1613276967289">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="1547" y="652" key="VCS.ChangelistChooser/75.23.2485.1417@75.23.2485.1417" timestamp="1613276967289" />
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2" timestamp="1616076763021">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="348" y="471" key="Vcs.Push.Dialog.v2/75.23.2485.1417@75.23.2485.1417" timestamp="1616076763021" />
-    <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog" timestamp="1613276923922">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="1618" y="472" key="VcsDiffUtil.ChangesDialog/75.23.2485.1417@75.23.2485.1417" timestamp="1613276923922" />
-    <state x="449" y="486" width="795" height="548" key="find.popup" timestamp="1616076722756">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="449" y="486" width="795" height="548" key="find.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1616076722756" />
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1615709581008">
-      <screen x="75" y="23" width="2485" height="1417" />
-    </state>
-    <state x="385" y="348" width="670" height="676" key="search.everywhere.popup/75.23.2485.1417@75.23.2485.1417" timestamp="1615709581008" />
   </component>
 </project>
