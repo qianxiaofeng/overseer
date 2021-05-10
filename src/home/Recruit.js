@@ -285,15 +285,15 @@ export default function Recruit() {
                     />
                 </GridListTile>
                 <GridListTile cols={1}>
-                    <RecruitCardDisabled name={"美东 | 上午二团"}
-                                         time={"每周三天，服务器时间周五二三上午9:00-11:30。（海外玩家请自行换算时差）"}
-                                         content={"(开荒期间会有加班)"}
-                                         groupId={"肆"}
-                                         isMythic
-                                         leader={"景行行芷"}
-                                         leaderClassImg={"images/class/class_deathknight.jpg"}
-                                         progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
-                                         timestamp={1608166800}
+                    <RecruitCard name={"午夜 | 欧洲二团"}
+                                 time={"每周四天，服务器时间周五一二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
+                                 content={"(开荒期间会有加班)"}
+                                 groupId={"贰"}
+                                 isMythic
+                                 leader={"清风惊游梦"}
+                                 leaderClassImg={"images/class/class_druid.jpg"}
+                                 timestamp={1608832800}
+                                 progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
@@ -302,7 +302,7 @@ export default function Recruit() {
                     <RecruitCard name={"美西 | 白天一团"}
                                  time={"每周两天 服务器时间周六日上午9:00-11：00。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
-                                 groupId={"贰"}
+                                 groupId={"叁"}
                                  isMythic
                                  leader={"苍云之吻"}
                                  leaderClassImg={"images/class/class_demonhunter.jpg"}
@@ -313,39 +313,13 @@ export default function Recruit() {
                 <GridListTile cols={1}>
                     <RecruitCard name={"美东 | 上午一团"}
                                  time={"每周三天，服务器时间周四五一上午8:30-11:30。"}
-                                 content={"(海外玩家请自行换算时差)"}
-                                 groupId={"柒"}
+                                 content={"(全新招募虚位以待 另招指挥及管理人员)"}
+                                 groupId={"肆"}
                                  isMythic
                                  leader={"璟行行芷"}
-                                 leaderClassImg={"images/class/class_rogue.jpg"}
+                                 leaderClassImg={"images/class/class_deathknight.jpg"}
                                  progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                                  timestamp={1608771600}
-                    />
-                </GridListTile>
-            </GridList>
-            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
-                <GridListTile cols={1}>
-                    <RecruitCard name={"暮影 | 欧洲一团"}
-                                 time={"每周两天，服务器时间周二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
-                                 content={"(开荒期间会有加班)"}
-                                 groupId={"叁"}
-                                 isMythic
-                                 leader={"饱满的瓜爸"}
-                                 leaderClassImg={"images/class/class_paladin.jpg"}
-                                 timestamp={1609178400}
-                                 progress={[1, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
-                    />
-                </GridListTile>
-                <GridListTile cols={1}>
-                    <RecruitCard name={"午夜 | 欧洲二团"}
-                                 time={"每周三天，服务器时间周五一二凌晨2：00-5：00。(海外玩家请自行换算时差)"}
-                                 content={"(开荒期间会有加班)"}
-                                 groupId={"捌"}
-                                 isMythic
-                                 leader={"清风惊游梦"}
-                                 leaderClassImg={"images/class/class_druid.jpg"}
-                                 timestamp={1608832800}
-                                 progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
                     />
                 </GridListTile>
             </GridList>
