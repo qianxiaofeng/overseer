@@ -262,8 +262,8 @@ const AdCard = (props) => {
     const {adType = 1} = props;
     return (
         <Card className={classes.grid}>
-                    {adType===1 && <img className={classes.adImage} src={"/images/raid/bignews.jpg"} alt={"bignews"}/>}
-                    {adType===2 && <img className={classes.adImage} src={"/images/raid/recruit.jpg"} alt={"recruit"}/>}
+            {adType===1 && <img className={classes.adImage} src={"/images/raid/recruit.jpg"} alt={"recruit"}/>}
+            {adType===2 && <img className={classes.adImage} src={"/images/raid/bignews.jpg"} alt={"bignews"}/>}
         </Card>
     )
 }
@@ -274,14 +274,6 @@ export default function Recruit() {
 
     return (
         <div className={classes.root}>
-            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
-                <GridListTile cols={1}>
-                    <AdCard adType={1}/>
-                </GridListTile>
-                <GridListTile cols={1}>
-                    <AdCard adType={2}/>
-                </GridListTile>
-            </GridList>
             <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
                 <GridListTile cols={1}>
                     <RecruitCard name={"树色 | 晚间一团"}
@@ -332,6 +324,14 @@ export default function Recruit() {
                                  progress={[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
                                  timestamp={1608771600}
                     />
+                </GridListTile>
+            </GridList>
+            <GridList cellHeight={"auto"} className={classes.gridList} cols={2}>
+                <GridListTile cols={1}>
+                    <AdCard adType={1}/>
+                </GridListTile>
+                <GridListTile cols={1}>
+                    <AdCard adType={2}/>
                 </GridListTile>
             </GridList>
         </div>
