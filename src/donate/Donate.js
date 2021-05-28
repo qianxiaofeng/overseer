@@ -52,6 +52,8 @@ const data = [
     {name:"星驰游侠", value:500000},
     {name:"安妮菲娅", value:100000},
     {name:"虞兮兮", value:200000},
+    {name:"咕咕噶", value:1000000},
+    {name:"苹果酥", value:350000},
 ]
 
 const DonateWordCloud = () => {
