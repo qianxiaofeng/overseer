@@ -293,8 +293,8 @@ export default function Recruit() {
                                  content={"(开荒期间会有加班)"}
                                  groupId={"贰"}
                                  isMythic
-                                 leader={"清风惊游梦"}
-                                 leaderClassImg={"images/class/class_druid.jpg"}
+                                 leader={"迈克华莱士"}
+                                 leaderClassImg={"images/class/class_warrior.jpg"}
                                  timestamp={1608832800}
                                  progress={[1, 1, 1, 1, 1, 1, 0, 0, 0, 0]}
                     />
