@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update donation">
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/donate/Donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/donate/Donate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,13 +159,8 @@
       <workItem from="1616989020980" duration="310000" />
       <workItem from="1617155884916" duration="245000" />
       <workItem from="1622170658882" duration="111000" />
-    </task>
-    <task id="LOCAL-00100" summary="update announce">
-      <created>1611712325515</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1611712325515</updated>
+      <workItem from="1624430717010" duration="111000" />
+      <workItem from="1624870279601" duration="796000" />
     </task>
     <task id="LOCAL-00101" summary="update announce">
       <created>1611712746488</created>
@@ -501,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622170757602</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="update raid">
+      <created>1624430791315</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1624430791315</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +564,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update raid" />
     <MESSAGE value="remove one raid group" />
     <MESSAGE value="remove broadcast" />
     <MESSAGE value="remove broadcast.js" />
@@ -585,36 +588,37 @@
     <MESSAGE value="update raid progress" />
     <MESSAGE value="update recruit" />
     <MESSAGE value="update donation" />
-    <option name="LAST_COMMIT_MESSAGE" value="update donation" />
+    <MESSAGE value="update raid" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raid" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1436" height="311" key="GridCell.Tab.0.bottom" timestamp="1621179196212">
+    <state width="1263" height="311" key="GridCell.Tab.0.bottom" timestamp="1624870658438">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1436" height="311" key="GridCell.Tab.0.bottom/80.25.2480.1415@80.25.2480.1415" timestamp="1621179196212" />
-    <state width="1436" height="311" key="GridCell.Tab.0.center" timestamp="1621179196211">
+    <state width="1263" height="311" key="GridCell.Tab.0.bottom/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658438" />
+    <state width="1263" height="311" key="GridCell.Tab.0.center" timestamp="1624870658438">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1436" height="311" key="GridCell.Tab.0.center/80.25.2480.1415@80.25.2480.1415" timestamp="1621179196211" />
-    <state width="1436" height="311" key="GridCell.Tab.0.left" timestamp="1621179196211">
+    <state width="1263" height="311" key="GridCell.Tab.0.center/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658438" />
+    <state width="1263" height="311" key="GridCell.Tab.0.left" timestamp="1624870658437">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1436" height="311" key="GridCell.Tab.0.left/80.25.2480.1415@80.25.2480.1415" timestamp="1621179196211" />
-    <state width="1436" height="311" key="GridCell.Tab.0.right" timestamp="1621179196212">
+    <state width="1263" height="311" key="GridCell.Tab.0.left/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658437" />
+    <state width="1263" height="311" key="GridCell.Tab.0.right" timestamp="1624870658438">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1436" height="311" key="GridCell.Tab.0.right/80.25.2480.1415@80.25.2480.1415" timestamp="1621179196212" />
-    <state x="408" y="469" key="Vcs.Push.Dialog.v2" timestamp="1622170761402">
+    <state width="1263" height="311" key="GridCell.Tab.0.right/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658438" />
+    <state x="408" y="469" key="Vcs.Push.Dialog.v2" timestamp="1624430796664">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state x="408" y="469" key="Vcs.Push.Dialog.v2/80.25.2480.1415@80.25.2480.1415" timestamp="1622170761402" />
+    <state x="408" y="469" key="Vcs.Push.Dialog.v2/80.25.2480.1415@80.25.2480.1415" timestamp="1624430796664" />
     <state x="510" y="487" width="597" height="490" key="find.popup" timestamp="1621175609932">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
     <state x="510" y="487" width="597" height="490" key="find.popup/80.25.2480.1415@80.25.2480.1415" timestamp="1621175609932" />
-    <state x="473" y="349" width="670" height="676" key="search.everywhere.popup" timestamp="1622170679226">
+    <state x="473" y="349" width="670" height="676" key="search.everywhere.popup" timestamp="1624430729286">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state x="473" y="349" width="670" height="676" key="search.everywhere.popup/80.25.2480.1415@80.25.2480.1415" timestamp="1622170679226" />
+    <state x="473" y="349" width="670" height="676" key="search.everywhere.popup/80.25.2480.1415@80.25.2480.1415" timestamp="1624430729286" />
   </component>
 </project>

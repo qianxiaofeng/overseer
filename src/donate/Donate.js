@@ -42,7 +42,6 @@ const data = [
     {name:"巨蘑菇", value:23333},
     {name:"业之子", value:50000},
     {name:"今夜看海吗、", value:50000},
-    {name:"安妮菲娅", value:66666},
     {name:"树色一团", value:528500},
     {name:"欧洲一团", value:250000},
     {name:"Susuu", value:66666},
@@ -50,10 +49,11 @@ const data = [
     {name:"灰灰天", value:560000},
     {name:"Kygo", value:1000000},
     {name:"星驰游侠", value:500000},
-    {name:"安妮菲娅", value:100000},
+    {name:"安妮菲娅", value:166666},
     {name:"虞兮兮", value:200000},
     {name:"咕咕噶", value:1000000},
     {name:"苹果酥", value:350000},
+    {name:"一波到尾王", value:500000},
 ]
 
 const DonateWordCloud = () => {
