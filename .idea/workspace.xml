@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/donate/Donate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/donate/Donate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/gallery/Gallery.js" afterDir="false" />
-    </list>
+    <list default="true" id="1c66629d-bae0-4bf4-bb2c-ef5c79214cb1" name="Default Changelist" comment="update raid" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +155,7 @@
       <workItem from="1617155884916" duration="245000" />
       <workItem from="1622170658882" duration="111000" />
       <workItem from="1624430717010" duration="111000" />
-      <workItem from="1624870279601" duration="796000" />
+      <workItem from="1624870279601" duration="984000" />
     </task>
     <task id="LOCAL-00101" summary="update announce">
       <created>1611712746488</created>
@@ -592,26 +587,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="update raid" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1263" height="311" key="GridCell.Tab.0.bottom" timestamp="1624870658438">
+    <state width="1263" height="311" key="GridCell.Tab.0.bottom" timestamp="1624871395491">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1263" height="311" key="GridCell.Tab.0.bottom/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658438" />
-    <state width="1263" height="311" key="GridCell.Tab.0.center" timestamp="1624870658438">
+    <state width="1263" height="311" key="GridCell.Tab.0.bottom/80.25.2480.1415@80.25.2480.1415" timestamp="1624871395491" />
+    <state width="1263" height="311" key="GridCell.Tab.0.center" timestamp="1624871395491">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1263" height="311" key="GridCell.Tab.0.center/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658438" />
-    <state width="1263" height="311" key="GridCell.Tab.0.left" timestamp="1624870658437">
+    <state width="1263" height="311" key="GridCell.Tab.0.center/80.25.2480.1415@80.25.2480.1415" timestamp="1624871395491" />
+    <state width="1263" height="311" key="GridCell.Tab.0.left" timestamp="1624871395490">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1263" height="311" key="GridCell.Tab.0.left/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658437" />
-    <state width="1263" height="311" key="GridCell.Tab.0.right" timestamp="1624870658438">
+    <state width="1263" height="311" key="GridCell.Tab.0.left/80.25.2480.1415@80.25.2480.1415" timestamp="1624871395490" />
+    <state width="1263" height="311" key="GridCell.Tab.0.right" timestamp="1624871395491">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state width="1263" height="311" key="GridCell.Tab.0.right/80.25.2480.1415@80.25.2480.1415" timestamp="1624870658438" />
-    <state x="408" y="469" key="Vcs.Push.Dialog.v2" timestamp="1624430796664">
+    <state width="1263" height="311" key="GridCell.Tab.0.right/80.25.2480.1415@80.25.2480.1415" timestamp="1624871395491" />
+    <state x="408" y="469" key="Vcs.Push.Dialog.v2" timestamp="1624871325351">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>
-    <state x="408" y="469" key="Vcs.Push.Dialog.v2/80.25.2480.1415@80.25.2480.1415" timestamp="1624430796664" />
+    <state x="408" y="469" key="Vcs.Push.Dialog.v2/80.25.2480.1415@80.25.2480.1415" timestamp="1624871325351" />
     <state x="510" y="487" width="597" height="490" key="find.popup" timestamp="1621175609932">
       <screen x="80" y="25" width="2480" height="1415" />
     </state>

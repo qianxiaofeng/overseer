@@ -289,7 +289,7 @@ export default function Recruit() {
                 </GridListTile>
                 <GridListTile cols={1}>
                     <RecruitCard name={"午夜 | 欧洲二团"}
-                                 time={"每周四天，服务器时间周五一二三凌晨2：00-5：00。(海外玩家请自行换算时差)"}
+                                 time={"每周四天，服务器时间周五一二三凌晨0：30-4：30。(海外玩家请自行换算时差)"}
                                  content={"(开荒期间会有加班)"}
                                  groupId={"贰"}
                                  isMythic
